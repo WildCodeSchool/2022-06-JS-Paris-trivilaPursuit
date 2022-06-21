@@ -1,10 +1,9 @@
-//const models = require("../models");
-const questions =  require("../db.json");
-const { RestartProcess } = require("concurrently");
+// const models = require("../models");
+// const { RestartProcess } = require("concurrently");
+const questions = require("../db.json");
 
 class ItemController {
-
-  static getQuestions = (req, res) => { 
+  static getQuestions = (req, res) => {
     res.send(questions);
   };
 

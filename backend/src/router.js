@@ -4,7 +4,7 @@ const { ItemController } = require("./controllers");
 
 const router = express.Router();
 
-//router.get("/items", ItemController.browse);
+// router.get("/items", ItemController.browse);
 router.get("/questions", ItemController.getQuestions);
 // la route des questions : "http://localhost:5000/questions"
 // router.get("/items/:id", ItemController.read);

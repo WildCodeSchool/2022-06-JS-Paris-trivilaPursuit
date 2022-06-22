@@ -1,123 +1,73 @@
 {
-    "animaux": {
-      "débutant": [
+  "animaux": {
+    "débutant": [
       {
         "id": 1,
         "question": "Combien de temps dure en moyenne la gestation d'une éléphante ?",
-        "propositions": [
-          "13 mois",
-          "17 mois",
-          "21 mois",
-          "9 mois"
-        ],
+        "propositions": ["13 mois", "17 mois", "21 mois", "9 mois"],
         "réponse": "21 mois",
         "anecdote": "Une éléphante peut être en gestation jusqu'à l'âge de cinquante ans, où un seul éléphant est porté dans la plupart des cas."
       },
       {
         "id": 2,
         "question": "À combien de pulsations par minute bat le coeur d'un hérisson en hibernation ?",
-        "propositions": [
-          "28",
-          "38",
-          "8",
-          "18"
-        ],
+        "propositions": ["28", "38", "8", "18"],
         "réponse": "18",
         "anecdote": "Il ne faut pas confondre les hérissons avec d'autres mammifères porteurs de piquants, comme par exemple les porcs-épics."
       },
       {
         "id": 3,
         "question": "Jusqu'à combien de kilomètres le cri du singe hurleur est-il audible ?",
-        "propositions": [
-          "9 km",
-          "12 km",
-          "6 km",
-          "3 km"
-        ],
+        "propositions": ["9 km", "12 km", "6 km", "3 km"],
         "réponse": "3 km",
         "anecdote": "Ce singe hurle chaque matin, et quand il combat avec d'autres singes hurleurs, ils se battent également à coups de hurlements."
       },
       {
         "id": 4,
         "question": "En quelle année le dernier dodo vivant a-t-il été vu à l'île Maurice ?",
-        "propositions": [
-          "1832",
-          "1908",
-          "1723",
-          "1681"
-        ],
+        "propositions": ["1832", "1908", "1723", "1681"],
         "réponse": "1681",
         "anecdote": "En plus de son incapacité à voler, le dodo n'avait développé aucune peur à l'encontre des êtres humains, faisant de lui une proie facile."
       },
       {
         "id": 5,
         "question": "Combien de bisons environ Buffalo Bill a-t-il abattus en 18 mois seulement ?",
-        "propositions": [
-          "1 000",
-          "4 000",
-          "2 000",
-          "3 000"
-        ],
+        "propositions": ["1 000", "4 000", "2 000", "3 000"],
         "réponse": "4 000",
         "anecdote": "Le chapeau stetson ainsi que le bandana ont été popularisés par Buffalo Bill alors que tous les cow-boys n'en portaient pas forcément."
       },
       {
         "id": 6,
         "question": "Jusqu'à quelle altitude vivent en général les bouquetins des Alpes ?",
-        "propositions": [
-          "3 500 m",
-          "1 900 m",
-          "4 600 m",
-          "2 300 m"
-        ],
+        "propositions": ["3 500 m", "1 900 m", "4 600 m", "2 300 m"],
         "réponse": "3 500 m",
         "anecdote": "Le milieu de prédilection du bouquetin des Alpes comprend des murailles abruptes, des falaises à pics ou des parois escarpées."
       },
       {
         "id": 7,
         "question": "Combien de minutes une otarie peut-elle nager sous l'eau sans respirer ?",
-        "propositions": [
-          "7 min",
-          "9 min",
-          "5 min",
-          "11 min"
-        ],
+        "propositions": ["7 min", "9 min", "5 min", "11 min"],
         "réponse": "5 min",
         "anecdote": "Contrairement aux phoques, les otaries pourvuent de nageoires se servent à terre de leurs postérieurs pour marcher."
       },
       {
         "id": 8,
         "question": "Quelle est, en centimètres, la longueur de la langue d'un fourmilier adulte ?",
-        "propositions": [
-          "80 cm",
-          "60 cm",
-          "70 cm",
-          "50 cm"
-        ],
+        "propositions": ["80 cm", "60 cm", "70 cm", "50 cm"],
         "réponse": "60 cm",
         "anecdote": "Le plus grand représentant du groupe est le fourmilier géant ou grand tamanoir, un animal mesurant plus d'un mètre de longueur."
       },
       {
         "id": 9,
         "question": "Quel est le pourcentage de rongeurs parmi les mammifères ?",
-        "propositions": [
-          "20 %",
-          "40 %",
-          "30 %",
-          "10 %"
-        ],
+        "propositions": ["20 %", "40 %", "30 %", "10 %"],
         "réponse": "40 %",
         "anecdote": "Ces animaux se caractérisent par leur unique paire d'incisives qui leur servent à ronger, à creuser des galeries ou à se défendre."
       },
       {
         "id": 10,
         "question": "Combien de fois par minute un fourmilier peut-il sortir la langue de sa gueule ?",
-        "propositions": [
-          "160 fois",
-          "120 fois",
-          "40 fois",
-          "80 fois"
-        ],
+        "propositions": ["160 fois", "120 fois", "40 fois", "80 fois"],
         "réponse": "160 fois",
         "anecdote": "Le fourmilier mange surtout des fourmis, mais il aime aussi les termites et d'autres insectes comme la coccinelle."
       }
@@ -126,96 +76,56 @@
       {
         "id": 11,
         "question": "Jusqu'à combien de kilos de viande une hyène peut-elle manger au cours d'un repas ?",
-        "propositions": [
-          "4 kg",
-          "14 kg",
-          "34 kg",
-          "24 kg"
-        ],
+        "propositions": ["4 kg", "14 kg", "34 kg", "24 kg"],
         "réponse": "14 kg",
         "anecdote": "Il est impossible de discerner par la simple observation un mâle hyène d'une femelle tant l'un et l'autre se ressemblent."
       },
       {
         "id": 12,
         "question": "Quel est le poids moyen de la langue d'une baleine bleue adulte ?",
-        "propositions": [
-          "880 kg",
-          "1,3 tonne",
-          "2,2 tonnes",
-          "2,7 tonnes"
-        ],
+        "propositions": ["880 kg", "1,3 tonne", "2,2 tonnes", "2,7 tonnes"],
         "réponse": "2,7 tonnes",
         "anecdote": "Quand la gueule de la baleine bleue est complètement ouverte, elle est assez grande pour contenir 90 tonnes d'eau et de nourriture."
       },
       {
         "id": 13,
         "question": "Combien une reine termite pond-elle d'oeufs en moyenne par jour ?",
-        "propositions": [
-          "90",
-          "120",
-          "30",
-          "60"
-        ],
+        "propositions": ["90", "120", "30", "60"],
         "réponse": "30",
         "anecdote": "D'un couple de termites naissent des larves qui donnent des ouvriers stériles ou des nymphes qui donneront des adultes sexués."
       },
       {
         "id": 14,
         "question": "Quelle vitesse un léopard au repos peut-il atteindre en seulement deux secondes ?",
-        "propositions": [
-          "40 km/h",
-          "60 km/h",
-          "80 km/h",
-          "100 km/h"
-        ],
+        "propositions": ["40 km/h", "60 km/h", "80 km/h", "100 km/h"],
         "réponse": "60 km/h",
         "anecdote": "Le léopard tient une place importante dans certaines cultures africaines où ce roi des animaux est l'attribut des chefs."
       },
       {
         "id": 15,
         "question": "Combien de minutes un cachalot peut-il rester sous l'eau sans respirer ?",
-        "propositions": [
-          "70 min",
-          "90 min",
-          "50 min",
-          "30 min"
-        ],
+        "propositions": ["70 min", "90 min", "50 min", "30 min"],
         "réponse": "90 min",
         "anecdote": "La chasse au cachalot permettait de récolter le spermaceti, substance blanche et cireuse issue de la tête de l'animale."
       },
       {
         "id": 16,
         "question": "Quelle vitesse un faucon pèlerin peut-il atteindre lorsqu'il fond sur sa proie ?",
-        "propositions": [
-          "160 km/h",
-          "120 km/h",
-          "240 km/h",
-          "200 km/h"
-        ],
+        "propositions": ["160 km/h", "120 km/h", "240 km/h", "200 km/h"],
         "réponse": "240 km/h",
         "anecdote": "Ses proies sont souvent des oiseaux, mais certains individus peuvent également s'attaquer à de petits animaux terrestres."
       },
       {
         "id": 17,
         "question": "Combien de millilitres de sang une chauve-souris vampire peut-elle boire en une nuit ?",
-        "propositions": [
-          "60 ml",
-          "40 ml",
-          "80 ml",
-          "20 ml"
-        ],
+        "propositions": ["60 ml", "40 ml", "80 ml", "20 ml"],
         "réponse": "20 ml",
         "anecdote": "La chauve-souris vampire est originaire des zones tropicales du continent américain (Mexique, Chili, Brésil et Argentine)."
       },
       {
         "id": 18,
         "question": "Par quel facteur le poids d'un ours blanc est-il multiplié deux mois après sa naissance ?",
-        "propositions": [
-          "25",
-          "45",
-          "55",
-          "35"
-        ],
+        "propositions": ["25", "45", "55", "35"],
         "réponse": "25",
         "anecdote": "Parfaitement adapté à son habitat, l'ours blanc possède une épaisse couche de graisse et une fourrure qui l'isolent du froid."
       },
@@ -234,12 +144,7 @@
       {
         "id": 20,
         "question": "Combien d'oeufs pond en moyenne un crocodile du Nil en bonne santé ?",
-        "propositions": [
-          "70",
-          "40",
-          "130",
-          "100"
-        ],
+        "propositions": ["70", "40", "130", "100"],
         "réponse": "100",
         "anecdote": "À l'éclosion des oeufs, le bébé crocodile mesure environ 30 cm et a le même corps que sa mère, qu'il soit mâle ou femelle."
       }
@@ -248,123 +153,1518 @@
       {
         "id": 21,
         "question": "Quelle est la longueur maximale du bond que peut effectuer un puma ?",
-        "propositions": [
-          "10 m",
-          "12 m",
-          "8 m",
-          "6 m"
-        ],
+        "propositions": ["10 m", "12 m", "8 m", "6 m"],
         "réponse": "12 m",
         "anecdote": "Pour les besoins de la chasse ou en cas de menace, il est capable de grimper aux arbres et de faire preuve d'une grande agilité."
       },
       {
         "id": 22,
         "question": "Combien un moustique normalement constitué a-t-il de dents ?",
-        "propositions": [
-          "34",
-          "11",
-          "29",
-          "47"
-        ],
+        "propositions": ["34", "11", "29", "47"],
         "réponse": "47",
         "anecdote": "Les adultes se nourrissent de nectar de fleurs et participent à la pollinisation des plantes, au même titre que les papillons."
       },
       {
         "id": 23,
         "question": "Quelle est la longueur en centimètres d'un intestin de koala ?",
-        "propositions": [
-          "400 cm",
-          "100 cm",
-          "300 cm",
-          "200 cm"
-        ],
+        "propositions": ["400 cm", "100 cm", "300 cm", "200 cm"],
         "réponse": "300 cm",
         "anecdote": "Le koala est étroitement lié à l'eucalyptus ou gommier, dont il ne mange que les feuilles de certaines espèces."
       },
       {
         "id": 24,
         "question": "Combien de jours dure l'hibernation d'un écureuil d'Alaska ?",
-        "propositions": [
-          "270 jours",
-          "410 jours",
-          "320 jours",
-          "180 jours"
-        ],
+        "propositions": ["270 jours", "410 jours", "320 jours", "180 jours"],
         "réponse": "270 jours",
         "anecdote": "La queue en panache de l'écureuil et son acharnement à faire des provisions pour l'hiver ont contribué à sa popularité."
       },
       {
         "id": 25,
         "question": "Quelle est la vitesse maximale déjà atteinte par l'espadon-voilier ?",
-        "propositions": [
-          "109 km/h",
-          "99 km/h",
-          "119 km/h",
-          "89 km/h"
-        ],
+        "propositions": ["109 km/h", "99 km/h", "119 km/h", "89 km/h"],
         "réponse": "109 km/h",
         "anecdote": "Possédant des stries verticales sur les flancs, l'espadon-voilier est considéré comme étant le plus rapide des poissons."
       },
       {
         "id": 26,
         "question": "Combien d'animaux du zoo de Berlin survécurent à la Seconde Guerre mondiale ?",
-        "propositions": [
-          "1 712",
-          "344",
-          "892",
-          "91"
-        ],
+        "propositions": ["1 712", "344", "892", "91"],
         "réponse": "91",
         "anecdote": "Les premiers dons d'animaux au zoo de Berlin, fondé en 1844, furent effectués par Frédéric-Guillaume IV, roi de Prusse."
       },
       {
         "id": 27,
         "question": "Sur mille tortues marines, combien seulement atteignent l'âge de se reproduire ?",
-        "propositions": [
-          "250",
-          "100",
-          "15",
-          "640"
-        ],
+        "propositions": ["250", "100", "15", "640"],
         "réponse": "15",
         "anecdote": "Les tortues marines, bien que vulnérables, sont présentes dans tous les océans du monde, à l'exception de l'océan Arctique."
       },
       {
         "id": 28,
         "question": "Combien de fois par seconde un colibri peut-il battre des ailes ?",
-        "propositions": [
-          "78 fois",
-          "38 fois",
-          "58 fois",
-          "18 fois"
-        ],
+        "propositions": ["78 fois", "38 fois", "58 fois", "18 fois"],
         "réponse": "78 fois",
         "anecdote": "Les colibris sont également surnommés oiseaux-mouches à cause de leur petite taille et de leurs battements d'ailes rapides."
       },
       {
         "id": 29,
         "question": "Au sens large du terme, combien existe-t-il d'espèces de kangourous ?",
-        "propositions": [
-          "51",
-          "37",
-          "63",
-          "44"
-        ],
+        "propositions": ["51", "37", "63", "44"],
         "réponse": "63",
         "anecdote": "Animal emblématique de l'Australie, le grand kangourou y est plus populaire dans les campagnes que dans les villes."
       },
       {
         "id": 30,
         "question": "Combien a-t-on découvert jusqu'ici d'espèces de coléoptères ?",
-        "propositions": [
-          "7 200",
-          "9 600",
-          "8 700",
-          "6 400"
-        ],
+        "propositions": ["7 200", "9 600", "8 700", "6 400"],
         "réponse": "9 600",
         "anecdote": "Les scarabées, les coccinelles, les lucanes, les chrysomèles, les hannetons et les charançons sont des coléoptères."
       }
     ]
-    }
+  },
+
+  "célébrités": {
+    "débutant": [
+      {
+        "id": 1,
+        "question": "Quel homme « capital » aux États-Unis fut le premier représentant de l'Oncle Sam ?",
+        "propositions": [
+          "George Washington",
+          "Theodore Roosevelt",
+          "Thomas Jefferson",
+          "Abraham Lincoln"
+        ],
+        "réponse": "George Washington",
+        "anecdote": "George Washington est le premier président des États-Unis d'Amérique après la guerre d'Indépendance."
+      },
+      {
+        "id": 2,
+        "question": "Quel compositeur autrichien fut un enfant prodige avant de devenir un créateur surdoué ?",
+        "propositions": ["Vivaldi", "Mozart", "Dvorak", "Beethoven"],
+        "réponse": "Mozart",
+        "anecdote": "Son surnom « Woolfie » (petit loup) lui fut donné par sa femme Constance."
+      },
+      {
+        "id": 3,
+        "question": "De quel chanteur Joan Baez et Hugues Auffray ont-ils repris nombre de ses chansons ?",
+        "propositions": [
+          "Bob Dylan",
+          "Kurt Cobain",
+          "Jeff Buckley",
+          "Marilyn Manson"
+        ],
+        "réponse": "Bob Dylan",
+        "anecdote": "D'abord de tendance folk, Bob Dylan passa au rock en prenant une guitare électrique."
+      },
+      {
+        "id": 4,
+        "question": "Quel chanteur belge est enterré aux Îles Marquises où il passa la fin de sa vie ?",
+        "propositions": [
+          "Alec Mansion",
+          "Marc Morgan",
+          "Jeff Bodart",
+          "Jacques Brel"
+        ],
+        "réponse": "Jacques Brel",
+        "anecdote": "Parmi ses oeuvres célèbres, on peut citer « Madeleine », « Les Flamands » ou encore « Aux Marquises »."
+      },
+      {
+        "id": 5,
+        "question": "Quelle ancienne femme politique britannique ne semblait pourtant pas prête de rouiller ?",
+        "propositions": [
+          "Ellen Church",
+          "Golda Meir",
+          "Édith Cresson",
+          "Margaret Thatcher"
+        ],
+        "réponse": "Margaret Thatcher",
+        "anecdote": "Surnommée « la Dame de Fer », Margaret Thatcher était connue pour ses positions très tranchées."
+      },
+      {
+        "id": 6,
+        "question": "Quel chanteur français, surnommé « le fou chantant », évoqua souvent la joie de vivre ?",
+        "propositions": [
+          "Serge Lama",
+          "Charles Trenet",
+          "François Valéry",
+          "Marcel Amont"
+        ],
+        "réponse": "Charles Trenet",
+        "anecdote": "Charles Trenet est l'auteur de près de mille chansons, succès populaires intemporels au-delà de la francophonie."
+      },
+      {
+        "id": 7,
+        "question": "Quel ancien secrétaire du Parti portait une tache de vin sur le front ?",
+        "propositions": [
+          "Léonid Brejnev",
+          "Iouri Andropov",
+          "Andreï Gromyko",
+          "Mikhaïl Gorbatchev"
+        ],
+        "réponse": "Mikhaïl Gorbatchev",
+        "anecdote": "Gorbatchev se fit l'apôtre de la transparence dans le domaine de la politique intérieure."
+      },
+      {
+        "id": 8,
+        "question": "Quel président de la République Française a utilisé la rose comme symbole ?",
+        "propositions": [
+          "Georges Pompidou",
+          "François Mitterrand",
+          "Charles de Gaulle",
+          "Jacques Chirac"
+        ],
+        "réponse": "François Mitterrand",
+        "anecdote": "François Mitterrand fut le premier président de gauche de la Cinquième République."
+      },
+      {
+        "id": 9,
+        "question": "Quelle actrice française a débuté sa carrière dans « Les Parapluies de Cherbourg » ?",
+        "propositions": [
+          "Isabelle Adjani",
+          "Catherine Deneuve",
+          "Jeanne Moreau",
+          "Simone Signoret"
+        ],
+        "réponse": "Catherine Deneuve",
+        "anecdote": "Catherine Deneuve a reçu un César pour son interprétation dans « Le Dernier métro »."
+      },
+      {
+        "id": 10,
+        "question": "Quel homme de télévision et de radio reste célèbre pour ses « Grosses têtes » ?",
+        "propositions": [
+          "Philippe Bouvard",
+          "Serge July",
+          "Jacques Pradel",
+          "Laurent Boyer"
+        ],
+        "réponse": "Philippe Bouvard",
+        "anecdote": "Philippe Bouvard a également été attaché de presse pour les disques Barclay et a animé « Le Petit théâtre de Bouvard »."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "De qui peut-on dire que sa théorie fut une révolution, sans en avoir l'air ?",
+        "propositions": [
+          "Alexander Whyte",
+          "Charles Darwin",
+          "James Hector",
+          "Hugh Low"
+        ],
+        "réponse": "Charles Darwin",
+        "anecdote": "Il créa sa théorie après de multiples études sur les animaux, théorie selon laquelle l'homme descendrait du singe."
+      },
+      {
+        "id": 12,
+        "question": "Quelle ancienne princesse détenait une solide formation de puéricultrice ?",
+        "propositions": [
+          "Katharine Worsley",
+          "Diana Spencer",
+          "Sarah Ferguson",
+          "Marie Stuart"
+        ],
+        "réponse": "Diana Spencer",
+        "anecdote": "Ses démêlés avec les nourrices de ses fils lui firent perdre une partie du crédit dont elle jouissait auprès des Anglais."
+      },
+      {
+        "id": 13,
+        "question": "Quel chef auvergnat regroupa les troupes gauloises contre les Romains ?",
+        "propositions": [
+          "Ambiorix",
+          "Vercingétorix",
+          "Julius Florus",
+          "Cavarinos"
+        ],
+        "réponse": "Vercingétorix",
+        "anecdote": "César le contraignit à jeter les armes à ses pieds avant de le faire étrangler dans sa prison."
+      },
+      {
+        "id": 14,
+        "question": "Quel chef de file de la Nouvelle Vague a réalisé un amour atomique à Hiroshima ?",
+        "propositions": [
+          "Alain Resnais",
+          "Bertrand Blier",
+          "André Téchiné",
+          "Claude Sautet"
+        ],
+        "réponse": "Alain Resnais",
+        "anecdote": "Parmi ses films, on peut noter « Providence », « Mon Oncle d'Amérique » et « Hiroshima mon amour »."
+      },
+      {
+        "id": 15,
+        "question": "Quel scientifique et aventurier a placé son Zodiac sous le signe des poissons ?",
+        "propositions": [
+          "Joseph Kessel",
+          "Maurice Herzog",
+          "Haroun Tazieff",
+          "Alain Bombard"
+        ],
+        "réponse": "Alain Bombard",
+        "anecdote": "Pour prouver le caractère insubmersible de son canot de caoutchouc gonflable, il se fit naufragé volontaire."
+      },
+      {
+        "id": 16,
+        "question": "Quel poète et écrivain français abandonna son dada pour plus de réalisme ?",
+        "propositions": [
+          "René Daumal",
+          "André Breton",
+          "Philippe Soupault",
+          "Louis Aragon"
+        ],
+        "réponse": "Louis Aragon",
+        "anecdote": "D'abord membre du mouvement Dada, Louis Aragon fonda avec quelques amis le mouvement Surréaliste."
+      },
+      {
+        "id": 17,
+        "question": "Quel militaire français dirigea la France puis fut jugé en nazi ?",
+        "propositions": [
+          "Robert Nivelle",
+          "Joseph Joffre",
+          "Philippe Pétain",
+          "Ferdinand Foch"
+        ],
+        "réponse": "Philippe Pétain",
+        "anecdote": "Philippe Pétain, mort le 23 juillet 1951 à Port-Joinville, remporta de grands batailles lors de la guerre de 14."
+      },
+      {
+        "id": 18,
+        "question": "Quel animateur français fut remercié pour s'être moqué du président de sa chaîne ?",
+        "propositions": [
+          "Michel Polac",
+          "Jean-Marie Cavada",
+          "Jean-Luc Delarue",
+          "Benjamin Castaldi"
+        ],
+        "réponse": "Michel Polac",
+        "anecdote": "Au début de « Droit de Réponse » figurait une revue de presse humoristique qui s'intitulait « Rebuts de Presse »."
+      },
+      {
+        "id": 19,
+        "question": "Quel écrivain fut le protégé de Frédéric Ier de Prusse avec qui il se brouilla ultérieurement ?",
+        "propositions": ["Condorcet", "Voltaire", "Diderot", "Lavoisier"],
+        "réponse": "Voltaire",
+        "anecdote": "Voltaire occupe une place particulière dans la mémoire collective française et internationale."
+      },
+      {
+        "id": 20,
+        "question": "Quel homme politique soviétique fut surnommé « le petit père des peuples » ?",
+        "propositions": ["Sokolov", "Brejnev", "Staline", "Trotski"],
+        "réponse": "Staline",
+        "anecdote": "Il prit le pseudonyme de Staline en référence au mot « Stal » qui signifie acier en russe."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quel ingénieur et industriel français installa ses usines d'automobiles au quai de Javel ?",
+        "propositions": [
+          "Pierre Peugeot",
+          "André Citroën",
+          "Maurice Audibert",
+          "Marcel Renault"
+        ],
+        "réponse": "André Citroën",
+        "anecdote": "André Citroën mit au point, en 1934, la Traction avant qui surclassait nettement ses concurrentes."
+      },
+      {
+        "id": 22,
+        "question": "Quel fils d'aubergiste de campagne se fit connaître en Europe par ses opéras ?",
+        "propositions": [
+          "Franz Liszt",
+          "Richard Wagner",
+          "Giuseppe Verdi",
+          "Franz Schubert"
+        ],
+        "réponse": "Giuseppe Verdi",
+        "anecdote": "Ardent patriote, Verdi se fit le champion des idées libérales qui conduisirent à l'indépendance et à l'Unité italiennes."
+      },
+      {
+        "id": 23,
+        "question": "Quel photographe est célèbre pour ses portraits de jeunes filles en groupe ou isolées ?",
+        "propositions": [
+          "David Bailey",
+          "David Slater",
+          "David Sims",
+          "David Hamilton"
+        ],
+        "réponse": "David Hamilton",
+        "anecdote": "La gracile beauté des modèles est souvent renforcée par un flou très romantique."
+      },
+      {
+        "id": 24,
+        "question": "Quel champion de ski alpin remporta trois médailles aux J.O. de 1968 ?",
+        "propositions": [
+          "Mathieu Faivre",
+          "Jean Vuarnet",
+          "Jean-Claude Killy",
+          "Michel Canac"
+        ],
+        "réponse": "Jean-Claude Killy",
+        "anecdote": "Jean-Claude Killy assura d'importantes fonctions pour les Jeux Olympiques d'Albertville de 1992."
+      },
+      {
+        "id": 25,
+        "question": "Quel acteur français voua sa jeunesse au diable par deux fois ?",
+        "propositions": [
+          "Gérard Depardieu",
+          "Gérard Philipe",
+          "Philippe Noiret",
+          "Jean Marais"
+        ],
+        "réponse": "Gérard Philipe",
+        "anecdote": "Gérard Philippe s'illustra entre autres dans « Le Diable au corps » et « La Beauté du diable »."
+      },
+      {
+        "id": 26,
+        "question": "Quel peintre français, ami de Robespierre, se prononça pour la mort de Louis XVI ?",
+        "propositions": [
+          "Maurice Denis",
+          "Jacques-Louis David",
+          "Antoine Barbier",
+          "Narcisse Chaillou"
+        ],
+        "réponse": "Jacques-Louis David",
+        "anecdote": "Sous Napoléon, Jacques-Louis David fut nommé « Premier Peintre du Régime »."
+      },
+      {
+        "id": 27,
+        "question": "Quel homme politique français proclama la République et la déchéance de Napoléon III ?",
+        "propositions": [
+          "Gaston Doumergue",
+          "Pierre Laval",
+          "Léon Gambetta",
+          "Jules Ferry"
+        ],
+        "réponse": "Léon Gambetta",
+        "anecdote": "Léon Gambetta fut l'une des personnalités politiques les plus importantes des premières années de la Troisième République."
+      },
+      {
+        "id": 28,
+        "question": "Quel ingénieur et mécanicien écossais mit au point la première machine à vapeur ?",
+        "propositions": [
+          "Thomas Telford",
+          "James Watt",
+          "Henry Bell",
+          "William Murdoch"
+        ],
+        "réponse": "James Watt",
+        "anecdote": "Son nom est aussi une unité de puissance électrique (un joule par seconde)."
+      },
+      {
+        "id": 29,
+        "question": "Quel chirurgien français est surnommé « le père de la chirurgie moderne » ?",
+        "propositions": [
+          "Paul Rivet",
+          "Edmond Delorme",
+          "Ambroise Paré",
+          "Louis Mencière"
+        ],
+        "réponse": "Ambroise Paré",
+        "anecdote": "Spécialiste des amputations, il est le premier à avoir ligaturé les artères alors que ses prédécesseurs les cautérisaient au feu."
+      },
+      {
+        "id": 30,
+        "question": "Quel acteur inventa dans un de ses films le meurtre par ondes télévisées ?",
+        "propositions": [
+          "Philippe Noiret",
+          "Michel Serrault",
+          "Michel Galabru",
+          "Jean Rochefort"
+        ],
+        "réponse": "Michel Galabru",
+        "anecdote": "C'est dans le film « Kamikaze » que Michel Galabru joue le rôle d'un ingénieur tueur."
+      }
+    ]
+  },
+
+  "cinéma français": {
+    "débutant": [
+      {
+        "id": 1,
+        "question": "Quel acteur se tient aux côtés de Christian Clavier dans le film « Les anges gardiens » ?",
+        "propositions": [
+          "Pierre Richard",
+          "Gérard Depardieu",
+          "Gérard Jugnot",
+          "Jean Reno"
+        ],
+        "réponse": "Gérard Depardieu",
+        "anecdote": "Tout au long du film, on peut remarquer  un nombre très important de marques de produits, visibles ou citées."
+      },
+      {
+        "id": 2,
+        "question": "De quelle somme doivent hériter les frères de la comédie française « Les 3 frères » ?",
+        "propositions": [
+          "100 francs",
+          "100 euros",
+          "100 patates",
+          "100 briques"
+        ],
+        "réponse": "100 patates",
+        "anecdote": "À la fin du film, le cuisinier de l'orphelinat les appelle les Rois mages, qui est le nom du film qu'ils tourneront six ans plus tard."
+      },
+      {
+        "id": 3,
+        "question": "Qui est surnommé ma biche par Louis de Funès dans la plupart de ses films ?",
+        "propositions": ["Sa soeur", "Sa femme", "Sa mère", "Sa fille"],
+        "réponse": "Sa femme",
+        "anecdote": "En 1984, une variété de rose sera créée par la société horticole Meilland en l'honneur de l'acteur, la rose Louis de Funès."
+      },
+      {
+        "id": 4,
+        "question": "Qui est incarné par Jamel Debbouze dans « Astérix et Obélix : Mission Cléopâtre » ?",
+        "propositions": ["Numérobis", "Cartapus", "Malococsis", "Amonbofils"],
+        "réponse": "Numérobis",
+        "anecdote": "Pierre Tchernia, narrateur des dessins animés de la franchise, est aussi narrateur dans le film et tient le rôle d'un général romain."
+      },
+      {
+        "id": 5,
+        "question": "Quelle est la profession de Christian Clavier dans la comédie « Les Anges Gardiens » ?",
+        "propositions": ["Proxénète", "Patron de cabaret", "Postier", "Prêtre"],
+        "réponse": "Prêtre",
+        "anecdote": "Dans « Les Anges Gardiens », il y a de nombreuses similitudes avec « Les Visiteurs », dont l'opposition entre Tarain et son ange."
+      },
+      {
+        "id": 6,
+        "question": "Dans quoi Bourvil et de Funès s'échappent-ils à la fin de « La Grande Vadrouille » ?",
+        "propositions": ["Train", "Voiture", "Planeur", "Bateau"],
+        "réponse": "Planeur",
+        "anecdote": "En Allemagne, le film fut la première comédie présentée à l'écran consacrée à la Seconde Guerre mondiale."
+      },
+      {
+        "id": 7,
+        "question": "Quel acteur reste le partenaire indissociable de Louis de Funès dans « Le Corniaud » ?",
+        "propositions": [
+          "Fernandel",
+          "Michel Galabru",
+          "Bourvil",
+          "Yves Montand"
+        ],
+        "réponse": "Bourvil",
+        "anecdote": "La 2CV était équipée de 250 boulons électriques afin qu'elle se disloque au moment voulu dans la dernière scène tournée du film."
+      },
+      {
+        "id": 8,
+        "question": "De quel célèbre curé indiscipliné Fernandel a-t-il revêtu la soutane ?",
+        "propositions": [
+          "Don Camillo",
+          "Don Corleone",
+          "Don Diego de la Vega",
+          "Don Patillo"
+        ],
+        "réponse": "Don Camillo",
+        "anecdote": "Don Camillo est un personnage de fiction créé en 1948 par l'humoriste, journaliste et dessinateur Giovannino Guareschi."
+      },
+      {
+        "id": 9,
+        "question": "Dans quel film Jean Dujardin a-t-il les cheveux longs et une planche à voile jaune ?",
+        "propositions": ["Cash", "Brice de Nice", "99 francs", "OSS 117"],
+        "réponse": "Brice de Nice",
+        "anecdote": "Apparu pour la première fois aux yeux du grand public dans un sketch télévisé, le personnage de Brice a spontanément plu."
+      },
+      {
+        "id": 10,
+        "question": "Quel est le nom de famille de Pierre Richard dans le film « La chèvre » de Francis Veber ?",
+        "propositions": ["Tricatel", "Perrin", "Pignon", "Duchemin"],
+        "réponse": "Perrin",
+        "anecdote": "Les rôles devaient à l'origine être tenus par Ventura et Villeret, mais le premier ne souhaitait pas tourner avec le second."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Lequel de ces acteurs ne retrouve-t-on pas dans « Le gendarme se marie » ?",
+        "propositions": [
+          "Michel Galabru",
+          "Christian Marin",
+          "Maurice Rich",
+          "Jean Lefebvre"
+        ],
+        "réponse": "Maurice Rich",
+        "anecdote": "Le tournage fut marqué par une longue grève déclenchée par les événements de Mai 68 et par la mort d'un cascadeur du film."
+      },
+      {
+        "id": 12,
+        "question": "Qui incarne Jean-Claude Van Damme dans la comédie « JCVD » ?",
+        "propositions": ["Son frère", "Lui-même", "Son fils", "Son père"],
+        "réponse": "Lui-même",
+        "anecdote": "Les critiques louent le surprenant contre-emploi de Jean-Claude Van Damme qui y dévoile des réelles qualités d'acteur."
+      },
+      {
+        "id": 13,
+        "question": "Quel est le surnom d'un inspecteur incarné par Coluche dans un de ses films ?",
+        "propositions": [
+          "La Bévue",
+          "La Bêtise",
+          "La Bavure",
+          "La Banqueroute"
+        ],
+        "réponse": "La Bavure",
+        "anecdote": "Pendant la réalisation du film, une novélisation en bande-dessinée a été conçue par les artistes Cabu et Didier Convard."
+      },
+      {
+        "id": 14,
+        "question": "Quel diplôme tentent de décrocher les élèves du film « Les Sous-doués » ?",
+        "propositions": ["Brevet", "Baccalauréat", "Master", "BEP"],
+        "réponse": "Baccalauréat",
+        "anecdote": "Après la sortie des « Sous-doués en vacances » en 1982, le film a été du coup rebaptisé « Les Sous-doués passent le bac »."
+      },
+      {
+        "id": 15,
+        "question": "Quel est le nom de la famille modeste de « La vie est un long fleuve tranquille » ?",
+        "propositions": ["Mûre", "Groseille", "Fraise", "Cerise"],
+        "réponse": "Groseille",
+        "anecdote": "Le film a été tourné pendant l'été 1987 dans plusieurs localités du Nord : Roubaix, Lille, Tourcoing et Villeneuve-d'Ascq."
+      },
+      {
+        "id": 16,
+        "question": "Lequel de ces acteurs ne fait pas partie de la troupe du Splendid ?",
+        "propositions": [
+          "Martin Lamotte",
+          "Michel Galabru",
+          "Christian Clavier",
+          "Thierry Lhermitte"
+        ],
+        "réponse": "Michel Galabru",
+        "anecdote": "Certains films réunissent plusieurs acteurs du Splendid mais ne sont toutefois pas crédités comme films du Splendid."
+      },
+      {
+        "id": 17,
+        "question": "En quel héros se déguise Martin Lamotte dans la comédie « Papy fait de la résistance » ?",
+        "propositions": [
+          "Super-Résistant",
+          "Super-Français",
+          "Super-Batailleur",
+          "Super-DeGaulle"
+        ],
+        "réponse": "Super-Résistant",
+        "anecdote": "Le film, devenu culte, réunit les acteurs de la nouvelle génération des années 1970-80 et les acteurs de l'ancienne génération."
+      },
+      {
+        "id": 18,
+        "question": "Dans quel quartier de Paris se déroulent les scènes principales de « La Vérité si je mens » ?",
+        "propositions": ["Le Chemin", "Le Passage", "Le Marais", "Le Sentier"],
+        "réponse": "Le Sentier",
+        "anecdote": "À l'origine, le scénario du film devait être issu du livre écrit par Michel Munz, « Rock Casher », roman sur les Séfarades du Sentier."
+      },
+      {
+        "id": 19,
+        "question": "Quel personnage est devenu coiffeur hype à Los Angeles dans « Les Bronzés 3 » ?",
+        "propositions": ["Jean-Claude", "Jérôme", "Popeye", "Bernard"],
+        "réponse": "Jean-Claude",
+        "anecdote": "La troupe du Splendid devait à l'origine se retrouver autour du film « Astérix en Hispanie », projet proposé puis plus tard abandonné."
+      },
+      {
+        "id": 20,
+        "question": "Quel acteur interprète Bakari Driss Bassari dans le film « Intouchables » ?",
+        "propositions": [
+          "Thomas Slivéres",
+          "François Cluzet",
+          "Christian Ameri",
+          "Omar Sy"
+        ],
+        "réponse": "Omar Sy",
+        "anecdote": "L'histoire est inspirée de la vie de Philippe Pozzo di Borgo, tétraplégique, et de sa relation avec Abdel Yasmin Sellou."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quel quatuor de chanteurs comiques a régné sur la comédie française des années 1970 ?",
+        "propositions": [
+          "Les Rigolos",
+          "Les Marrants",
+          "Les Charlots",
+          "Les Frères Jacques"
+        ],
+        "réponse": "Les Charlots",
+        "anecdote": "Gérard Filippelli et Jean Sarrus ont joué dans l'intégralité des films des Charlots, Gérard Rinaldi dans tous sauf dans le dernier."
+      },
+      {
+        "id": 22,
+        "question": "Qui est Pouic-Pouic dans la comédie française du même nom ?",
+        "propositions": [
+          "Louis de Funès",
+          "Un chat",
+          "Un coq",
+          "Jacqueline Maillan"
+        ],
+        "réponse": "Un coq",
+        "anecdote": "Le film fut réalisé d'après la pièce de théâtre « Sans cérémonie » de Jacques Vilfrid et Jean Girault, créée en 1952."
+      },
+      {
+        "id": 23,
+        "question": "Quel personnage est joué par Lino Ventura dans « Les Tontons flingueurs » ?",
+        "propositions": ["Gustave", "Raoul", "Fernand", "Francis"],
+        "réponse": "Fernand",
+        "anecdote": "Les répliques et les tirades de ce film, volontairement décalées, sont pour beaucoup dans son immense succès populaire."
+      },
+      {
+        "id": 24,
+        "question": "Comment se nomme la célèbre attachée de presse de « La Cité de la peur » ?",
+        "propositions": [
+          "Elodie Pété",
+          "Edith Fané",
+          "Odile Deray",
+          "Martine Alaplage"
+        ],
+        "réponse": "Odile Deray",
+        "anecdote": "Le nom Odile Deray fait référence à Gilles de Rais, un ancien tueur en série français, en rapport avec le thème du film."
+      },
+      {
+        "id": 25,
+        "question": "Quel acteur interprète Yvan dans le film « La vérité si je mens » ?",
+        "propositions": [
+          "Richard Anconina",
+          "Vincent Elbaz",
+          "José Garcia",
+          "Bruno Solo"
+        ],
+        "réponse": "Bruno Solo",
+        "anecdote": "Quand Gilbert Melki a un problème avec sa télévision, on peut apercevoir un petit extrait de « Raï », de Thomas Gilou."
+      },
+      {
+        "id": 26,
+        "question": "Quel âge a Tanguy dans le film réalisé en 2001 par Étienne Chatiliez ?",
+        "propositions": ["28 ans", "30 ans", "32 ans", "26 ans"],
+        "réponse": "28 ans",
+        "anecdote": "Le prénom Tanguy est utilisé dans le langage populaire pour désigner un jeune adulte qui se complaît à vivre chez ses parents."
+      },
+      {
+        "id": 27,
+        "question": "Combien de comédies Pierre Richard et Gérard Depardieu ont-ils joué ensemble ?",
+        "propositions": ["Cinq", "Trois", "Quatre", "Six"],
+        "réponse": "Trois",
+        "anecdote": "C'est ainsi que Pierre Richard interprétera François Perrin dans « La Chèvre » et François Pignon dans « Les Compères » et « Les Fugitifs »."
+      },
+      {
+        "id": 28,
+        "question": "Quel est le nom de famille de Didier, Pascal et Bernard, les « Trois Frères » ?",
+        "propositions": ["Karamazov", "Latour", "Bogdanov", "Ledonjon"],
+        "réponse": "Latour",
+        "anecdote": "Au début du film, la personne que reçoit Pascal Latour en entretien d'embauche n'est autre que Théo Légitimus, le père de Pascal."
+      },
+      {
+        "id": 29,
+        "question": "Qui incarne la maîtresse névrosée de Thierry Lhermitte dans « Le Dîner de cons » ?",
+        "propositions": ["A. Vandernoot", "A. Jaoui", "C. Frot", "J. Balasko"],
+        "réponse": "A. Vandernoot",
+        "anecdote": "Alexandra Vandernoot est surtout connue internationalement pour son rôle de la fiancée de Duncan MacLeod, dans la série « Highlander »."
+      },
+      {
+        "id": 30,
+        "question": "Quel acteur incarne le père biologique du bébé dans « Trois hommes et un couffin » ?",
+        "propositions": [
+          "Roland Giraud",
+          "André Dussollier",
+          "Michel Boujenah",
+          "Jean-Pierre Bacri"
+        ],
+        "réponse": "André Dussollier",
+        "anecdote": "« Trois hommes et un couffin » est devenu le plus grand succès de l'année 1985 au cinéma, avec plus de dix millions d'entrées."
+      }
+    ]
+  },
+
+  "culture générale": {
+    "débutant": [
+      {
+        "id": 1,
+        "question": "Le fameux indice IMC permet, après calcul, de savoir si vous êtes...",
+        "propositions": [
+          "En zone inondable",
+          "Surdoué",
+          "En surpoids",
+          "Imposable"
+        ],
+        "réponse": "En surpoids",
+        "anecdote": "Il a été conçu, au départ, pour les adultes de 18 à 65 ans, mais de nouveaux diagrammes de croissance ont vu le jour."
+      },
+      {
+        "id": 2,
+        "question": "Lequel de ces fruits remplis de vitamines désigne une variété de prune ?",
+        "propositions": ["Bigarreau", "Kumquat", "Griotte", "Mirabelle"],
+        "réponse": "Mirabelle",
+        "anecdote": "C'est une petite prune ronde, de couleur jaune, parfois recouverte d'une mince couche cireuse et comestible appelée pruine."
+      },
+      {
+        "id": 3,
+        "question": "Quelle chanteuse française, star des années 1960, a fini son école en 1963 ?",
+        "propositions": [
+          "Rika Zaraï",
+          "Françoise Hardy",
+          "Petula Clark",
+          "Sheila"
+        ],
+        "réponse": "Sheila",
+        "anecdote": "Figurant sur le deuxième 45T EP de Sheila, « L'école est finie » est son premier véritable tube, et l'un des grands succès de 1963."
+      },
+      {
+        "id": 4,
+        "question": "Quel pays a créé en 1918 une armée appelée Armée rouge ?",
+        "propositions": ["U.R.S.S.", "RDA", "Chine", "Cambodge"],
+        "réponse": "U.R.S.S.",
+        "anecdote": "Cette armée fut mise sur pied dans l'ancien Empire russe par le nouveau pouvoir bolchevik, à la suite de la révolution d'Octobre."
+      },
+      {
+        "id": 5,
+        "question": "En France, à quoi correspondent les 4e et 5e chiffres du numéro de sécu de la carte Vitale ?",
+        "propositions": [
+          "Pays de naissance",
+          "Mois de naissance",
+          "Jour de naissance",
+          "Sexe"
+        ],
+        "réponse": "Mois de naissance",
+        "anecdote": "Elle permet de justifier les droits du titulaire de la carte à la couverture par un organisme social des dépenses de santé."
+      },
+      {
+        "id": 6,
+        "question": "Avec quelle céréale prépare-t-on le pop-corn que l'on peut acheter au cinéma ?",
+        "propositions": ["Maïs", "Orge", "Blé", "Riz"],
+        "réponse": "Maïs",
+        "anecdote": "Le pop-corn (maïs soufflé ou maïs éclaté) est une céréale soufflée produit par un chauffage fort de grains de maïs."
+      },
+      {
+        "id": 7,
+        "question": "Vu du ciel, lequel de ces monuments offre un aspect circulaire ?",
+        "propositions": [
+          "Angkor Vat",
+          "Taj Mahal",
+          "Cité interdite",
+          "Colisée"
+        ],
+        "réponse": "Colisée",
+        "anecdote": "Sa construction à l'est du Forum Romain a commencé en 70 ap. J.-C., sous l'empereur Vespasien, et s'est achevée en 80 sous Titus."
+      },
+      {
+        "id": 8,
+        "question": "Lequel de ces mots ne désigne pas un os du squelette humain ?",
+        "propositions": ["Marteau", "Enclume", "Axis", "Boulon"],
+        "réponse": "Boulon",
+        "anecdote": "Le squelette humain est composé de 206 os constants à l'âge adulte (350 à la naissance) et d'un nombre variable d'os surnuméraires."
+      },
+      {
+        "id": 9,
+        "question": "En France, quel accessoire doit-on obligatoirement posséder dans sa voiture ?",
+        "propositions": [
+          "Ampoule de phare",
+          "Roue de secours",
+          "Extincteur",
+          "Gilet de sécurité"
+        ],
+        "réponse": "Gilet de sécurité",
+        "anecdote": "L'obligation faite aux conducteurs de véhicules de porter cet équipement ne remonte en Europe qu'au début des années 2000."
+      },
+      {
+        "id": 10,
+        "question": "Dans une expression argotique, quel nombre est souvent associé aux flics ?",
+        "propositions": ["22", "33", "44", "11"],
+        "réponse": "22",
+        "anecdote": "En argot, un policier est aussi parfois surnommé poulet, perdreau, flic, keuf, coch, vache, dek, lardu, condé, bleu ou Bourremann."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Dans un oeuf, quelle partie fera des bulles une fois arrosée de vinaigre ?",
+        "propositions": ["Blanc et le jaune", "Jaune", "Blanc", "Coquille"],
+        "réponse": "Coquille",
+        "anecdote": "Sécrétée par la glande coquillière de l'oviducte, elle est composée de carbonates et de phosphates de calcium et de magnésium."
+      },
+      {
+        "id": 12,
+        "question": "Dans la série de B.D. « Placid et Muzo », quel animal est Placid ?",
+        "propositions": ["Chien", "Renard", "Souris", "Ours"],
+        "réponse": "Ours",
+        "anecdote": "La série a été créée en 1946 par José Cabrero Arnal (dessin) et Pierre Olivier (texte), avant d'être reprise par Jacques Nicolaou."
+      },
+      {
+        "id": 13,
+        "question": "Chez Disney, de quel instrument joue le cochon qui a construit une hutte en bois ?",
+        "propositions": ["Pipeau", "Violon", "Flûte", "Tambourin"],
+        "réponse": "Violon",
+        "anecdote": "D'après les studios Disney, les trois petits cochons auraient pour cousin Peter Pig, apparu aux côtés de Donald Duck."
+      },
+      {
+        "id": 14,
+        "question": "Lequel de ces noms communs de la langue française est variable ?",
+        "propositions": [
+          "Week-end",
+          "Fiançailles",
+          "Pince sans-rire",
+          "Goutte à goutte"
+        ],
+        "réponse": "Week-end",
+        "anecdote": "Le week-end ou fin de semaine est une période hebdomadaire d'un ou deux jours, généralement le samedi et le dimanche."
+      },
+      {
+        "id": 15,
+        "question": "Laquelle de ces stars était la plus jeune quand elle a eu son premier enfant ?",
+        "propositions": [
+          "Lara Fabian",
+          "Jennifer Lopez",
+          "Céline Dion",
+          "Britney Spears"
+        ],
+        "réponse": "Britney Spears",
+        "anecdote": "Britney Spears a eu deux garçons : Sean Preston Spears-Federline (né en 2005) et Jayden James Spears-Federline (né en 2006)."
+      },
+      {
+        "id": 16,
+        "question": "Quelle est la meilleure note financière d'une entreprise ou d'un État ?",
+        "propositions": ["AAA+", "AAAA+", "AAAA", "AAA"],
+        "réponse": "AAA",
+        "anecdote": "La notation financière constitue, pour les investisseurs, un critère clé dans l'estimation du risque qu'un investissement comporte."
+      },
+      {
+        "id": 17,
+        "question": "Lequel de ces artistes n'a jamais chanté avec le ténor Luciano Pavarotti ?",
+        "propositions": ["Garou", "Bono", "Barry White", "Céline Dion"],
+        "réponse": "Garou",
+        "anecdote": "Souvent cité comme le plus populaire chanteur d'opéra depuis Caruso, Pavarotti a chanté les grands airs de Verdi et Puccini."
+      },
+      {
+        "id": 18,
+        "question": "À qui doit-on les chaussures de Lady Gaga dans le clip « Bad Romance » ?",
+        "propositions": [
+          "Stella McCartney",
+          "Alexander McQueen",
+          "Karl Lagerfeld",
+          "Jean-Paul Gaultier"
+        ],
+        "réponse": "Alexander McQueen",
+        "anecdote": "En raison du côté parfois provocateur de certaines de ses collections, Alexander McQueen est souvent surnommé l'Enfant terrible."
+      },
+      {
+        "id": 19,
+        "question": "Laquelle de ces célébrités aurait pu féliciter Eddy Merckx au Tour de France en 1969 ?",
+        "propositions": [
+          "Laetitia Casta",
+          "Roger Federer",
+          "Paris Hilton",
+          "Ludivine Sagnier"
+        ],
+        "réponse": "Laetitia Casta",
+        "anecdote": "Comprenant 22 étapes sur 4 117 km, il s'agit du premier des cinq Tours de France remportés par Eddy Merckx."
+      },
+      {
+        "id": 20,
+        "question": "Qui a chorégraphié la comédie musicale « Le Roi Soleil », présentée au public en 2005 ?",
+        "propositions": [
+          "Maurice Béjart",
+          "Vincent Dunoyer",
+          "Kamel Ouali",
+          "Philippe Lafeuille"
+        ],
+        "réponse": "Kamel Ouali",
+        "anecdote": "C'est le chorégraphe français Kamel Ouali qui a coordonné le « Disney Talents » des jeunes talents à Paris, dont il a été le directeur."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Notre planète Terre se situe entre quelles autres planètes ?",
+        "propositions": [
+          "Pluton et Mercure",
+          "Uranus et Jupiter",
+          "Jupiter et Saturne",
+          "Mars et Vénus"
+        ],
+        "réponse": "Mars et Vénus",
+        "anecdote": "La Terre est une planète du Système solaire, la troisième plus proche du Soleil et la cinquième plus grande (taille et masse)."
+      },
+      {
+        "id": 22,
+        "question": "Laquelle de ces femmes a dit oui à son futur époux, mais pas en 2011 ?",
+        "propositions": [
+          "Charlène Wittstock",
+          "Pénélope Cruz",
+          "Kate Moss",
+          "Kate Middleton"
+        ],
+        "réponse": "Pénélope Cruz",
+        "anecdote": "Depuis novembre 2007, elle est en couple avec l'acteur espagnol Javier Bardem, qu'elle épousa en juillet 2010 aux Bahamas."
+      },
+      {
+        "id": 23,
+        "question": "Dans quelle préparation un oeuf est-il cuit dans sa coquille ?",
+        "propositions": ["Poché", "En cocotte", "Mollet", "Au miroir"],
+        "réponse": "Mollet",
+        "anecdote": "L'oeuf mollet est un oeuf cuit à l'eau bouillante dans sa coquille, plus longtemps qu'un oeuf à la coque et moins longtemps qu'un oeuf dur."
+      },
+      {
+        "id": 24,
+        "question": "Lequel de ces éléments chimiques est correctement associé à son symbole ?",
+        "propositions": [
+          "Au pour Or",
+          "CA pour Carbone",
+          "B pour Plomb",
+          "H pour Oxygène"
+        ],
+        "réponse": "Au pour Or",
+        "anecdote": "Ce symbole, choisi par Berzelius, est formé des deux premières lettres du mot latin aurum (de même sens)."
+      },
+      {
+        "id": 25,
+        "question": "Laquelle de ces propositions désigne un gaz presque inerte et sans couleur ?",
+        "propositions": ["Radium", "Néon", "Magnésium", "Manganèse"],
+        "réponse": "Néon",
+        "anecdote": "Le néon est un gaz noble qui donne une lueur rougeâtre distinctive lorsqu'il est utilisé dans les tubes à vide et les lampes néon."
+      },
+      {
+        "id": 26,
+        "question": "Lequel de ces états a sa capitale située le plus au sud du globe ?",
+        "propositions": [
+          "Argentine",
+          "Australie",
+          "Afrique du Sud",
+          "Nouvelle Zélande"
+        ],
+        "réponse": "Nouvelle Zélande",
+        "anecdote": "Très isolée géographiquement, la Nouvelle-Zélande est située à 2000 km de l'Australie, dont elle est séparée par la mer de Tasman."
+      },
+      {
+        "id": 27,
+        "question": "Dans lequel de ces jeux prend-on des cartes dans une pioche centrale ?",
+        "propositions": ["Huit américain", "Pouilleux", "Nain jaune", "Whist"],
+        "réponse": "Huit américain",
+        "anecdote": "Ce jeu a été popularisé par le jeu Uno qui en reprend les principes dans une version commerciale, plus simple et plus attractive."
+      },
+      {
+        "id": 28,
+        "question": "Vers quelle année les habitants de la Terre sont-ils montés à un milliard ?",
+        "propositions": ["1700", "1900", "1800", "1600"],
+        "réponse": "1800",
+        "anecdote": "Le nombre d'êtres humains vivant sur Terre à un instant donné fut estimé à 7,55 milliards au 1er juillet 2017."
+      },
+      {
+        "id": 29,
+        "question": "Lequel de ces adjectifs de couleur est invariable, ne prenant pas de s au pluriel ?",
+        "propositions": ["Beige", "Vert", "Violet", "Ocre"],
+        "réponse": "Ocre",
+        "anecdote": "Les ocres rouges naturelles peuvent être extraites à l'état naturel ou produites artificiellement par calcination de l'ocre jaune."
+      },
+      {
+        "id": 30,
+        "question": "Que contiennent les boîtes collectionnées par un philuméniste ?",
+        "propositions": ["Allumettes", "Capsules", "Parfums", "Pièces"],
+        "réponse": "Allumettes",
+        "anecdote": "L'Association vitolphilique et philuménique française (AVPF) créée peu après 1954 compte aujourd'hui près de 500 collectionneurs."
+      }
+    ]
+  },
+
+  "sports": {
+    "débutant": [
+      {
+        "id": 1,
+        "question": "Combien vaut un lancer franc au basket-ball, accordé à un joueur victime d'une faute ?",
+        "propositions": [
+          "Cinq points",
+          "Trois points",
+          "Un point",
+          "Sept points"
+        ],
+        "réponse": "Un point",
+        "anecdote": "En cas de faute flagrante, les lancers francs accordés le sont sans joueur au rebond, car la balle est redonné à l'équipe du tireur."
+      },
+      {
+        "id": 2,
+        "question": "De quel sport la finale est-elle connue aux USA sous le nom de « Super Bowl » ?",
+        "propositions": [
+          "Basket-ball",
+          "Football",
+          "Football américain",
+          "Baseball"
+        ],
+        "réponse": "Football américain",
+        "anecdote": "Le Super Bowl est la finale du championnat de football américain qui voit s'affronter les vainqueurs des deux conférences."
+      },
+      {
+        "id": 3,
+        "question": "En tennis, combien de sets maximum peut-il y avoir dans un match de Coupe Davis ?",
+        "propositions": ["Quatre", "Trois", "Cinq", "Sept"],
+        "réponse": "Cinq",
+        "anecdote": "La Coupe Davis est la plus prestigieuse des compétitions internationales annuelles de tennis masculin par équipes."
+      },
+      {
+        "id": 4,
+        "question": "Quel nom porte la version « soft » du baseball aux États-Unis, aussi appelé « balle-molle » ?",
+        "propositions": ["Softball", "Netball", "Handball", "Korfball"],
+        "réponse": "Softball",
+        "anecdote": "Tout comme le baseball, le softball est pratiqué par les deux sexes de façon amateur ou compétitive."
+      },
+      {
+        "id": 5,
+        "question": "Au rugby à XV, combien de points vaut un essai permettant de tenter une transformation ?",
+        "propositions": ["Cinq", "Deux", "Quatre", "Trois"],
+        "réponse": "Cinq",
+        "anecdote": "Au rugby, un essai est l'action de jeu consistant à aplatir le ballon dans l'en-but adverse."
+      },
+      {
+        "id": 6,
+        "question": "Laquelle de ces propositions représente le point commun entre le football et le cricket ?",
+        "propositions": ["La balle", "La batte", "Onze joueurs", "Le terrain"],
+        "réponse": "Onze joueurs",
+        "anecdote": "Plus de cent pays sont affiliés à l'International Cricket Council, qui organise notamment la Coupe du monde de cricket."
+      },
+      {
+        "id": 7,
+        "question": "Combien de temps a-t-on pour viser avant de lancer un panier au basket-ball ?",
+        "propositions": [
+          "20 secondes",
+          "30 secondes",
+          "10 secondes",
+          "45 secondes"
+        ],
+        "réponse": "30 secondes",
+        "anecdote": "Le basket-ball se pratique exclusivement à la main, et les joueurs ne peuvent se déplacer balle en main qu'en la dribblant au sol."
+      },
+      {
+        "id": 8,
+        "question": "Dans quel sport Johan Cruijff, dit le « Chevalier Blanc », est-il connu ?",
+        "propositions": ["Le tennis", "Le golf", "Le football", "La boxe"],
+        "réponse": "Le football",
+        "anecdote": "Premier joueur de football à remporter trois fois le Ballon d'or, il est considéré comme l'un des meilleurs joueurs de l'Histoire."
+      },
+      {
+        "id": 9,
+        "question": "En France, dans quel sport collectif gagne-t-on le Bouclier de Brennus ?",
+        "propositions": ["Handball", "Rugby", "Basket-ball", "Football"],
+        "réponse": "Rugby",
+        "anecdote": "Conçu d'après un dessin initial du baron Pierre de Coubertin, ce trophée doit son nom à son artiste créateur Charles Brennus."
+      },
+      {
+        "id": 10,
+        "question": "Entré aux Jeux olympiques, quel est le sport collectif aquatique « par excellence » ?",
+        "propositions": ["Water-polo", "Roller derby", "Fistball", "Ultimate"],
+        "réponse": "Water-polo",
+        "anecdote": "Le water-polo masculin existe depuis 1870 alors que le water-polo féminin n'est apparu qu'au début du XXe siècle."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Où s'affrontent la plupart du temps les joueurs de kayak-polo ?",
+        "propositions": [
+          "Sur la neige",
+          "En montagne",
+          "En piscine",
+          "Sur gazon"
+        ],
+        "réponse": "En piscine",
+        "anecdote": "Le kayak-polo est souvent décrit comme un mélange de kayak, de handball, basket-ball et de water-polo."
+      },
+      {
+        "id": 12,
+        "question": "Combien de joueurs compte-t-on dans une équipe de hockey sur gazon ?",
+        "propositions": ["Huit", "Onze", "Six", "Cinq"],
+        "réponse": "Onze",
+        "anecdote": "Le hockey sur gazon est le plus ancien jeu de balle avec crosse connu qu'on ait pu trouver parmi les premières civilisations."
+      },
+      {
+        "id": 13,
+        "question": "À quel moment une équipe peut-elle marquer un point au volley-ball ?",
+        "propositions": [
+          "En fin de set",
+          "Après un service",
+          "En réception",
+          "À la mi-temps"
+        ],
+        "réponse": "Après un service",
+        "anecdote": "Avec 269 millions de pratiquants, le volley-ball est le sport le plus pratiqué dans le monde."
+      },
+      {
+        "id": 14,
+        "question": "Que réalise une équipe qui gagne tous ses matchs lors d'un Tournoi des Six Nations ?",
+        "propositions": [
+          "Un tie-break",
+          "Le Grand Chelem",
+          "Le Jeu décisif",
+          "Une Triple couronne"
+        ],
+        "réponse": "Le Grand Chelem",
+        "anecdote": "Par extension, cette expression peut être employée pour toute compétition fonctionnant sur un système identique au Tournoi."
+      },
+      {
+        "id": 15,
+        "question": "Quel est le pays des terribles All Blacks, rugbymen de renom ?",
+        "propositions": [
+          "Nouvelle-Zélande",
+          "Écosse",
+          "Irlande",
+          "Pays de Galles"
+        ],
+        "réponse": "Nouvelle-Zélande",
+        "anecdote": "Le rugby à XV est le sport le plus populaire de Nouvelle-Zélande et attire principalement les meilleurs sportifs du pays."
+      },
+      {
+        "id": 16,
+        "question": "Combien y a-t-il de joueurs sur le terrain à gazon d'une équipe de polo ?",
+        "propositions": ["Quatre", "Sept", "Cinq", "Six"],
+        "réponse": "Quatre",
+        "anecdote": "Le polo est un sport équestre qui serait né chez les peuples cavaliers des steppes d'Asie centrale il y a 2 500 ans au moins."
+      },
+      {
+        "id": 17,
+        "question": "Dans quel sport frappe-t-on un palet avec une crosse de 135 cm ?",
+        "propositions": ["Baseball", "Cricket", "Croquet", "Hockey sur glace"],
+        "réponse": "Hockey sur glace",
+        "anecdote": "Sport de vitesse, le hockey sur glace est souvent qualifié de « sport collectif le plus rapide du monde »."
+      },
+      {
+        "id": 18,
+        "question": "Qui a marqué un but de la main gauche en Coupe du Monde de football 1986 ?",
+        "propositions": [
+          "Didier Deschamps",
+          "Laurent Blanc",
+          "Fabio Cannavaro",
+          "Diego Maradona"
+        ],
+        "réponse": "Diego Maradona",
+        "anecdote": "En 1986, Maradona était capitaine d'une équipe d'Argentine qui voulait à tout prix venger la déroute de 1982."
+      },
+      {
+        "id": 19,
+        "question": "Quel sport américain dérivé des mêmes racines que le cricket se pratique en neuf manches ?",
+        "propositions": [
+          "Football américain",
+          "Baseball",
+          "Basket-ball",
+          "Golf"
+        ],
+        "réponse": "Baseball",
+        "anecdote": "Au baseball, les gants de réception de la balle que portent les joueurs de défense varient selon le poste occupé."
+      },
+      {
+        "id": 20,
+        "question": "Combien de joueurs dénombre-t-on dans une équipe de cricket ?",
+        "propositions": ["Dix", "Treize", "Onze", "Douze"],
+        "réponse": "Onze",
+        "anecdote": "Un match de cricket peut durer, selon la forme jouée, de quelques heures à parfois plusieurs jours."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quel sport d'équipe se pratique en patin à roulettes sur une piste de forme ovale ?",
+        "propositions": ["Roller derby", "Fistball", "Ultimate", "Water-polo"],
+        "réponse": "Roller derby",
+        "anecdote": "En 2013, on comptait plus de 1 250 ligues de roller derby autour du monde, principalement dans les pays anglophones."
+      },
+      {
+        "id": 22,
+        "question": "Où se jouent les matchs internationaux de rugby dans le Grand Londres ?",
+        "propositions": [
+          "Twickenham",
+          "Madejski Stadium",
+          "Rectory Field",
+          "Edgeley Park"
+        ],
+        "réponse": "Twickenham",
+        "anecdote": "Le 18 septembre 2015, le stade a accueilli la cérémonie d'ouverture de la Coupe du monde de rugby 2015."
+      },
+      {
+        "id": 23,
+        "question": "Quel sport souvent assimilé au volley-ball se pratique en plein air ?",
+        "propositions": ["Fistball", "Water-polo", "Roller derby", "Ultimate"],
+        "réponse": "Fistball",
+        "anecdote": "La dernière édition de la Coupe du monde masculine s'est tenue en Allemagne en août 2007. "
+      },
+      {
+        "id": 24,
+        "question": "Dans quel pays se trouve le terrain de rugby aujourd'hui appelé Coca-Cola Park ?",
+        "propositions": [
+          "États-Unis",
+          "Nouvelle-Zélande",
+          "France",
+          "Afrique du Sud"
+        ],
+        "réponse": "Afrique du Sud",
+        "anecdote": "Construit en 1928, le stade a notamment accueilli le finale de la Coupe du monde de rugby à XV de 1995."
+      },
+      {
+        "id": 25,
+        "question": "Quel sport se pratique sur le célèbre terrain londonien The Oval ?",
+        "propositions": ["Cricket", "Football", "Rugby", "Tennis"],
+        "réponse": "Cricket",
+        "anecdote": "Traditionnellement, il accueille les matchs de l'équipe du Surrey, ainsi que le dernier test-match de la saison sur le sol anglais."
+      },
+      {
+        "id": 26,
+        "question": "Combien de cercles sont dessinés sur une patinoire de hockey sur glace ?",
+        "propositions": ["Sept", "Cinq", "Trois", "Neuf"],
+        "réponse": "Cinq",
+        "anecdote": "Le hockey se joue sur une surface de glace rectangulaire, d'une soixantaine de mètres de long avec des coins arrondis."
+      },
+      {
+        "id": 27,
+        "question": "Quel sport fut pratiqué par les Suédois à l'Ice Stadium de Stockholm ?",
+        "propositions": ["Volley-ball", "Hockey", "Cricket", "Basket-ball"],
+        "réponse": "Hockey",
+        "anecdote": "Le club a été fondé en 1946 après des tentatives antérieures ajournées pour cause de Seconde Guerre mondiale."
+      },
+      {
+        "id": 28,
+        "question": "Combien de joueurs figurent dans une équipe de moto-ball ?",
+        "propositions": ["Cinq", "Trois", "Sept", "Neuf"],
+        "réponse": "Cinq",
+        "anecdote": "Chaque formation de moto-ball est composée de quatre joueurs plus un gardien qui n'est pas à moto."
+      },
+      {
+        "id": 29,
+        "question": "De quelle langue vient le mot polo, d'abord entraînement pour les unités de cavalerie ?",
+        "propositions": [
+          "Le coréen",
+          "Le portugais",
+          "Le tibétain",
+          "Le russe"
+        ],
+        "réponse": "Le tibétain",
+        "anecdote": "Le sport traditionnel de polo se joue sur un large terrain à gazon mesurant jusqu'à 300 mètres de long."
+      },
+      {
+        "id": 30,
+        "question": "Quel sport collectif utilise un disque opposant deux équipes de sept joueurs ?",
+        "propositions": ["Water-polo", "Ultimate", "Fistball", "Roller derby"],
+        "réponse": "Ultimate",
+        "anecdote": "L'ultimate se pratique dans sa version la plus courante sur terrain en herbe à l'extérieur (7 contre 7)."
+      }
+    ]
+  },
+
+  "géographie": {
+    "débutant": [
+      {
+        "id": 1,
+        "question": "À quelle ville de France l'andouillette, le saucisson et Guignol vous font-ils penser ?",
+        "propositions": ["Marseille", "Cannes", "Nice", "Lyon"],
+        "réponse": "Lyon",
+        "anecdote": "Lyon est en situation de carrefour géographique, au nord du couloir naturel de la vallée du Rhône."
+      },
+      {
+        "id": 2,
+        "question": "Quelle ville, capitale de la Grèce, comprend notamment le port du Pirée ?",
+        "propositions": ["Athènes", "Héraklion", "Larissa", "Patras"],
+        "réponse": "Athènes",
+        "anecdote": "Athènes est l'une des plus anciennes villes au monde, avec une présence humaine attestée dès le Néolithique."
+      },
+      {
+        "id": 3,
+        "question": "De quelle ville du Sud-Ouest de la France proviennent de célèbres pruneaux AOC ?",
+        "propositions": ["Marmande", "Agen", "Nérac", "Tonneins"],
+        "réponse": "Agen",
+        "anecdote": "Le nom d'Agen est associé au pruneau, dont la zone de production principale est essentiellement située en Lot-et-Garonne."
+      },
+      {
+        "id": 4,
+        "question": "De quelle couleur sont les cabines téléphoniques de la ville de Londres ?",
+        "propositions": ["Verte", "Jaune", "Blanche", "Rouge"],
+        "réponse": "Rouge",
+        "anecdote": "Ville touristique européenne par excellence, Londres fut fondée il y a presque 2 000 ans par les Romains sous le nom de Londinium."
+      },
+      {
+        "id": 5,
+        "question": "Quelle ville réputée pour la qualité de ses cigares est aussi la capitale de Cuba ?",
+        "propositions": [
+          "Santa Clara",
+          "Santiago de Cuba",
+          "Guantanamo",
+          "La Havane"
+        ],
+        "réponse": "La Havane",
+        "anecdote": "L'emplacement actuel de la ville de La Havane se situe sur la côte nord de l'île de Cuba et dans la partie ouest de celle-ci."
+      },
+      {
+        "id": 6,
+        "question": "À la fois ville et province, de quel pays Bangkok est-elle la capitale ?",
+        "propositions": ["Birmanie", "Thaïlande", "Laos", "Malaisie"],
+        "réponse": "Thaïlande",
+        "anecdote": "Le boom économique asiatique des années 1980-1990 a amené de nombreuses multinationales à rapidement s'installer à Bangkok."
+      },
+      {
+        "id": 7,
+        "question": "À quelle grande ville d'Afrique l'explorateur Savorgnan de Brazza a-t-il donné son nom ?",
+        "propositions": ["Libreville", "Nairobi", "Kinshasa", "Brazzaville"],
+        "réponse": "Brazzaville",
+        "anecdote": "La ville de Brazzaville a été fondée le 3 octobre 1880 à l'emplacement des anciens bourgs précoloniaux de Nkuna."
+      },
+      {
+        "id": 8,
+        "question": "Quelle capitale est également le centre politique et culturel de la Chine ?",
+        "propositions": ["Hong Kong", "Shanghai", "Tokyo", "Pékin"],
+        "réponse": "Pékin",
+        "anecdote": "Située à proximité de la Grande Muraille, Pékin abrite des monuments célèbres comme la Cité interdite et le Temple du ciel."
+      },
+      {
+        "id": 9,
+        "question": "Laquelle de ces quatre villes espagnoles ne possède pas un port de renom ?",
+        "propositions": ["Barcelone", "Valence", "Madrid", "Malaga"],
+        "réponse": "Madrid",
+        "anecdote": "Située en plein coeur du royaume d'Espagne, Madrid est la capitale mais aussi la ville la plus peuplée de la Communauté de Madrid."
+      },
+      {
+        "id": 10,
+        "question": "Dans quel pays à forte densité de population la ville de Calcutta est-elle située ?",
+        "propositions": ["Birmanie", "Brésil", "Bangladesh", "Inde"],
+        "réponse": "Inde",
+        "anecdote": "Calcutta est connue pour avoir abrité la fondation de la congrégation religieuse des Missionnaires de la Charité par Mère Teresa."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Quelle est la capitale ainsi que la plus grande ville du territoire égyptien ?",
+        "propositions": ["Le Caire", "Alexandrie", "Suez", "Louxor"],
+        "réponse": "Le Caire",
+        "anecdote": "Avec ses seize millions d'habitants, Le Caire est la plus grande ville du Moyen-Orient et la seconde ville d'Afrique derrière Lagos."
+      },
+      {
+        "id": 12,
+        "question": "Célèbre pour son industrie cinématographique, dans quel pays se situe la ville de Bombay ?",
+        "propositions": ["Sri Lanka", "Népal", "Inde", "Pakistan"],
+        "réponse": "Inde",
+        "anecdote": "Bombay forme avec les villes de Navi Mumbai, Bhiwandi, Kalyan, Ulhasnagar et Thane une agglomération de 18 500 000 habitants."
+      },
+      {
+        "id": 13,
+        "question": "Dans laquelle de ces villes peut-on contempler un célèbre pain de sucre ?",
+        "propositions": [
+          "Le Caire",
+          "Rio de Janeiro",
+          "La Havane",
+          "Brazzaville"
+        ],
+        "réponse": "Rio de Janeiro",
+        "anecdote": "Le Christ Rédempteur est une immense statue du Christ dominant la ville de Rio de Janeiro, surplombant le mont du Corcovado."
+      },
+      {
+        "id": 14,
+        "question": "Quelle capitale administrative des Pays-Bas est le siège de nombreuses institutions ?",
+        "propositions": ["Amsterdam", "La Haye", "Rotterdam", "Utrecht"],
+        "réponse": "La Haye",
+        "anecdote": "La Haye est également la ville où siègent la Cour internationale de justice, la Cour pénale internationale, Europol et Eurojust."
+      },
+      {
+        "id": 15,
+        "question": "Combien y a-t-il de communes à Paris situées sur une boucle de la Seine ?",
+        "propositions": ["22", "13", "Une seule", "9"],
+        "réponse": "Une seule",
+        "anecdote": "D'après le recensement de l'Insee, la commune de Paris comptait au 1er janvier 2012 plus de deux millions d'habitants."
+      },
+      {
+        "id": 16,
+        "question": "Tripoli est une ville du Liban mais se trouve être aussi la capitale de quel pays ?",
+        "propositions": ["Soudan", "Tunisie", "Maroc", "Libye"],
+        "réponse": "Libye",
+        "anecdote": "Tripoli est la plus grande ville, le principal port et le plus grand centre industriel, commercial et touristique de Libye."
+      },
+      {
+        "id": 17,
+        "question": "Quelle ville est aussi importante pour l'Afrique que pour le monde arabe ?",
+        "propositions": ["Le Caire", "Suez", "Assouan", "Alexandrie"],
+        "réponse": "Le Caire",
+        "anecdote": "Centre névralgique de la ville moderne, la place Tahrir est devenue pour la planète l'emblème de la révolution égyptienne de 2011."
+      },
+      {
+        "id": 18,
+        "question": "Avec ses nombreux canaux, sur les rives de quelle mer la ville de Venise est-elle située ?",
+        "propositions": ["Égée", "Adriatique", "Ionienne", "Noire"],
+        "réponse": "Adriatique",
+        "anecdote": "Menacée par le climat, Venise s'étend sur un ensemble de 118 îles séparées par un réseau de canaux et reliées par des ponts."
+      },
+      {
+        "id": 19,
+        "question": "Dans quelle ville recense-t-on à ce jour le plus grand nombre de taxis au monde ?",
+        "propositions": ["Tokyo", "New York", "Brasilia", "Londres"],
+        "réponse": "New York",
+        "anecdote": "Les célèbres taxis jaunes sont exploités par des sociétés privées, agréées par la Commission de Taxi et Limousine de New York."
+      },
+      {
+        "id": 20,
+        "question": "Quelle capitale du Népal était une étape bien connue de la communauté hippies ?",
+        "propositions": ["Katmandou", "Pokhara", "Dharan", "Lalitpur"],
+        "réponse": "Katmandou",
+        "anecdote": "Katmandou ne possède pas de réseau souterrain de canalisations et dispose dès lors d'une alimentation en eau insuffisante."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Au bord de quoi la ville américaine de Chicago a-t-elle été construite ?",
+        "propositions": ["Volcan", "Faille", "Lac", "Océan"],
+        "réponse": "Lac",
+        "anecdote": "La ville de Chicago, qui constitue le deuxième centre industriel des États-Unis, appartient à la Ceinture des industries."
+      },
+      {
+        "id": 22,
+        "question": "Quelle est la nationalité des habitants de l'île de Taïwan, aussi appelée Formose ?",
+        "propositions": ["Coréenne", "Népalaise", "Chinoise", "Japonaise"],
+        "réponse": "Chinoise",
+        "anecdote": "Le climat de Taïwan est tropical au sud et subtropical humide au nord : les étés y sont chauds et les hivers relativement doux."
+      },
+      {
+        "id": 23,
+        "question": "Combien y a-t-il environ d'habitants à Mexico, capitale et ville la plus peuplée du Mexique ?",
+        "propositions": [
+          "20 millions",
+          "12 millions",
+          "16 millions",
+          "8 millions"
+        ],
+        "réponse": "20 millions",
+        "anecdote": "L'aire urbaine de Mexico, recensée comme la troisième plus peuplée du monde, s'étale sur une surface de 60 km sur 100 km environ."
+      },
+      {
+        "id": 24,
+        "question": "Dans quelle région historique d'Espagne se situe la célèbre ville de Barcelone ?",
+        "propositions": ["Castille", "Galice", "Catalogne", "Andalousie"],
+        "réponse": "Catalogne",
+        "anecdote": "Barcelone est la deuxième ville d'Espagne en termes de population, d'économie et d'activités et la onzième la plus peuplée de l'UE."
+      },
+      {
+        "id": 25,
+        "question": "Comment appelle-t-on le quartier arabe ou la médina d'Alger ?",
+        "propositions": ["Casbah", "Torah", "Bled", "Souk"],
+        "réponse": "Casbah",
+        "anecdote": "L'histoire de la Casbah d'Alger remonte à l'Antiquité, où elle fut d'abord un port punique, puis berbère et enfin romain."
+      },
+      {
+        "id": 26,
+        "question": "De quel pays Rangoun est-elle la plus grande ville en nombre d'habitants ?",
+        "propositions": ["Philippines", "Birmanie", "Laos", "Malaisie"],
+        "réponse": "Birmanie",
+        "anecdote": "Le nom de la capitale du pays (Rangoon/Rangoun) peut être traduit comme fin de la discorde ou fin du conflit."
+      },
+      {
+        "id": 27,
+        "question": "Dans quel pays se trouve Hammerfest, la ville la plus au nord de l'Europe ?",
+        "propositions": ["Suède", "Finlande", "Écosse", "Norvège"],
+        "réponse": "Norvège",
+        "anecdote": "Située dans le comté de Finnmark, on dit souvent d'Hammerfest qu'elle est la ville la plus septentrionale du monde."
+      },
+      {
+        "id": 28,
+        "question": "Quelle capitale du Liberia est située au bord de l'océan Atlantique ?",
+        "propositions": ["Grand Bassa", "Nimba", "Monrovia", "Lofa"],
+        "réponse": "Monrovia",
+        "anecdote": "Monrovia joue un grand rôle dans l'économie du pays en y assurant l'essentiel des exportations de minerai de fer."
+      },
+      {
+        "id": 29,
+        "question": "Dans quel pays peut-on déambuler dans les rues de Constantine, Oran ou encore Annaba ?",
+        "propositions": ["Algérie", "Tunisie", "Jordanie", "Turquie"],
+        "réponse": "Algérie",
+        "anecdote": "Constantine est également surnommée la ville des ponts suspendus, la ville du vieux rocher ou encore la ville des oulémas."
+      },
+      {
+        "id": 30,
+        "question": "À Hong Kong, quel funiculaire relie le quartier de Central à Victoria Peak ?",
+        "propositions": ["Tsing Ma", "Cross-Harbour", "Octopus", "Peak Tram"],
+        "réponse": "Peak Tram",
+        "anecdote": "Le funiculaire est le moyen de transport qui offre aux touristes une des plus belles vues sur le port et les gratte-ciels de Hong Kong."
+      }
+    ]
+  }
 }

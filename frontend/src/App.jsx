@@ -28,6 +28,7 @@ function App() {
   //     })
   //     .then((result) => {
   //       console.log(result);
+  //       console.log('j'ai ${result.keys} categories')
   //     });
   // }, []);
 
@@ -36,11 +37,9 @@ function App() {
       <p>Teubé or not Teubé</p>
 
       <Router>
-        <Home />
         <div>
           <Routes>
-            <Route path="@pages/Home" element={<Home />} />
-
+            <Route path="/" element={<Home />} />
             {/* <Route path="/App" element={<App />} /> */}
             <Route path="/Categories" element={<Categories />} />
           </Routes>

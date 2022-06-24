@@ -71,16 +71,15 @@ button {
   width: 100px;
 }
 
-.btncats{
+.btncats {
   background-color: yellow;
   border-radius: 30px;
   width: 150px;
 }
 
-.containercategories{
+.containercategories {
   display: flex;
   align-items: center;
   justify-content: space-around;
   padding-top: 50px;
-
 }

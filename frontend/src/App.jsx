@@ -6,32 +6,6 @@ import Categories from "@components/Categories";
 import Home from "@pages/Home";
 
 function App() {
-  // avec axios :
-  // const [question, setQuestion] = useState("")
-  // const getQuestionAsyncAwait = async () => {
-  //   try {
-  //     const promiseQuestion = await axios.get(
-  //       'http://localhost:5000/questions'
-  //     )
-  //     console.log('question:', promiseQuestion.data)
-  //     setQuestion(promiseQuestion.data)
-  //   } catch (err) {
-  //     console.log(err)
-  //  }
-  // }
-  // getQuestionAsyncAwait();
-
-  // useEffect(() => {
-  //   fetch("http://localhost:5000/questions")
-  //     .then((response) => {
-  //       return response.json();
-  //     })
-  //     .then((result) => {
-  //       console.log(result);
-  //       console.log('j'ai ${result.keys} categories')
-  //     });
-  // }, []);
-
   return (
     <div className="App">
       <p>Teubé or not Teubé</p>

@@ -3,19 +3,6 @@ import { useState, useEffect } from "react";
 export default function Categories() {
   const [categories, setcategory] = useState([]);
 
-  // const getCategoryAsyncAwait = async () => {
-  //   try {
-  //     const promiseCategories = await axios.get(
-  //       'http://localhost:5000/questions'
-  //     )
-  //     console.log('categories:', promiseCategories.data)
-  //     setcategory(promiseCategories.data)
-  //   } catch(err){
-  //     console.log(err)
-  //   }
-  // }
-  // getCategoryAsyncAwait();
-
   useEffect(() => {
     fetch("http://localhost:5000/questions")
       .then((response) => {

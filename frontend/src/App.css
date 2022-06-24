@@ -70,3 +70,17 @@ button {
   height: 100px;
   width: 100px;
 }
+
+.btncats{
+  background-color: yellow;
+  border-radius: 30px;
+  width: 150px;
+}
+
+.containercategories{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 50px;
+
+}

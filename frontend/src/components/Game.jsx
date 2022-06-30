@@ -46,18 +46,11 @@ export default function Game() {
             </div>
           </div>
           <div className="answer-section">
-            <button type="button" className="btnquestion">
-              Answer 1
-            </button>
-            <button type="button" className="btnquestion">
-              Answer 2
-            </button>
-            <button type="button" className="btnquestion">
-              Answer 3
-            </button>
-            <button type="button" className="btnquestion">
-              Answer 4
-            </button>
+            {infos[params.categoryId][0].propositions.map((proposition) => (
+              <button key={proposition} type="button" className="btnquestion">
+                {proposition}
+              </button>
+            ))}
           </div>
         </div>
       </div>

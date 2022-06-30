@@ -26,8 +26,7 @@ export default function Categories() {
             <div key={category}>
               <Link to={`/Game/${category}`}>
                 <button type="button" className="btncats">
-                  {" "}
-                  {category}{" "}
+                  {category}
                 </button>
               </Link>
             </div>

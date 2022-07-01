@@ -5,7 +5,7 @@ export default function Game() {
   const params = useParams();
   // console.log("&&&&&", params);
   // const [categories, setcategory] = useState([]);
-  // const [questions, setquestion] = useState([]);
+  const [currentQuestion] = useState([0]);
   const [infos, setInfos] = useState();
 
   useEffect(() => {
@@ -42,15 +42,17 @@ export default function Game() {
               {/* <span>Question 1</span>{questions.length} */}
             </div>
             <div className="question-text">
-              {infos[params.categoryId][0].question}
+              {infos[params.categoryId][currentQuestion].question}
             </div>
           </div>
           <div className="answer-section">
-            {infos[params.categoryId][0].propositions.map((proposition) => (
-              <button key={proposition} type="button" className="btnquestion">
-                {proposition}
-              </button>
-            ))}
+            {infos[params.categoryId][currentQuestion].propositions.map(
+              (proposition) => (
+                <button key={proposition} type="button" className="btnquestion">
+                  {proposition}
+                </button>
+              )
+            )}
           </div>
         </div>
       </div>

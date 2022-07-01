@@ -5,9 +5,9 @@ export default function Game() {
   const params = useParams();
   // console.log("&&&&&", params);
   // const [categories, setcategory] = useState([]);
-  // const [questions, setquestion] = useState([]);
   const [infos, setInfos] = useState();
   const [currentQuestion, setCurrentQuestion] = useState(0);
+  const [score, setScore] = useState(0);
 
   useEffect(() => {
     fetch("http://localhost:5000/questions")
@@ -19,9 +19,20 @@ export default function Game() {
     //   console.log(err);
     // });
   }, []);
-  const handleAnswerButtonClick = () => {
+  const handleAnswerButtonClick = (event) => {
+    // console.log(event.target.value)
     const nextQuestion = currentQuestion + 1;
-    setCurrentQuestion(nextQuestion);
+    if (nextQuestion <= 10 && score < 10) {
+      if (
+        event.target.value ===
+        `${infos[params.categoryId][currentQuestion].réponse}`
+      ) {
+        setScore(score + 1);
+      }
+      if (nextQuestion < 10) {
+        setCurrentQuestion(nextQuestion);
+      }
+    }
   };
   // console.log("params: ", params.categoryId);
   // console.log(infos);
@@ -38,13 +49,12 @@ export default function Game() {
       score when the user has answered all the questions */}
           {/* {false ? ( */}
           <div className="score-section">
-            You scored 1 out of {/* {questions.length} */}
+            You scored : {score} /10 {/* {questions.length} */}
           </div>
           {/* )  */}
           <div className="question-section">
-            <div className="question-count">
-              {infos[params.categoryId].length}
-            </div>
+            Question : {currentQuestion + 1} /10
+            <div className="question-count" />
             <div className="question-text">
               {infos[params.categoryId][currentQuestion].question}
             </div>
@@ -57,6 +67,7 @@ export default function Game() {
                   key={proposition}
                   type="button"
                   className="btnquestion"
+                  value={proposition}
                 >
                   {proposition}
                 </button>

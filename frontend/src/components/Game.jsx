@@ -7,6 +7,7 @@ export default function Game() {
   // const [categories, setcategory] = useState([]);
   // const [questions, setquestion] = useState([]);
   const [infos, setInfos] = useState();
+  const [currentQuestion, setCurrentQuestion] = useState(0);
 
   useEffect(() => {
     fetch("http://localhost:5000/questions")
@@ -18,7 +19,10 @@ export default function Game() {
     //   console.log(err);
     // });
   }, []);
-
+  const handleAnswerButtonClick = () => {
+    const nextQuestion = currentQuestion + 1;
+    setCurrentQuestion(nextQuestion);
+  };
   // console.log("params: ", params.categoryId);
   // console.log(infos);
 
@@ -39,18 +43,25 @@ export default function Game() {
           {/* )  */}
           <div className="question-section">
             <div className="question-count">
-              {/* <span>Question 1</span>{questions.length} */}
+              {infos[params.categoryId].length}
             </div>
             <div className="question-text">
-              {infos[params.categoryId][0].question}
+              {infos[params.categoryId][currentQuestion].question}
             </div>
           </div>
           <div className="answer-section">
-            {infos[params.categoryId][0].propositions.map((proposition) => (
-              <button key={proposition} type="button" className="btnquestion">
-                {proposition}
-              </button>
-            ))}
+            {infos[params.categoryId][currentQuestion].propositions.map(
+              (proposition) => (
+                <button
+                  onClick={handleAnswerButtonClick}
+                  key={proposition}
+                  type="button"
+                  className="btnquestion"
+                >
+                  {proposition}
+                </button>
+              )
+            )}
           </div>
         </div>
       </div>

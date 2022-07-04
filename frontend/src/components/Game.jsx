@@ -9,11 +9,23 @@ export default function Game() {
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [score, setScore] = useState(0);
 
+  function shuffledArray(array) {
+    // console.log(arrayToShuffle);
+    const arrayToShuffle = array;
+    for (let i = arrayToShuffle.length - 1; i > 0; i -= 1) {
+      const randomPosition = Math.floor(Math.random() * (i + 1));
+      const temp = arrayToShuffle[i];
+      arrayToShuffle[i] = arrayToShuffle[randomPosition];
+      arrayToShuffle[randomPosition] = temp;
+    }
+    return arrayToShuffle;
+  }
+
   useEffect(() => {
     fetch("http://localhost:5000/questions")
       .then((res) => res.json())
       .then((data) => {
-        setInfos(data);
+        setInfos(shuffledArray(data[params.categoryId]));
       });
     // .catch((err) => {
     //   console.log(err);
@@ -23,10 +35,7 @@ export default function Game() {
     // console.log(event.target.value)
     const nextQuestion = currentQuestion + 1;
     if (nextQuestion <= 10 && score < 10) {
-      if (
-        event.target.value ===
-        `${infos[params.categoryId][currentQuestion].réponse}`
-      ) {
+      if (event.target.value === `${infos[currentQuestion].réponse}`) {
         setScore(score + 1);
       }
       if (nextQuestion < 10) {
@@ -34,12 +43,13 @@ export default function Game() {
       }
     }
   };
+
   // console.log("params: ", params.categoryId);
-  // console.log(infos);
+  // console.log(typeof(infos));
 
   return (
     infos &&
-    infos.animaux && (
+    infos.length && (
       <div className="question-section">
         <div className="Game">{params.categoryId}</div>
         <h2>Let's play ! : </h2>
@@ -56,23 +66,21 @@ export default function Game() {
             Question : {currentQuestion + 1} /10
             <div className="question-count" />
             <div className="question-text">
-              {infos[params.categoryId][currentQuestion].question}
+              {infos[currentQuestion].question}
             </div>
           </div>
           <div className="answer-section">
-            {infos[params.categoryId][currentQuestion].propositions.map(
-              (proposition) => (
-                <button
-                  onClick={handleAnswerButtonClick}
-                  key={proposition}
-                  type="button"
-                  className="btnquestion"
-                  value={proposition}
-                >
-                  {proposition}
-                </button>
-              )
-            )}
+            {infos[currentQuestion].propositions.map((proposition) => (
+              <button
+                onClick={handleAnswerButtonClick}
+                key={proposition}
+                type="button"
+                className="btnquestion"
+                value={proposition}
+              >
+                {proposition}
+              </button>
+            ))}
           </div>
         </div>
       </div>

@@ -1,10 +1,12 @@
+import Accueil from "@components/Accueil";
 import React from "react";
-import { Link } from "react-router-dom";
 
-export default function Home() {
+function Home() {
   return (
-    <button type="button">
-      <Link to="/Categories">Clique!</Link>
-    </button>
+    <div>
+      <Accueil />
+    </div>
   );
 }
+
+export default Home;

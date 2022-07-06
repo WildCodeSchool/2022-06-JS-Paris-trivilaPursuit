@@ -1,13 +1,12 @@
 import React, { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 
 export default function Game() {
   const params = useParams();
-  // console.log("&&&&&", params);
-  // const [categories, setcategory] = useState([]);
   const [infos, setInfos] = useState();
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [score, setScore] = useState(0);
+  const [showScore, setShowScore] = useState(true);
 
   function shuffledArray(array) {
     // console.log(arrayToShuffle);
@@ -32,15 +31,26 @@ export default function Game() {
     // });
   }, []);
   const handleAnswerButtonClick = (event) => {
-    // console.log(event.target.value)
     const nextQuestion = currentQuestion + 1;
+    const theEvent = event;
     if (nextQuestion <= 10 && score < 10) {
-      if (event.target.value === `${infos[currentQuestion].réponse}`) {
+      if (theEvent.target.value === `${infos[currentQuestion].réponse}`) {
+        theEvent.target.style.backgroundColor = "green + 20";
+        theEvent.target.style.borderColor = "green";
         setScore(score + 1);
+      } else if (
+        theEvent.target.value !== `${infos[currentQuestion].réponse}`
+      ) {
+        theEvent.target.style.backgroundColor = "red + 20";
+        theEvent.target.style.borderColor = "red";
       }
-      if (nextQuestion < 10) {
+    }
+    if (nextQuestion === 10) setShowScore(false);
+
+    if (nextQuestion < 10) {
+      setTimeout(() => {
         setCurrentQuestion(nextQuestion);
-      }
+      }, "750");
     }
   };
 
@@ -58,31 +68,41 @@ export default function Game() {
           {/* HINT: replace "false" with logic to display the 
       score when the user has answered all the questions */}
           {/* {false ? ( */}
-          <div className="score-section">
-            You scored : {score} /10 {/* {questions.length} */}
-          </div>
-          {/* )  */}
-          <div className="question-section">
-            Question : {currentQuestion + 1} /10
-            <div className="question-count" />
-            <div className="question-text">
-              {infos[currentQuestion].question}
-            </div>
-          </div>
-          <div className="answer-section">
-            {infos[currentQuestion].propositions.map((proposition) => (
-              <button
-                onClick={handleAnswerButtonClick}
-                key={proposition}
-                type="button"
-                className="btnquestion"
-                value={proposition}
-              >
-                {proposition}
+          {showScore ? (
+            <>
+              <div className="question-section">
+                Question : {currentQuestion + 1} /10
+                <div className="question-count" />
+                <div className="question-text">
+                  {infos[currentQuestion].question}
+                </div>
+              </div>
+              <div className="answer-section">
+                {infos[currentQuestion].propositions.map((proposition) => (
+                  <button
+                    onClick={handleAnswerButtonClick}
+                    key={proposition}
+                    type="button"
+                    className="btnquestion"
+                    value={proposition}
+                  >
+                    {proposition}
+                  </button>
+                ))}
+              </div>
+            </>
+          ) : (
+            <div>
+              <h1> You scored : {score} /10 </h1>
+              <button type="button">
+                <Link to="/Categories"> Retour aux Categories </Link>
               </button>
-            ))}
-          </div>
+            </div>
+          )}
         </div>
+        <button type="button" className="btn">
+          <Link to="/">Retour aux Teubégories !</Link>
+        </button>
       </div>
     )
   );

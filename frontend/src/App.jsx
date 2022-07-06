@@ -1,18 +1,13 @@
-// import Home from "@pages/Home";
-import "./App.css";
-// import { useEffect } from "react";
-import { Link } from "react-router-dom";
+import React from "react";
+import { Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
 
 function App() {
   return (
-    <div className="App">
-      <p>Teubé or not Teubé</p>
-
-      <Link to="/categories">
-        <button type="button"> Categories </button>
-      </Link>
-
-      {/* <button> Clique </button> */}
+    <div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
     </div>
   );
 }

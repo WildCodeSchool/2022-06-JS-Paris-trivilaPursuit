@@ -1,6 +1,10 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
+function random(min, max) {
+  return Math.round(Math.random() * (max - min) + min);
+}
+
 export default function Categories() {
   const [categories, setcategory] = useState([]);
 
@@ -32,6 +36,12 @@ export default function Categories() {
             </div>
           ))}
       </div>
+      <Link to={`/Game/${categories[random(0, categories.length - 1)]}`}>
+        <button type="button" className="btncats">
+          {" "}
+          Questionnaire aléatoire
+        </button>
+      </Link>
     </div>
   );
 }

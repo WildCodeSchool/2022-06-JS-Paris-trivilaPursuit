@@ -1,10 +1,29 @@
-import Accueil from "@components/Accueil";
-import React from "react";
+import React, { useContext } from "react";
+import { Link } from "react-router-dom";
+import UserContext from "@pages/UserContext.js";
 
 function Home() {
+  const { name, setName } = useContext(UserContext);
+
   return (
     <div>
-      <Accueil />
+      <form>
+        <br />
+        <label htmlFor="name">
+          Type your Name:
+          <br />
+          <input
+            id="name"
+            type="text"
+            placeholder="James Bond"
+            value={name}
+            onChange={(event) => setName(event.target.value)}
+          />
+        </label>
+      </form>
+      <Link to="../components/Accueil">
+        <button type="button"> Jouer </button>
+      </Link>
     </div>
   );
 }

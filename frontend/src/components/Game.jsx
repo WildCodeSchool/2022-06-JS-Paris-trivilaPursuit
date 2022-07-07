@@ -50,10 +50,16 @@ export default function Game() {
     if (nextQuestion < 10) {
       setTimeout(() => {
         setCurrentQuestion(nextQuestion);
-      }, "750");
+      }, "350");
     }
   };
 
+  const resultat = () => {
+    if (score < 4) return "Teubé";
+    if (score < 7) return "Un peu Teubé";
+    if (score < 10) return "Pas trop Teubé";
+    return "Pas Teubé";
+  };
   // console.log("params: ", params.categoryId);
   // console.log(typeof(infos));
 
@@ -94,14 +100,12 @@ export default function Game() {
           ) : (
             <div>
               <h1> You scored : {score} /10 </h1>
-              <button type="button">
-                <Link to="/Categories"> Retour aux Categories </Link>
-              </button>
+              <h2> tu es : {resultat()} </h2>
             </div>
           )}
         </div>
         <button type="button" className="btn">
-          <Link to="/">Retour aux Teubégories !</Link>
+          <Link to="/Categories">Retour aux Teubégories !</Link>
         </button>
       </div>
     )

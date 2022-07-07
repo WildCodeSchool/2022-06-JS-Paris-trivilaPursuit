@@ -1,5 +1,5 @@
 {
-  "animaux": [
+  "Animaux": [
     {
       "id": 1,
       "question": "Combien de temps dure en moyenne la gestation d'une éléphante ?",
@@ -212,7 +212,7 @@
     }
   ],
 
-  "célébrités": [
+  "Célébrités": [
     {
       "id": 1,
       "question": "Quel homme « capital » aux États-Unis fut le premier représentant de l'Oncle Sam ?",
@@ -560,7 +560,7 @@
     }
   ],
 
-  "cinéma français": [
+  "Cinéma Français": [
     {
       "id": 1,
       "question": "Quel acteur se tient aux côtés de Christian Clavier dans le film « Les anges gardiens » ?",
@@ -833,7 +833,7 @@
     }
   ],
 
-  "culture générale": [
+  "Culture Générale": [
     {
       "id": 1,
       "question": "Le fameux indice IMC permet, après calcul, de savoir si vous êtes...",
@@ -1111,7 +1111,7 @@
     }
   ],
 
-  "sports": [
+  "Sports": [
     {
       "id": 1,
       "question": "Combien vaut un lancer franc au basket-ball, accordé à un joueur victime d'une faute ?",
@@ -1374,7 +1374,7 @@
     }
   ],
 
-  "géographie": [
+  "Géographie": [
     {
       "id": 1,
       "question": "À quelle ville de France l'andouillette, le saucisson et Guignol vous font-ils penser ?",

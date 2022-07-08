@@ -1,62 +1,58 @@
-import React, { useState, useContext } from "react";
+import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import UserContext from "@pages/UserContext.js";
+import useSound from "use-sound";
+import boopSfx from "@assets/herewego.mp3";
+import CurrentContext from "./CurrentContext";
+import PictureContext from "./PictureContext";
 
 function Home() {
-  const avatar = [
-    "/src/assets/face1-mini.jpg",
-    "/src/assets/face3-mini.jpg",
-    "/src/assets/face5-mini.jpg",
-    "/src/assets/face6-mini.jpg",
-    "/src/assets/face7-mini.jpg",
-    "/src/assets/mini-bidon.jpg",
-    "/src/assets/mini-didi.jpg",
-  ];
-
   const { name, setName } = useContext(UserContext);
-  const [currentAvatarId, setCurrentAvatarId] = useState();
+  const { avatar } = useContext(PictureContext);
+  const { currentAvatarId, setCurrentAvatarId } = useContext(CurrentContext);
   const styles = { border: "2px solid green" };
   const handleClick = (id) => {
     setCurrentAvatarId(id);
   };
 
-  return (
-    <div>
-      <div style={{ borderColor: "green" }}>
-        Choisis ton Avatar :
-        {avatar.map((image, id) => {
-          return (
-            <button
-              style={currentAvatarId === id ? styles : null}
-              onClick={() => handleClick(id)}
-              key={image}
-              type="button"
-            >
-              <img key={image} src={image} alt="" />
-            </button>
-          );
-        })}
-      </div>
+  const [play] = useSound(boopSfx);
 
-      <div className="home-bloc">
-        <form>
+  return (
+    <div className="home-bloc">
+      <form>
+        <br />
+        <label htmlFor="name">
+          <h3>Entrez un pseudo</h3>
           <br />
-          <label htmlFor="name">
-            <h3>Entrez un pseudo</h3>
-            <br />
-            <input
-              id="name"
-              type="text"
-              maxLength="20"
-              placeholder="Teubé"
-              value={name}
-              className="pseudo"
-              onChange={(event) => setName(event.target.value)}
-            />
-          </label>
-        </form>
+          <input
+            id="name"
+            type="text"
+            maxLength="20"
+            placeholder="Teubé"
+            value={name}
+            className="pseudo"
+            onChange={(event) => setName(event.target.value)}
+          />
+        </label>
+      </form>
+      <div>
+        <div className="img-avatar" style={{ borderColor: "green" }}>
+          <h3>Choisis ton Avatar :</h3>
+          {avatar.map((image, id) => {
+            return (
+              <button
+                style={currentAvatarId === id ? styles : null}
+                onClick={() => handleClick(id)}
+                key={image}
+                type="button"
+              >
+                <img key={image} src={image} alt="" />
+              </button>
+            );
+          })}
+        </div>
         <Link to="../components/Accueil">
-          <button type="button" className="play-btn">
+          <button type="button" className="play-btn" onClick={play}>
             {" "}
             Jouer{" "}
           </button>

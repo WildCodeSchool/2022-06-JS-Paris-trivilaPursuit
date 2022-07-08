@@ -5,11 +5,13 @@ import React, { useContext } from "react";
 function Accueil() {
   const { name } = useContext(UserContext);
   return (
-    <div className="App">
-      <h1>Hello {name && ` ${name}`}</h1>
-      <p>Teubé or not Teubé</p>
+    <div className="welcome-bloc">
+      <h1 className="welcome">
+        Hello <br />
+        {name && ` ${name}`}
+      </h1>
       <Link to="/categories">
-        <button type="button"> categories </button>
+        <button type="button"> Catégories </button>
       </Link>
     </div>
   );

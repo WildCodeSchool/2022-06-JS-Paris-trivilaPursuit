@@ -1,9 +1,14 @@
 .home-bloc {
   text-align: center;
+  border: 5px solid black;
+  margin-top: 5vh;
+  background-color: yellow;
+  width: 100%;
 }
 
 .play-btn {
-  margin-top: 50vh;
+  margin-top: 20vh;
+  margin-bottom: 2vh;
   border-radius: 100%;
   width: 150px;
   height: 70px;
@@ -12,4 +17,10 @@
 .pseudo {
   height: 25px;
   width: 150px;
+}
+
+.img-avatar {
+  display: flex;
+  justify-content: space-around;
+  border-radius: 50px;
 }

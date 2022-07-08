@@ -82,6 +82,7 @@ export default function Game() {
                 <div className="question-text">
                   {infos[currentQuestion].question}
                 </div>
+                <div>{infos[currentQuestion].anecdote}</div>
               </div>
               <div className="answer-section">
                 {infos[currentQuestion].propositions.map((proposition) => (

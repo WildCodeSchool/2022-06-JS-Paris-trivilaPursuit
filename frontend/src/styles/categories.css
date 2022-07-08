@@ -1,0 +1,13 @@
+.btnCatsAleatoire {
+  background-color: purple;
+}
+
+.categorie-choice {
+  text-align: center;
+}
+
+.btncats,
+.btnCatsAleatoire {
+  display: flex;
+  width: 80%;
+}

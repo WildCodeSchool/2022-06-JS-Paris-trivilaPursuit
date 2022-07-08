@@ -1,0 +1,13 @@
+body {
+  background-color: blue;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.header-logo {
+  border-radius: 100%;
+  width: 100px;
+}

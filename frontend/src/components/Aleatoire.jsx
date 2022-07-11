@@ -1,16 +1,14 @@
 import React, { useEffect, useState } from "react";
-import { useParams, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
-export default function Game() {
-  const params = useParams();
+export default function Aleatoire() {
   const [infos, setInfos] = useState();
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [score, setScore] = useState(0);
   const [showScore, setShowScore] = useState(true);
 
-  function shuffledArray(array) {
-    // console.log(arrayToShuffle);
-    const arrayToShuffle = array;
+  function shuffledArray(newArray) {
+    const arrayToShuffle = newArray;
     for (let i = arrayToShuffle.length - 1; i > 0; i -= 1) {
       const randomPosition = Math.floor(Math.random() * (i + 1));
       const temp = arrayToShuffle[i];
@@ -24,12 +22,19 @@ export default function Game() {
     fetch("http://localhost:5000/questions")
       .then((res) => res.json())
       .then((data) => {
-        setInfos(shuffledArray(data[params.categoryId]));
+        const newData = Object.values(data);
+        let newArray = [];
+        newData.forEach((el) => {
+          newArray = newArray.concat(el);
+        });
+        setInfos(shuffledArray(newArray));
       });
-    // .catch((err) => {
-    //   console.log(err);
-    // });
   }, []);
+  // Je veux renvoyer une question de façon aléatoire provenant de mon API
+  // data est un objet qui contient des tableaux d'objets
+  // Je souhaite que data devienne un seul et même tableau d'objets qui contient les questions de manière aléatoire
+  // [] [] => [   ] pour ça, on utilise la méthode concat() et object.values()
+
   const handleAnswerButtonClick = (event) => {
     const nextQuestion = currentQuestion + 1;
     const theEvent = event;
@@ -67,11 +72,11 @@ export default function Game() {
     infos &&
     infos.length && (
       <div className="question-section">
-        <div className="Game">{params.categoryId}</div>
+        <div className="Game">Questions aléatoires</div>
 
         <div className="app">
           {/* HINT: replace "false" with logic to display the 
-      score when the user has answered all the questions */}
+          score when the user has answered all the questions */}
           {/* {false ? ( */}
           {showScore ? (
             <>

@@ -10,13 +10,18 @@ function Accueil() {
   const { currentAvatarId } = useContext(CurrentContext);
   return (
     <div className="welcome-bloc">
-      <img src={avatar[currentAvatarId]} alt="" />
-      <h1 className="welcome">
-        Hello <br />
-        {name && ` ${name}`}
-      </h1>
+      <div className="welcome">
+        <h1 className="welcome-title">
+          Salut
+          {name && ` ${name}`}
+        </h1>
+        <img src={avatar[currentAvatarId]} alt="" />
+      </div>
       <Link to="/categories">
         <button type="button"> Catégories </button>
+      </Link>
+      <Link to="/aleatoire">
+        <button type="button">Questions aléatoires</button>
       </Link>
     </div>
   );

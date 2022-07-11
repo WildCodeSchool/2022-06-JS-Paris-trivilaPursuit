@@ -18,26 +18,26 @@ function Home() {
   const [play] = useSound(boopSfx);
 
   return (
-    <div className="home-bloc">
-      <form>
-        <br />
-        <label htmlFor="name">
-          <h3>Entrez un pseudo</h3>
+    <div className="div-play-btn">
+      <div className="home-bloc">
+        <form>
           <br />
-          <input
-            id="name"
-            type="text"
-            maxLength="20"
-            placeholder="Teubé"
-            value={name}
-            className="pseudo"
-            onChange={(event) => setName(event.target.value)}
-          />
-        </label>
-      </form>
-      <div>
-        <div className="img-avatar" style={{ borderColor: "green" }}>
-          <h3>Choisis ton Avatar :</h3>
+          <label htmlFor="name">
+            <h2>Entrez un pseudo</h2>
+            <br />
+            <input
+              id="name"
+              type="text"
+              maxLength="20"
+              placeholder="Teubé"
+              value={name}
+              className="pseudo"
+              onChange={(event) => setName(event.target.value)}
+            />
+          </label>
+        </form>
+        <div className="bloc-avatar" style={{ borderColor: "green" }}>
+          <h2>Choisis ton Avatar :</h2>
           {avatar.map((image, id) => {
             return (
               <button
@@ -45,19 +45,20 @@ function Home() {
                 onClick={() => handleClick(id)}
                 key={image}
                 type="button"
+                className="btn-img-avatar"
               >
-                <img key={image} src={image} alt="" />
+                <img key={image} src={image} alt="" className="img-avatar" />
               </button>
             );
           })}
         </div>
-        <Link to="../components/Accueil">
-          <button type="button" className="play-btn" onClick={play}>
-            {" "}
-            Jouer{" "}
-          </button>
-        </Link>
       </div>
+      <Link to="../components/Accueil">
+        <button type="button" className="play-btn" onClick={play}>
+          {" "}
+          Jouer{" "}
+        </button>
+      </Link>
     </div>
   );
 }

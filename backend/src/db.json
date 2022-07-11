@@ -223,7 +223,7 @@
         "Abraham Lincoln"
       ],
       "réponse": "George Washington",
-      "anecdote": "George Washington est le premier président des États-Unis d'Amérique après la guerre d'Indépendance."
+      "anecdote": "Il a été le premier président des États-Unis d'Amérique après la guerre d'Indépendance."
     },
     {
       "id": 2,
@@ -242,7 +242,7 @@
         "Marilyn Manson"
       ],
       "réponse": "Bob Dylan",
-      "anecdote": "D'abord de tendance folk, Bob Dylan passa au rock en prenant une guitare électrique."
+      "anecdote": "D'abord de tendance folk, il passa au rock en prenant une guitare électrique."
     },
     {
       "id": 4,
@@ -266,7 +266,7 @@
         "Margaret Thatcher"
       ],
       "réponse": "Margaret Thatcher",
-      "anecdote": "Surnommée « la Dame de Fer », Margaret Thatcher était connue pour ses positions très tranchées."
+      "anecdote": "Surnommée « la Dame de Fer », elle était connue pour ses positions très tranchées."
     },
     {
       "id": 6,
@@ -278,7 +278,7 @@
         "Marcel Amont"
       ],
       "réponse": "Charles Trenet",
-      "anecdote": "Charles Trenet est l'auteur de près de mille chansons, succès populaires intemporels au-delà de la francophonie."
+      "anecdote": "Il est l'auteur de près de mille chansons, succès populaires intemporels au-delà de la francophonie."
     },
     {
       "id": 7,
@@ -290,7 +290,7 @@
         "Mikhaïl Gorbatchev"
       ],
       "réponse": "Mikhaïl Gorbatchev",
-      "anecdote": "Gorbatchev se fit l'apôtre de la transparence dans le domaine de la politique intérieure."
+      "anecdote": "Il se fit l'apôtre de la transparence dans le domaine de la politique intérieure."
     },
     {
       "id": 8,
@@ -302,7 +302,7 @@
         "Jacques Chirac"
       ],
       "réponse": "François Mitterrand",
-      "anecdote": "François Mitterrand fut le premier président de gauche de la Cinquième République."
+      "anecdote": "Il fut le premier président de gauche de la Cinquième République."
     },
     {
       "id": 9,
@@ -314,7 +314,7 @@
         "Simone Signoret"
       ],
       "réponse": "Catherine Deneuve",
-      "anecdote": "Catherine Deneuve a reçu un César pour son interprétation dans « Le Dernier métro »."
+      "anecdote": "Elle a reçu un César pour son interprétation dans « Le Dernier métro »."
     },
     {
       "id": 10,
@@ -326,7 +326,7 @@
         "Laurent Boyer"
       ],
       "réponse": "Philippe Bouvard",
-      "anecdote": "Philippe Bouvard a également été attaché de presse pour les disques Barclay et a animé « Le Petit théâtre de Bouvard »."
+      "anecdote": "Il a également été attaché de presse pour les disques Barclay et a animé « Le Petit théâtre de Bouvard »."
     },
     {
       "id": 11,
@@ -410,7 +410,7 @@
         "Ferdinand Foch"
       ],
       "réponse": "Philippe Pétain",
-      "anecdote": "Philippe Pétain, mort le 23 juillet 1951 à Port-Joinville, remporta de grands batailles lors de la guerre de 14."
+      "anecdote": "Mort le 23 juillet 1951 à Port-Joinville, remporta de grands batailles lors de la guerre de 14."
     },
     {
       "id": 18,
@@ -429,14 +429,14 @@
       "question": "Quel écrivain fut le protégé de Frédéric Ier de Prusse avec qui il se brouilla ultérieurement ?",
       "propositions": ["Condorcet", "Voltaire", "Diderot", "Lavoisier"],
       "réponse": "Voltaire",
-      "anecdote": "Voltaire occupe une place particulière dans la mémoire collective française et internationale."
+      "anecdote": "Il occupe une place particulière dans la mémoire collective française et internationale."
     },
     {
       "id": 20,
       "question": "Quel homme politique soviétique fut surnommé « le petit père des peuples » ?",
       "propositions": ["Sokolov", "Brejnev", "Staline", "Trotski"],
       "réponse": "Staline",
-      "anecdote": "Il prit le pseudonyme de Staline en référence au mot « Stal » qui signifie acier en russe."
+      "anecdote": "Il prit ce pseudonyme en référence au mot 'acier' en russe."
     },
     {
       "id": 21,
@@ -448,7 +448,7 @@
         "Marcel Renault"
       ],
       "réponse": "André Citroën",
-      "anecdote": "André Citroën mit au point, en 1934, la Traction avant qui surclassait nettement ses concurrentes."
+      "anecdote": "Il mit au point, en 1934, la Traction avant qui surclassait nettement ses concurrentes."
     },
     {
       "id": 22,
@@ -460,7 +460,7 @@
         "Franz Schubert"
       ],
       "réponse": "Giuseppe Verdi",
-      "anecdote": "Ardent patriote, Verdi se fit le champion des idées libérales qui conduisirent à l'indépendance et à l'Unité italiennes."
+      "anecdote": "Ardent patriote, il se fit le champion des idées libérales qui conduisirent à l'indépendance et à l'Unité italiennes."
     },
     {
       "id": 23,
@@ -484,7 +484,7 @@
         "Michel Canac"
       ],
       "réponse": "Jean-Claude Killy",
-      "anecdote": "Jean-Claude Killy assura d'importantes fonctions pour les Jeux Olympiques d'Albertville de 1992."
+      "anecdote": "Il assura d'importantes fonctions pour les Jeux Olympiques d'Albertville de 1992."
     },
     {
       "id": 25,
@@ -496,7 +496,7 @@
         "Jean Marais"
       ],
       "réponse": "Gérard Philipe",
-      "anecdote": "Gérard Philippe s'illustra entre autres dans « Le Diable au corps » et « La Beauté du diable »."
+      "anecdote": "Il s'illustra entre autres dans « Le Diable au corps » et « La Beauté du diable »."
     },
     {
       "id": 26,
@@ -508,7 +508,7 @@
         "Narcisse Chaillou"
       ],
       "réponse": "Jacques-Louis David",
-      "anecdote": "Sous Napoléon, Jacques-Louis David fut nommé « Premier Peintre du Régime »."
+      "anecdote": "Sous Napoléon, Il fut nommé « Premier Peintre du Régime »."
     },
     {
       "id": 27,
@@ -520,7 +520,7 @@
         "Jules Ferry"
       ],
       "réponse": "Léon Gambetta",
-      "anecdote": "Léon Gambetta fut l'une des personnalités politiques les plus importantes des premières années de la Troisième République."
+      "anecdote": "Il fut l'une des personnalités politiques les plus importantes des premières années de la Troisième République."
     },
     {
       "id": 28,
@@ -556,7 +556,7 @@
         "Jean Rochefort"
       ],
       "réponse": "Michel Galabru",
-      "anecdote": "C'est dans le film « Kamikaze » que Michel Galabru joue le rôle d'un ingénieur tueur."
+      "anecdote": "C'est dans le film « Kamikaze » qu'il joue le rôle d'un ingénieur tueur."
     }
   ],
 
@@ -630,14 +630,14 @@
         "Don Patillo"
       ],
       "réponse": "Don Camillo",
-      "anecdote": "Don Camillo est un personnage de fiction créé en 1948 par l'humoriste, journaliste et dessinateur Giovannino Guareschi."
+      "anecdote": "C'est un personnage de fiction créé en 1948 par l'humoriste, journaliste et dessinateur Giovannino Guareschi."
     },
     {
       "id": 9,
       "question": "Dans quel film Jean Dujardin a-t-il les cheveux longs et une planche à voile jaune ?",
       "propositions": ["Cash", "Brice de Nice", "99 francs", "OSS 117"],
       "réponse": "Brice de Nice",
-      "anecdote": "Apparu pour la première fois aux yeux du grand public dans un sketch télévisé, le personnage de Brice a spontanément plu."
+      "anecdote": "Apparu pour la première fois aux yeux du grand public dans un sketch télévisé, le personnage a spontanément plu."
     },
     {
       "id": 10,
@@ -663,7 +663,7 @@
       "question": "Qui incarne Jean-Claude Van Damme dans la comédie « JCVD » ?",
       "propositions": ["Son frère", "Lui-même", "Son fils", "Son père"],
       "réponse": "Lui-même",
-      "anecdote": "Les critiques louent le surprenant contre-emploi de Jean-Claude Van Damme qui y dévoile des réelles qualités d'acteur."
+      "anecdote": "Les critiques louent le surprenant contre-emploi de l'acteur qui y dévoile des réelles qualités d'acteur."
     },
     {
       "id": 13,
@@ -677,7 +677,7 @@
       "question": "Quel diplôme tentent de décrocher les élèves du film « Les Sous-doués » ?",
       "propositions": ["Brevet", "Baccalauréat", "Master", "BEP"],
       "réponse": "Baccalauréat",
-      "anecdote": "Après la sortie des « Sous-doués en vacances » en 1982, le film a été du coup rebaptisé « Les Sous-doués passent le bac »."
+      "anecdote": "Après la sortie des « Sous-doués en vacances » en 1982, le film a été du coup rebaptisé « Les Sous-doués passent ... ;) »."
     },
     {
       "id": 15,
@@ -715,7 +715,7 @@
       "question": "Dans quel quartier de Paris se déroulent les scènes principales de « La Vérité si je mens » ?",
       "propositions": ["Le Chemin", "Le Passage", "Le Marais", "Le Sentier"],
       "réponse": "Le Sentier",
-      "anecdote": "À l'origine, le scénario du film devait être issu du livre écrit par Michel Munz, « Rock Casher », roman sur les Séfarades du Sentier."
+      "anecdote": "À l'origine, le scénario du film devait être issu du livre écrit par Michel Munz, « Rock Casher », roman sur les Séfarades parisiens."
     },
     {
       "id": 19,
@@ -777,7 +777,7 @@
         "Martine Alaplage"
       ],
       "réponse": "Odile Deray",
-      "anecdote": "Le nom Odile Deray fait référence à Gilles de Rais, un ancien tueur en série français, en rapport avec le thème du film."
+      "anecdote": "Le nom fait référence à un ancien tueur en série français, en rapport avec le thème du film."
     },
     {
       "id": 25,
@@ -803,21 +803,21 @@
       "question": "Combien de comédies Pierre Richard et Gérard Depardieu ont-ils joué ensemble ?",
       "propositions": ["Cinq", "Trois", "Quatre", "Six"],
       "réponse": "Trois",
-      "anecdote": "C'est ainsi que Pierre Richard interprétera François Perrin dans « La Chèvre » et François Pignon dans « Les Compères » et « Les Fugitifs »."
+      "anecdote": "C'est ainsi que Pierre Richard interprétera François Perrin dans tous ces films."
     },
     {
       "id": 28,
       "question": "Quel est le nom de famille de Didier, Pascal et Bernard, les « Trois Frères » ?",
       "propositions": ["Karamazov", "Latour", "Bogdanov", "Ledonjon"],
       "réponse": "Latour",
-      "anecdote": "Au début du film, la personne que reçoit Pascal Latour en entretien d'embauche n'est autre que Théo Légitimus, le père de Pascal."
+      "anecdote": "Au début du film, la personne que reçoit l'un d'eux en entretien d'embauche n'est autre que Théo Légitimus, le père de Pascal."
     },
     {
       "id": 29,
       "question": "Qui incarne la maîtresse névrosée de Thierry Lhermitte dans « Le Dîner de cons » ?",
       "propositions": ["A. Vandernoot", "A. Jaoui", "C. Frot", "J. Balasko"],
       "réponse": "A. Vandernoot",
-      "anecdote": "Alexandra Vandernoot est surtout connue internationalement pour son rôle de la fiancée de Duncan MacLeod, dans la série « Highlander »."
+      "anecdote": "Elle est surtout connue internationalement pour son rôle de la fiancée de Duncan MacLeod, dans la série « Highlander »."
     },
     {
       "id": 30,
@@ -863,14 +863,14 @@
         "Sheila"
       ],
       "réponse": "Sheila",
-      "anecdote": "Figurant sur le deuxième 45T EP de Sheila, « L'école est finie » est son premier véritable tube, et l'un des grands succès de 1963."
+      "anecdote": "Figurant sur le deuxième 45T EP, « L'école est finie » est son premier véritable tube, et l'un des grands succès de 1963."
     },
     {
       "id": 4,
       "question": "Quel pays a créé en 1918 une armée appelée Armée rouge ?",
       "propositions": ["U.R.S.S.", "RDA", "Chine", "Cambodge"],
       "réponse": "U.R.S.S.",
-      "anecdote": "Cette armée fut mise sur pied dans l'ancien Empire russe par le nouveau pouvoir bolchevik, à la suite de la révolution d'Octobre."
+      "anecdote": "Cette armée fut mise sur pied par le nouveau pouvoir en place, à la suite de la révolution d'Octobre."
     },
     {
       "id": 5,
@@ -889,14 +889,14 @@
       "question": "Avec quelle céréale prépare-t-on le pop-corn que l'on peut acheter au cinéma ?",
       "propositions": ["Maïs", "Orge", "Blé", "Riz"],
       "réponse": "Maïs",
-      "anecdote": "Le pop-corn (maïs soufflé ou maïs éclaté) est une céréale soufflée produit par un chauffage fort de grains de maïs."
+      "anecdote": "Le pop-corn est une céréale soufflée produit par un chauffage fort des grains."
     },
     {
       "id": 7,
       "question": "Vu du ciel, lequel de ces monuments offre un aspect circulaire ?",
       "propositions": ["Angkor Vat", "Taj Mahal", "Cité interdite", "Colisée"],
       "réponse": "Colisée",
-      "anecdote": "Sa construction à l'est du Forum Romain a commencé en 70 ap. J.-C., sous l'empereur Vespasien, et s'est achevée en 80 sous Titus."
+      "anecdote": "c'est le monument le plus 'neuf' encore debout d'entre eux."
     },
     {
       "id": 8,
@@ -915,7 +915,7 @@
         "Gilet de sécurité"
       ],
       "réponse": "Gilet de sécurité",
-      "anecdote": "L'obligation faite aux conducteurs de véhicules de porter cet équipement ne remonte en Europe qu'au début des années 2000."
+      "anecdote": "L'obligation faite aux conducteurs de véhicules de posséder cet équipement ne remonte en Europe qu'au début des années 2000."
     },
     {
       "id": 10,
@@ -929,7 +929,7 @@
       "question": "Dans un oeuf, quelle partie fera des bulles une fois arrosée de vinaigre ?",
       "propositions": ["Blanc et le jaune", "Jaune", "Blanc", "Coquille"],
       "réponse": "Coquille",
-      "anecdote": "Sécrétée par la glande coquillière de l'oviducte, elle est composée de carbonates et de phosphates de calcium et de magnésium."
+      "anecdote": "Elle est composée de carbonates et de phosphates de calcium et de magnésium."
     },
     {
       "id": 12,
@@ -955,7 +955,7 @@
         "Goutte à goutte"
       ],
       "réponse": "Week-end",
-      "anecdote": "Le week-end ou fin de semaine est une période hebdomadaire d'un ou deux jours, généralement le samedi et le dimanche."
+      "anecdote": "La fondation de l'Académie française fut fondée par Richelieu en 1635."
     },
     {
       "id": 15,
@@ -967,7 +967,7 @@
         "Britney Spears"
       ],
       "réponse": "Britney Spears",
-      "anecdote": "Britney Spears a eu deux garçons : Sean Preston Spears-Federline (né en 2005) et Jayden James Spears-Federline (né en 2006)."
+      "anecdote": "Elle a eu deux garçons : Sean Preston (né en 2005) et Jayden James (né en 2006)."
     },
     {
       "id": 16,
@@ -993,7 +993,7 @@
         "Jean-Paul Gaultier"
       ],
       "réponse": "Alexander McQueen",
-      "anecdote": "En raison du côté parfois provocateur de certaines de ses collections, Alexander McQueen est souvent surnommé l'Enfant terrible."
+      "anecdote": "En raison du côté parfois provocateur de certaines de ses collections, il est souvent surnommé l'Enfant terrible."
     },
     {
       "id": 19,
@@ -1017,7 +1017,7 @@
         "Philippe Lafeuille"
       ],
       "réponse": "Kamel Ouali",
-      "anecdote": "C'est le chorégraphe français Kamel Ouali qui a coordonné le « Disney Talents » des jeunes talents à Paris, dont il a été le directeur."
+      "anecdote": "C'est lui qui a coordonné le « Disney Talents » des jeunes talents à Paris, dont il a été le directeur."
     },
     {
       "id": 21,
@@ -1048,7 +1048,7 @@
       "question": "Dans quelle préparation un oeuf est-il cuit dans sa coquille ?",
       "propositions": ["Poché", "En cocotte", "Mollet", "Au miroir"],
       "réponse": "Mollet",
-      "anecdote": "L'oeuf mollet est un oeuf cuit à l'eau bouillante dans sa coquille, plus longtemps qu'un oeuf à la coque et moins longtemps qu'un oeuf dur."
+      "anecdote": "c'est un oeuf cuit à l'eau bouillante dans sa coquille, plus longtemps qu'un oeuf à la coque et moins longtemps qu'un oeuf dur."
     },
     {
       "id": 24,
@@ -1067,7 +1067,7 @@
       "question": "Laquelle de ces propositions désigne un gaz presque inerte et sans couleur ?",
       "propositions": ["Radium", "Néon", "Magnésium", "Manganèse"],
       "réponse": "Néon",
-      "anecdote": "Le néon est un gaz noble qui donne une lueur rougeâtre distinctive lorsqu'il est utilisé dans les tubes à vide et les lampes néon."
+      "anecdote": "C'est un gaz noble qui donne une lueur rougeâtre distinctive lorsqu'il est utilisé dans les tubes à vide et les lampes."
     },
     {
       "id": 26,
@@ -1079,7 +1079,7 @@
         "Nouvelle Zélande"
       ],
       "réponse": "Nouvelle Zélande",
-      "anecdote": "Très isolée géographiquement, la Nouvelle-Zélande est située à 2000 km de l'Australie, dont elle est séparée par la mer de Tasman."
+      "anecdote": "Très isolée géographiquement, elle est située à 2000 km de l'Australie, dont elle est séparée par la mer de Tasman."
     },
     {
       "id": 27,
@@ -1100,7 +1100,7 @@
       "question": "Lequel de ces adjectifs de couleur est invariable, ne prenant pas de s au pluriel ?",
       "propositions": ["Beige", "Vert", "Violet", "Ocre"],
       "réponse": "Ocre",
-      "anecdote": "Les ocres rouges naturelles peuvent être extraites à l'état naturel ou produites artificiellement par calcination de l'ocre jaune."
+      "anecdote": "Le rose Baker-Miller est jugé comme la couleur la plus apaisante du monde."
     },
     {
       "id": 30,
@@ -1148,7 +1148,7 @@
       "question": "Quel nom porte la version « soft » du baseball aux États-Unis, aussi appelé « balle-molle » ?",
       "propositions": ["Softball", "Netball", "Handball", "Korfball"],
       "réponse": "Softball",
-      "anecdote": "Tout comme le baseball, le softball est pratiqué par les deux sexes de façon amateur ou compétitive."
+      "anecdote": "Tout comme le baseball, il est pratiqué par les deux sexes de façon amateur ou compétitive."
     },
     {
       "id": 5,
@@ -1178,10 +1178,10 @@
     },
     {
       "id": 8,
-      "question": "Dans quel sport Johan Cruijff, dit le « Chevalier Blanc », est-il connu ?",
+      "question": "Dans quel sport Johan Cruiyff, dit le « Chevalier Blanc », est-il connu ?",
       "propositions": ["Le tennis", "Le golf", "Le football", "La boxe"],
       "réponse": "Le football",
-      "anecdote": "Premier joueur de football à remporter trois fois le Ballon d'or, il est considéré comme l'un des meilleurs joueurs de l'Histoire."
+      "anecdote": "Il a raté une une compétition en 1978 car il s'était fait enlever."
     },
     {
       "id": 9,
@@ -1195,7 +1195,7 @@
       "question": "Entré aux Jeux olympiques, quel est le sport collectif aquatique « par excellence » ?",
       "propositions": ["Water-polo", "Roller derby", "Fistball", "Ultimate"],
       "réponse": "Water-polo",
-      "anecdote": "Le water-polo masculin existe depuis 1870 alors que le water-polo féminin n'est apparu qu'au début du XXe siècle."
+      "anecdote": "La version masculine existe depuis 1870 alors que la version féminine n'est apparu qu'au début du XXe siècle."
     },
     {
       "id": 11,
@@ -1250,7 +1250,7 @@
         "Pays de Galles"
       ],
       "réponse": "Nouvelle-Zélande",
-      "anecdote": "Le rugby à XV est le sport le plus populaire de Nouvelle-Zélande et attire principalement les meilleurs sportifs du pays."
+      "anecdote": "Le rugby à XV est le sport le plus populaire du pays et attire principalement les meilleurs sportifs du pays."
     },
     {
       "id": 16,
@@ -1264,7 +1264,7 @@
       "question": "Dans quel sport frappe-t-on un palet avec une crosse de 135 cm ?",
       "propositions": ["Baseball", "Cricket", "Croquet", "Hockey sur glace"],
       "réponse": "Hockey sur glace",
-      "anecdote": "Sport de vitesse, le hockey sur glace est souvent qualifié de « sport collectif le plus rapide du monde »."
+      "anecdote": "Sport de vitesse, il est souvent qualifié de « sport collectif le plus rapide du monde »."
     },
     {
       "id": 18,
@@ -1276,14 +1276,14 @@
         "Diego Maradona"
       ],
       "réponse": "Diego Maradona",
-      "anecdote": "En 1986, Maradona était capitaine d'une équipe d'Argentine qui voulait à tout prix venger la déroute de 1982."
+      "anecdote": "Il obtint le surnom de 'la main de Dieu' suite à cet événement."
     },
     {
       "id": 19,
       "question": "Quel sport américain dérivé des mêmes racines que le cricket se pratique en neuf manches ?",
       "propositions": ["Football américain", "Baseball", "Basket-ball", "Golf"],
       "réponse": "Baseball",
-      "anecdote": "Au baseball, les gants de réception de la balle que portent les joueurs de défense varient selon le poste occupé."
+      "anecdote": "Les gants de réception de la balle que portent les joueurs de défense varient selon le poste occupé."
     },
     {
       "id": 20,
@@ -1297,7 +1297,7 @@
       "question": "Quel sport d'équipe se pratique en patin à roulettes sur une piste de forme ovale ?",
       "propositions": ["Roller derby", "Fistball", "Ultimate", "Water-polo"],
       "réponse": "Roller derby",
-      "anecdote": "En 2013, on comptait plus de 1 250 ligues de roller derby autour du monde, principalement dans les pays anglophones."
+      "anecdote": "En 2013, on comptait plus de 1 250 ligues autour du monde, principalement dans les pays anglophones."
     },
     {
       "id": 22,
@@ -1356,7 +1356,7 @@
       "question": "Combien de joueurs figurent dans une équipe de moto-ball ?",
       "propositions": ["Cinq", "Trois", "Sept", "Neuf"],
       "réponse": "Cinq",
-      "anecdote": "Chaque formation de moto-ball est composée de quatre joueurs plus un gardien qui n'est pas à moto."
+      "anecdote": "Seul le gardien n'est pas à moto."
     },
     {
       "id": 29,
@@ -1370,7 +1370,7 @@
       "question": "Quel sport collectif utilise un disque opposant deux équipes de sept joueurs ?",
       "propositions": ["Water-polo", "Ultimate", "Fistball", "Roller derby"],
       "réponse": "Ultimate",
-      "anecdote": "L'ultimate se pratique dans sa version la plus courante sur terrain en herbe à l'extérieur (7 contre 7)."
+      "anecdote": "Il se pratique dans sa version la plus courante sur terrain en herbe à l'extérieur (7 contre 7)."
     }
   ],
 
@@ -1380,21 +1380,21 @@
       "question": "À quelle ville de France l'andouillette, le saucisson et Guignol vous font-ils penser ?",
       "propositions": ["Marseille", "Cannes", "Nice", "Lyon"],
       "réponse": "Lyon",
-      "anecdote": "Lyon est en situation de carrefour géographique, au nord du couloir naturel de la vallée du Rhône."
+      "anecdote": "Cette ville est en situation de carrefour géographique, au nord du couloir naturel de la vallée du Rhône."
     },
     {
       "id": 2,
       "question": "Quelle ville, capitale de la Grèce, comprend notamment le port du Pirée ?",
       "propositions": ["Athènes", "Héraklion", "Larissa", "Patras"],
       "réponse": "Athènes",
-      "anecdote": "Athènes est l'une des plus anciennes villes au monde, avec une présence humaine attestée dès le Néolithique."
+      "anecdote": "Elle est l'une des plus anciennes villes au monde, avec une présence humaine attestée dès le Néolithique."
     },
     {
       "id": 3,
       "question": "De quelle ville du Sud-Ouest de la France proviennent de célèbres pruneaux AOC ?",
       "propositions": ["Marmande", "Agen", "Nérac", "Tonneins"],
       "réponse": "Agen",
-      "anecdote": "Le nom d'Agen est associé au pruneau, dont la zone de production principale est essentiellement située en Lot-et-Garonne."
+      "anecdote": "Le nom de la ville est associé au pruneau, dont la zone de production principale est essentiellement située en Lot-et-Garonne."
     },
     {
       "id": 4,
@@ -1413,7 +1413,7 @@
         "La Havane"
       ],
       "réponse": "La Havane",
-      "anecdote": "L'emplacement actuel de la ville de La Havane se situe sur la côte nord de l'île de Cuba et dans la partie ouest de celle-ci."
+      "anecdote": "L'emplacement actuel de la ville se situe sur la côte nord de l'île de Cuba et dans la partie ouest de celle-ci."
     },
     {
       "id": 6,
@@ -1427,21 +1427,21 @@
       "question": "À quelle grande ville d'Afrique l'explorateur Savorgnan de Brazza a-t-il donné son nom ?",
       "propositions": ["Libreville", "Nairobi", "Kinshasa", "Brazzaville"],
       "réponse": "Brazzaville",
-      "anecdote": "La ville de Brazzaville a été fondée le 3 octobre 1880 à l'emplacement des anciens bourgs précoloniaux de Nkuna."
+      "anecdote": "La ville a été fondée le 3 octobre 1880 à l'emplacement des anciens bourgs précoloniaux de Nkuna."
     },
     {
       "id": 8,
       "question": "Quelle capitale est également le centre politique et culturel de la Chine ?",
       "propositions": ["Hong Kong", "Shanghai", "Tokyo", "Pékin"],
       "réponse": "Pékin",
-      "anecdote": "Située à proximité de la Grande Muraille, Pékin abrite des monuments célèbres comme la Cité interdite et le Temple du ciel."
+      "anecdote": "Située à proximité de la Grande Muraille, elle abrite des monuments célèbres comme la Cité interdite et le Temple du ciel."
     },
     {
       "id": 9,
       "question": "Laquelle de ces quatre villes espagnoles ne possède pas un port de renom ?",
       "propositions": ["Barcelone", "Valence", "Madrid", "Malaga"],
       "réponse": "Madrid",
-      "anecdote": "Située en plein coeur du royaume d'Espagne, Madrid est la capitale mais aussi la ville la plus peuplée de la Communauté de Madrid."
+      "anecdote": "Située en plein coeur du royaume d'Espagne, elle aussi la ville la plus peuplée de la Communauté."
     },
     {
       "id": 10,
@@ -1455,7 +1455,7 @@
       "question": "Quelle est la capitale ainsi que la plus grande ville du territoire égyptien ?",
       "propositions": ["Le Caire", "Alexandrie", "Suez", "Louxor"],
       "réponse": "Le Caire",
-      "anecdote": "Avec ses seize millions d'habitants, Le Caire est la plus grande ville du Moyen-Orient et la seconde ville d'Afrique derrière Lagos."
+      "anecdote": "Avec ses seize millions d'habitants, elle est la plus grande ville du Moyen-Orient et la seconde ville d'Afrique derrière Lagos."
     },
     {
       "id": 12,
@@ -1474,35 +1474,35 @@
         "Brazzaville"
       ],
       "réponse": "Rio de Janeiro",
-      "anecdote": "Le Christ Rédempteur est une immense statue du Christ dominant la ville de Rio de Janeiro, surplombant le mont du Corcovado."
+      "anecdote": "Le Christ Rédempteur est une immense statue du Christ surplombant le mont du Corcovado."
     },
     {
       "id": 14,
       "question": "Quelle capitale administrative des Pays-Bas est le siège de nombreuses institutions ?",
       "propositions": ["Amsterdam", "La Haye", "Rotterdam", "Utrecht"],
       "réponse": "La Haye",
-      "anecdote": "La Haye est également la ville où siègent la Cour internationale de justice, la Cour pénale internationale, Europol et Eurojust."
+      "anecdote": "Elle est également la ville où siègent la Cour internationale de justice, la Cour pénale internationale, Europol et Eurojust."
     },
     {
       "id": 15,
       "question": "Combien y a-t-il de communes à Paris situées sur une boucle de la Seine ?",
       "propositions": ["22", "13", "Une seule", "9"],
       "réponse": "Une seule",
-      "anecdote": "D'après le recensement de l'Insee, la commune de Paris comptait au 1er janvier 2012 plus de deux millions d'habitants."
+      "anecdote": "En 1867, Léon Gambetta quitte le siège de Paris en ballon pour rejoindre Tours mais fini finalement à Amiens."
     },
     {
       "id": 16,
       "question": "Tripoli est une ville du Liban mais se trouve être aussi la capitale de quel pays ?",
       "propositions": ["Soudan", "Tunisie", "Maroc", "Libye"],
       "réponse": "Libye",
-      "anecdote": "Tripoli est la plus grande ville, le principal port et le plus grand centre industriel, commercial et touristique de Libye."
+      "anecdote": "Le nom de la cité proviendrait du grec Tripolis. Elle aurait été nommée ainsi du fait de sa séparation en trois parties par les commerçants venant de Tyr, Sidon et Aradis."
     },
     {
       "id": 17,
       "question": "Quelle ville est aussi importante pour l'Afrique que pour le monde arabe ?",
       "propositions": ["Le Caire", "Suez", "Assouan", "Alexandrie"],
       "réponse": "Le Caire",
-      "anecdote": "Centre névralgique de la ville moderne, la place Tahrir est devenue pour la planète l'emblème de la révolution égyptienne de 2011."
+      "anecdote": "Centre névralgique de la ville moderne, la place Tahrir est devenue pour la planète l'emblème de la révolution de 2011."
     },
     {
       "id": 18,
@@ -1516,14 +1516,14 @@
       "question": "Dans quelle ville recense-t-on à ce jour le plus grand nombre de taxis au monde ?",
       "propositions": ["Tokyo", "New York", "Brasilia", "Londres"],
       "réponse": "New York",
-      "anecdote": "Les célèbres taxis jaunes sont exploités par des sociétés privées, agréées par la Commission de Taxi et Limousine de New York."
+      "anecdote": "Ces taxis sont exploités par des sociétés privées, agréées par la Commission de Taxi et Limousine."
     },
     {
       "id": 20,
       "question": "Quelle capitale du Népal était une étape bien connue de la communauté hippies ?",
       "propositions": ["Katmandou", "Pokhara", "Dharan", "Lalitpur"],
       "réponse": "Katmandou",
-      "anecdote": "Katmandou ne possède pas de réseau souterrain de canalisations et dispose dès lors d'une alimentation en eau insuffisante."
+      "anecdote": "Elle ne possède pas de réseau souterrain de canalisations et dispose dès lors d'une alimentation en eau insuffisante."
     },
     {
       "id": 21,
@@ -1563,7 +1563,7 @@
       "question": "Comment appelle-t-on le quartier arabe ou la médina d'Alger ?",
       "propositions": ["Casbah", "Torah", "Bled", "Souk"],
       "réponse": "Casbah",
-      "anecdote": "L'histoire de la Casbah d'Alger remonte à l'Antiquité, où elle fut d'abord un port punique, puis berbère et enfin romain."
+      "anecdote": "Son histoire remonte à l'Antiquité, où elle fut d'abord un port punique, puis berbère et enfin romain."
     },
     {
       "id": 26,
@@ -1584,7 +1584,7 @@
       "question": "Quelle capitale du Liberia est située au bord de l'océan Atlantique ?",
       "propositions": ["Grand Bassa", "Nimba", "Monrovia", "Lofa"],
       "réponse": "Monrovia",
-      "anecdote": "Monrovia joue un grand rôle dans l'économie du pays en y assurant l'essentiel des exportations de minerai de fer."
+      "anecdote": "Elle joue un grand rôle dans l'économie du pays en y assurant l'essentiel des exportations de minerai de fer."
     },
     {
       "id": 29,
@@ -1599,6 +1599,328 @@
       "propositions": ["Tsing Ma", "Cross-Harbour", "Octopus", "Peak Tram"],
       "réponse": "Peak Tram",
       "anecdote": "Le funiculaire est le moyen de transport qui offre aux touristes une des plus belles vues sur le port et les gratte-ciels de Hong Kong."
+    }
+  ],
+  "N'importe quoi": [
+    {
+      "id": 1,
+      "question": "Quelle couleur de Power Rangers n'existe pas ?",
+      "propositions": ["Jaune devant", "Marron derrière", "Vert", "Gris"],
+      "réponse": "Gris",
+      "anecdote": "Savais-tu que le Power Rangers jaune était un homme puis, est devenu une femme ?"
+    },
+    {
+      "id": 2,
+      "question": "Quelle mer communique avec l'Atlantique par le détroit de Gibraltar ?",
+      "propositions": [
+        "La mère Michelle",
+        "La Mer noire",
+        "Bruno Lemaire",
+        "Le Mer-credi"
+      ],
+      "réponse": "La Mer noire",
+      "anecdote": "Oh oui oui oui !!"
+    },
+    {
+      "id": 3,
+      "question": "Dois-je dire à mes parents que je suis adopté(e) ?",
+      "propositions": [
+        "Oui bien sûr",
+        "Non cela leur fera de la peine",
+        "Mon père le sait mais pas ma mère",
+        "La réponse D"
+      ],
+      "réponse": "Mon père le sait mais pas ma mère",
+      "anecdote": "WTF man !"
+    },
+    {
+      "id": 4,
+      "question": "Dans Titanic, quel est le nom du bateau ?",
+      "propositions": [
+        "Titanic",
+        "Le Titanique",
+        "Tati Monique",
+        "On sait pas... il a coulé"
+      ],
+      "réponse": "Titanic",
+      "anecdote": "Il est pas un peu gros ce glaçon Capitaine ?"
+    },
+    {
+      "id": 5,
+      "question": "Si je suis en France et que je tire sur quelqu'un en Belgique où le crime a t-il lieu ?",
+      "propositions": [
+        "En France",
+        "En Belgique",
+        "Derrick est trop mort pour nous aider",
+        "Les deux"
+      ],
+      "réponse": "En Belgique",
+      "anecdote": "Rantanplan est sur la piste !"
+    },
+    {
+      "id": 6,
+      "question": "Si je suis assis, suis-je debout ? ?",
+      "propositions": ["Oui", "Tu es loin", "Tu me manques", "Tu es assis"],
+      "réponse": "Tu es assis",
+      "anecdote": "Bah oui Marina !"
+    },
+    {
+      "id": 7,
+      "question": "Trois médecins affirment que Robert est leur frère. Robert affirme qu'il n'a pas de frères. Qui ment ?",
+      "propositions": [
+        "Robert",
+        "Medecin 1",
+        "Medecin 2",
+        "Aucun, les trois docteurs sont ses soeurs"
+      ],
+      "réponse": "Aucun, les trois docteurs sont ses soeurs",
+      "anecdote": "Ah ouais d'accord"
+    },
+    {
+      "id": 8,
+      "question": "Tu as trois bâtons, comment les transformer en 4 sans les casser ?",
+      "propositions": [
+        "Tu peux pas",
+        "Laisse moi reflechir !",
+        "IV",
+        "Tu me prends la tête !"
+      ],
+      "réponse": "IV",
+      "anecdote": "Il était là depuis le début !"
+    },
+    {
+      "id": 9,
+      "question": "Quel bruit fait une boite à meuh ?",
+      "propositions": ["Meh", "Meuh", "Meuuuuuuh", "Moow"],
+      "réponse": "Meuh",
+      "anecdote": "Oh la vache !"
+    },
+    {
+      "id": 10,
+      "question": "Si Rocky Balboa fait du bilboquet avec un boa à Bilbao, que fait Rocky Balboa avec un boa à Bilbao ?",
+      "propositions": [
+        "Du tourisme sexuel",
+        "Du bilboquet",
+        "Il est parti chercher des clopes",
+        "On sait pas"
+      ],
+      "réponse": "Du bilboquet",
+      "anecdote": "Mais oui c'est clair !"
+    },
+    {
+      "id": 11,
+      "question": "Quel acteur et homme politique américain a joué le héros dans son premier film au cinéma : Hercules à New York ? ?",
+      "propositions": [
+        "Charles Dickens",
+        "Arnold Schwarzenegger",
+        "Michou",
+        "Staline"
+      ],
+      "réponse": "Arnold Schwarzenegger",
+      "anecdote": "Aucun d'eux n'est américain mais fais genre !"
+    },
+    {
+      "id": 12,
+      "question": "Comment appelait-on Jésus à la récré ?",
+      "propositions": [
+        "Jésus de Nazareth",
+        "Jésus t'es naze arrête",
+        "Amen ta fraise",
+        "Comment veux-tu que je le sache, j'étais en 6ème"
+      ],
+      "réponse": "Comment veux-tu que je le sache, j'étais en 6ème",
+      "anecdote": "Jésus II le retour"
+    },
+    {
+      "id": 13,
+      "question": "Quand on chante en anglais yaourt, de quel yaourt s'agit-il  ?",
+      "propositions": [
+        "Blanc nature",
+        "Stracciatella",
+        "Aux fruits mais pas à la banane",
+        "Du Yop"
+      ],
+      "réponse": "Aux fruits mais pas à la banane",
+      "anecdote": "Au bon lait de nos éleveurs !"
+    },
+    {
+      "id": 14,
+      "question": "Laquelle de ces villes n'existe pas ?",
+      "propositions": ["Montcul", "Mabite", "Messein", "Monanus"],
+      "réponse": "Monanus",
+      "anecdote": "C'est arrivé près de chez vous"
+    },
+    {
+      "id": 15,
+      "question": "En France, pour devenir policier, il faut ?",
+      "propositions": [
+        "Avoir au moins un diplôme",
+        "Savoir servir le pastis",
+        "Mesurer plus d'1m68",
+        "Avoir vu tous les films d'Alain Delon"
+      ],
+      "réponse": "Mesurer plus d'1m68",
+      "anecdote": "Woop woop !"
+    },
+    {
+      "id": 16,
+      "question": "Qu'est-ce que la zone 51 ?",
+      "propositions": [
+        "Là où l'on boit du pastis",
+        "La seule zone où il y a 51 feux rouges",
+        "Une base militaire ultra-secrète créée en 1951",
+        "Une association d'anciens alcooliques"
+      ],
+      "réponse": "Une base militaire ultra-secrète créée en 1951",
+      "anecdote": "Il est rond comme un ballon"
+    },
+    {
+      "id": 17,
+      "question": "Quel est le nom du super-héros aveugle ?",
+      "propositions": [
+        "Super Gilbert Montagné",
+        "Andrea 'captain' Bocelli",
+        "Dardevil",
+        "Je l'ai jamais vu..."
+      ],
+      "réponse": "Dardevil",
+      "anecdote": "Mais oui, c'est clair !"
+    },
+    {
+      "id": 18,
+      "question": "Quelle est la particularité des autruches ?",
+      "propositions": [
+        "Elles ont que 2 doigts ",
+        "Ce sont les oiseaux terrestres les plus rapides",
+        "Ce sont les oiseaux les plus gros",
+        "Les 3"
+      ],
+      "réponse": "Les 3",
+      "anecdote": "Il y a un piège ... enfin peut-être... tu verras"
+    },
+    {
+      "id": 19,
+      "question": "Quelle expression du Québec ne veut pas dire 'pénis' ?",
+      "propositions": ["La graine", "La bizoune", "La bibite", "La kékette"],
+      "réponse": "La bibite",
+      "anecdote": "Tape dans l'fond chui' pas ta mère !"
+    },
+    {
+      "id": 20,
+      "question": "Lapeyre, y'en a combien à 2 près ?",
+      "propositions": ["1", "Je sais pas ils bougent trop", "0", "27 387 634"],
+      "réponse": "0",
+      "anecdote": "Y'en as pas 2"
+    },
+    {
+      "id": 21,
+      "question": "Combien vaut un homme averti ?",
+      "propositions": [
+        "1",
+        "2",
+        "On ne jugue jamais la valeur d'un homme",
+        "Ca dépend de la température"
+      ],
+      "réponse": "2",
+      "anecdote": "En fais-tu parti ?"
+    },
+    {
+      "id": 22,
+      "question": "Combien font 3+8(2x4)-0 ?",
+      "propositions": ["0", "11", "6.5", "J'ai mal au crâne"],
+      "réponse": "11",
+      "anecdote": "Tricheur, tu utilises une calculette, je te vois !"
+    },
+    {
+      "id": 23,
+      "question": "Si je suis tombé par terre, à qui est-ce la faute ?",
+      "propositions": ["MA mère", "TA mère", "Noël Mamère", "Voltaire"],
+      "réponse": "Voltaire",
+      "anecdote": "Qu'il est méchant !"
+    },
+    {
+      "id": 24,
+      "question": "Quel parc de Corée du Sud existe vraiment ?",
+      "propositions": [
+        "Love land, où des statues font l'amour",
+        "Smoke land, où des statues se droguent",
+        "Handi land, où des statues ont toutes un handicap",
+        "Jack land, où des statues font la fête de la musique"
+      ],
+      "réponse": "Love land, où des statues font l'amour",
+      "anecdote": "Que la partie commence !"
+    },
+    {
+      "id": 25,
+      "question": "D'apres Dewey, qui crève ?",
+      "propositions": [
+        "Des Playmobil",
+        "Des fourmis",
+        "Des Légo",
+        "Des petits soldats"
+      ],
+      "réponse": "Des Playmobil",
+      "anecdote": "Toi tu vis, toi tu vis, toi tu crèves !"
+    },
+    {
+      "id": 26,
+      "question": "Lequel de ces clubs de football n'existe pas ?",
+      "propositions": [
+        "L'ASC Jeanne d'Arc de Dakar, aussi appelé la vieille dame",
+        "Le batman Petrolspor, de 3ème division en Turquie",
+        "Le SC Foune, un club canadien de soccer",
+        "L'Athlético Lanus, un club Argentin bien connu pour avoir vu naître Diego Maradona"
+      ],
+      "réponse": "Le SC Foune, un club canadien de soccer",
+      "anecdote": "Aux chiottes l'arbitre !"
+    },
+    {
+      "id": 27,
+      "question": "Si je veux rejoindre le soleil en avion, combien de jours de vacances me faudrait-il ?",
+      "propositions": [
+        "1 mois, je serai là à la rentrée",
+        "6 mois, il me faut un remplaçant ...",
+        "5 ans, vaut mieux démissioner",
+        "17 ans... bon ok j'irai en Vendée comme d'hab'"
+      ],
+      "réponse": "1 mois, je serai là à la rentrée",
+      "anecdote": "Chéri t'as pensé à la crème solaire du petit ?"
+    },
+    {
+      "id": 28,
+      "question": "Qu'est-ce que la bitrochosophobie ?",
+      "propositions": [
+        "Un mot inventé",
+        "La phobie des cacahuètes non salées",
+        "La phobie des dinosaures",
+        "La phobie de se casser les 2 fémurs"
+      ],
+      "réponse": "La phobie de se casser les 2 fémurs",
+      "anecdote": "La quoi !?"
+    },
+    {
+      "id": 29,
+      "question": "Qui a défini la Congolexicomatisation des lois du marché ?",
+      "propositions": [
+        "Chirac après un verre de trop",
+        "Eddy Malou en rolleeeer",
+        "VALD dans nqntmqmqmb",
+        "Guido Imbens, prix Nobel 2021"
+      ],
+      "réponse": "Eddy Malou en rolleeeer",
+      "anecdote": "Mais oui, c'est clair !"
+    },
+    {
+      "id": 30,
+      "question": "Avec quel bolide, Etienne le bolideur peut-il vous satéliser ?",
+      "propositions": [
+        "Véga Myssil",
+        "Digin' Uranus",
+        "Milkyway runner",
+        "Saturne rocket"
+      ],
+      "réponse": "Véga Myssil",
+      "anecdote": "Ca ne laisse pas indifférent !"
     }
   ]
 }

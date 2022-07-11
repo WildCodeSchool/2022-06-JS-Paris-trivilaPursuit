@@ -46,7 +46,7 @@ export default function Categories() {
         <Link to={`/Game/${categories[random(0, categories.length - 1)]}`}>
           <button type="button" className="btnCatsAleatoire">
             {" "}
-            Questionnaire aléatoire
+            Catégorie aléatoire
           </button>
         </Link>
       </div>

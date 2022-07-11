@@ -5,6 +5,7 @@ import CurrentContext from "@pages/CurrentContext";
 import PictureContext from "@pages/PictureContext";
 import Categories from "@components/Categories";
 import Accueil from "@components/Accueil";
+import Aleatoire from "@components/Aleatoire";
 import Game from "./components/Game";
 import Home from "./pages/Home";
 import "./styles/header.css";
@@ -45,6 +46,7 @@ function App() {
               <Route path="/components/Accueil" element={<Accueil />} />
               <Route path="/game/:categoryId" element={<Game />} />
               <Route path="/categories" element={<Categories />} />
+              <Route path="/aleatoire" element={<Aleatoire />} />
             </Routes>
           </UserContext.Provider>
         </CurrentContext.Provider>

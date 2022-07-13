@@ -23,7 +23,7 @@ function Home() {
         <form>
           <br />
           <label htmlFor="name">
-            <h2>Entrez un pseudo</h2>
+            <h2 className="title-bloc">Entrez un pseudo</h2>
             <br />
             <input
               id="name"

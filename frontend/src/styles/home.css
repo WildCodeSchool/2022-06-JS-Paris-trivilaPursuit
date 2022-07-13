@@ -9,12 +9,16 @@
   background-image: url("src/assets/bg-emmental.jpg");
 }
 
+.title-bloc {
+  margin-bottom: 2vh;
+}
+
 .div-play-btn {
   text-align: center;
 }
 
 .play-btn {
-  margin-top: 4vh;
+  margin-top: 3vh;
   border-radius: 100%;
   width: 150px;
   height: 70px;
@@ -33,7 +37,7 @@
 
 .btn-img-avatar {
   border-radius: 50px;
-  margin-bottom: 4vh;
+  margin-bottom: 1.5vh;
 }
 
 .img-avatar {
@@ -47,7 +51,7 @@ button {
 
 h2 {
   font-size: 35px;
-  margin-top: 2vh;
+  margin-top: 1.5vh;
 }
 
 ::placeholder {

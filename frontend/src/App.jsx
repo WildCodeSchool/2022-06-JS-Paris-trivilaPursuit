@@ -22,6 +22,7 @@ function App() {
     "/src/assets/face7-mini.jpg",
     "/src/assets/mini-bidon.jpg",
     "/src/assets/mini-didi.jpg",
+    "/src/assets/mini-face-8.jpg",
   ];
   const [name, setName] = useState("");
   const valueName = useMemo(() => ({ name, setName }), [name, setName]);
@@ -35,7 +36,7 @@ function App() {
     <div>
       <div className="header">
         <h1 className="header-title">Teubé or</h1>
-        <img src="src/assets/aie.jpg" alt="aie" className="header-logo" />
+        <img src="src/assets/logo-simpson-mini.jpg" alt="aie" className="header-logo" />
         <h1 className="header-title">not Teubé</h1>
       </div>
       <PictureContext.Provider value={valueAvatar}>

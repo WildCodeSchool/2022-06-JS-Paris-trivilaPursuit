@@ -11,18 +11,20 @@ function Accueil() {
   return (
     <div className="welcome-bloc">
       <div className="welcome">
-        <h1 className="welcome-title">
+        <h1>
           Salut
           {name && ` ${name}`}
         </h1>
-        <img src={avatar[currentAvatarId]} alt="" />
+        <img src={avatar[currentAvatarId]} alt="" className="welcome-avatar" />
       </div>
+      <div className="welcome-btn">
       <Link to="/categories">
         <button type="button"> Catégories </button>
       </Link>
       <Link to="/aleatoire">
         <button type="button">Questions aléatoires</button>
       </Link>
+      </div>
     </div>
   );
 }

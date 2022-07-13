@@ -160,8 +160,31 @@ button {
 
 .welcome-bloc {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 75vh;
+  justify-content: space-evenly;
+  background-image: url("src/assets/bg-emmental.jpg");
+  border: 5px solid white;
+  margin-top: 4vh;
 }
 
-.welcome-title {
+.welcome {
   color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.welcome-avatar {
+  height: 15vh;
+  width: 15vh;
+  border-radius: 100%;
+}
+
+.welcome-btn {
+  display: flex;
+  flex-direction: column;
+  height: 25vh;
+  justify-content: space-evenly;
 }

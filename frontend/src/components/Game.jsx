@@ -66,48 +66,55 @@ export default function Game() {
   return (
     infos &&
     infos.length && (
-      <div className="question-section">
-        <div className="Game">{params.categoryId}</div>
+      <>
+        <div className="question-section">
+          <div className="game">{params.categoryId}</div>
 
-        <div className="app">
-          {/* HINT: replace "false" with logic to display the 
+          <div className="app">
+            {/* HINT: replace "false" with logic to display the 
       score when the user has answered all the questions */}
-          {/* {false ? ( */}
-          {showScore ? (
-            <>
-              <div className="question-section">
-                Question : {currentQuestion + 1} /10
-                <div className="question-count" />
+            {/* {false ? ( */}
+            {showScore ? (
+              <>
+                <div className="question-section2">
+                  <div className="question-count" />
+                  Question : {currentQuestion + 1} /10
+                </div>
                 <div className="question-text">
                   {infos[currentQuestion].question}
                 </div>
-                <div>{infos[currentQuestion].anecdote}</div>
+
+                <div className="answer-section">
+                  {infos[currentQuestion].propositions.map((proposition) => (
+                    <button
+                      onClick={handleAnswerButtonClick}
+                      key={proposition}
+                      type="button"
+                      className="btnquestion"
+                      value={proposition}
+                    >
+                      {proposition}
+                    </button>
+                  ))}
+                  <div className="anecdote">
+                    {infos[currentQuestion].anecdote}
+                  </div>
+                </div>
+              </>
+            ) : (
+              <div>
+                <h1> Ton score : {score} /10 </h1>
+                <h2> Tu es : {resultat()} </h2>
               </div>
-              <div className="answer-section">
-                {infos[currentQuestion].propositions.map((proposition) => (
-                  <button
-                    onClick={handleAnswerButtonClick}
-                    key={proposition}
-                    type="button"
-                    className="btnquestion"
-                    value={proposition}
-                  >
-                    {proposition}
-                  </button>
-                ))}
-              </div>
-            </>
-          ) : (
-            <div>
-              <h1> Ton score : {score} /10 </h1>
-              <h2> Tu es : {resultat()} </h2>
-            </div>
-          )}
+            )}
+          </div>
         </div>
-        <button type="button" className="btn">
-          <Link to="/Categories">Retour aux Teubégories !</Link>
-        </button>
-      </div>
+        <div className="container-btn">
+          <button type="button" className="btn">
+            <Link to="/Categories">Retour aux Teubégories !</Link>
+          </button>
+        </div>
+      </>
     )
   );
 }

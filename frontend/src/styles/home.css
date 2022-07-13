@@ -5,7 +5,6 @@
 .home-bloc {
   text-align: center;
   border: 5px solid white;
-  margin-top: 4vh;
   background-image: url("src/assets/bg-emmental.jpg");
 }
 
@@ -38,20 +37,25 @@
 .btn-img-avatar {
   border-radius: 50px;
   margin-bottom: 1.5vh;
+  width: 86px;
+  background-color: #d39c4f;
 }
 
 .img-avatar {
   border-radius: 50px;
+  margin-left: -4px;
+  margin-bottom: -5px;
 }
 
 button {
   font-family: "Lobster", cursive;
   font-size: 40px;
+  cursor: grab;
 }
 
 h2 {
-  font-size: 35px;
-  margin-top: 1.5vh;
+  font-size: 32px;
+  margin-top: 2.5vh;
 }
 
 ::placeholder {

@@ -18,12 +18,17 @@ function Accueil() {
         <img src={avatar[currentAvatarId]} alt="" className="welcome-avatar" />
       </div>
       <div className="welcome-btn">
-      <Link to="/categories">
-        <button type="button"> Catégories </button>
-      </Link>
-      <Link to="/aleatoire">
-        <button type="button">Questions aléatoires</button>
-      </Link>
+        <Link to="/categories">
+          <button className="play2-btn" type="button">
+            {" "}
+            Catégories{" "}
+          </button>
+        </Link>
+        <Link to="/aleatoire">
+          <button className="play2-btn" type="button">
+            Questions aléatoires
+          </button>
+        </Link>
       </div>
     </div>
   );

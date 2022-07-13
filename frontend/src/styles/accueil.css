@@ -163,28 +163,32 @@ button {
   display: flex;
   flex-direction: column;
   height: 75vh;
-  justify-content: space-evenly;
+  justify-content: space-between;
   background-image: url("src/assets/bg-emmental.jpg");
   border: 5px solid white;
-  margin-top: 4vh;
 }
 
 .welcome {
-  color: white;
+  color: black;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .welcome-avatar {
-  height: 15vh;
-  width: 15vh;
+  height: 17vh;
+  width: 17vh;
   border-radius: 100%;
 }
 
 .welcome-btn {
   display: flex;
   flex-direction: column;
-  height: 25vh;
-  justify-content: space-evenly;
+  margin-bottom: 10px;
+}
+
+.play2-btn {
+  margin-top: 3vh;
+  border-radius: 100%;
+  padding: 10.5px;
 }

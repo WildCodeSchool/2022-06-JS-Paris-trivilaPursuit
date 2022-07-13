@@ -1,0 +1,43 @@
+.btn {
+  font-size: 20px;
+  margin-top: 18px;
+  border-radius: 17px;
+}
+
+.btnquestion {
+  font-size: 20px;
+  margin-bottom: 6px;
+  border-radius: 17px;
+}
+
+.answer-section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+}
+.question-section {
+  border: 5px solid white;
+  background-image: url("src/assets/bg-emmental.jpg");
+  padding: 10px;
+}
+.container-btn {
+  display: flex;
+  justify-content: center;
+}
+.game {
+  margin-bottom: 8px;
+  font-size: 20px;
+  text-align: center;
+}
+.question-section2 {
+  margin-bottom: 10px;
+}
+
+.question-text {
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+.anecdote {
+  margin-top: 5px;
+}

@@ -35,13 +35,13 @@ export default function Game() {
     const theEvent = event;
     if (nextQuestion <= 10 && score < 10) {
       if (theEvent.target.value === `${infos[currentQuestion].réponse}`) {
-        theEvent.target.style.backgroundColor = "green + 20";
+        theEvent.target.style.backgroundColor = "green";
         theEvent.target.style.borderColor = "green";
         setScore(score + 1);
       } else if (
         theEvent.target.value !== `${infos[currentQuestion].réponse}`
       ) {
-        theEvent.target.style.backgroundColor = "red + 20";
+        theEvent.target.style.backgroundColor = "red";
         theEvent.target.style.borderColor = "red";
       }
     }
@@ -110,7 +110,7 @@ export default function Game() {
           </div>
         </div>
         <div className="container-btn">
-          <button type="button" className="btn">
+          <button type="button" className="btn-back">
             <Link to="/Categories">Retour aux Teubégories !</Link>
           </button>
         </div>

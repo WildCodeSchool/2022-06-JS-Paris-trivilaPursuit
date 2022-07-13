@@ -1,34 +1,51 @@
-.btn {
-  font-size: 20px;
+.btn-back {
+  font-size: 25px;
   margin-top: 18px;
   border-radius: 17px;
+  background-color: yellow;
+  width: 225px;
+  height: 70px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
 
 .btnquestion {
   font-size: 20px;
   margin-bottom: 6px;
   border-radius: 17px;
+  margin: 5px;
 }
 
 .answer-section {
   display: flex;
   flex-direction: column;
-  margin-top: 5px;
+  margin-top: 25px;
 }
 .question-section {
-  border: 5px solid white;
+  border: 5px solid black;
   background-image: url("src/assets/bg-emmental.jpg");
   padding: 10px;
+  height: 62vh;
 }
+
 .container-btn {
   display: flex;
   justify-content: center;
 }
 .game {
   margin-bottom: 8px;
-  font-size: 20px;
+  font-size: 28px;
   text-align: center;
 }
+
+.app {
+  margin-top: 30px;
+}
+
 .question-section2 {
   margin-bottom: 10px;
 }
@@ -39,5 +56,6 @@
 }
 
 .anecdote {
-  margin-top: 5px;
+  margin-top: 25px;
+  font-style: italic;
 }

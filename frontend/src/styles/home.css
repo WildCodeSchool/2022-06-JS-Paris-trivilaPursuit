@@ -4,7 +4,7 @@
 
 .home-bloc {
   text-align: center;
-  border: 5px solid white;
+  border: 5px solid black;
   background-image: url("src/assets/bg-emmental.jpg");
 }
 
@@ -21,6 +21,25 @@
   border-radius: 100%;
   width: 150px;
   height: 70px;
+  background-color: yellow;
+  color: black;
+  /* text-shadow: 1px 1px 2px yellow; */
+}
+
+button[type="button"] {
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  box-shadow: 0 4px #34373a;
+}
+
+button[type="button"]:hover {
+  transform: translateY(2px);
+  box-shadow: 0 1px #303436;
+}
+button[type="button"]:active {
+  transform: translateY(3px);
+  box-shadow: 0 2px #303436;
 }
 
 .pseudo {

@@ -12,6 +12,7 @@ import "./styles/header.css";
 import "./styles/home.css";
 import "./styles/accueil.css";
 import "./styles/categories.css";
+import "./styles/game.css";
 
 function App() {
   const avatar = [
@@ -36,7 +37,11 @@ function App() {
     <div>
       <div className="header">
         <h1 className="header-title">Teubé or</h1>
-        <img src="src/assets/logo-simpson-mini.jpg" alt="aie" className="header-logo" />
+        <img
+          src="src/assets/logo-simpson-gmini.jpg"
+          alt="aie"
+          className="header-logo"
+        />
         <h1 className="header-title">not Teubé</h1>
       </div>
       <PictureContext.Provider value={valueAvatar}>

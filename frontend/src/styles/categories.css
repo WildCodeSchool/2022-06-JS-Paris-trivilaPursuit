@@ -4,9 +4,18 @@
 
 .categorie-choice {
   text-align: center;
+  background-image: url("src/assets/bg-emmental.jpg");
+  border: 5px solid white;
 }
 
 .btncats,
 .btnCatsAleatoire {
-  width: 80%;
+  width: 68%;
+  cursor: grab;
+  font-size: 21px;
+  margin-bottom: 4px;
+  border-radius: 17px;
+}
+.container-categories {
+  margin-top: -13px;
 }

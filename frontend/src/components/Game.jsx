@@ -55,10 +55,67 @@ export default function Game() {
   };
 
   const resultat = () => {
-    if (score < 4) return "Teubé";
-    if (score < 7) return "Un peu Teubé";
-    if (score < 10) return "Pas trop Teubé";
-    return "Pas Teubé";
+    if (score < 4)
+      return (
+        <>
+          <iframe
+            title="giphy"
+            src="https://giphy.com/embed/Q1aRmd8e90WIw"
+            width="200"
+            height="200"
+            frameBorder="0"
+            className="giphy-embed"
+            allowFullScreen
+          />
+          <p> Tu es Teubé </p>
+        </>
+      );
+
+    if (score < 7)
+      return (
+        <>
+          <iframe
+            title="giphy2"
+            src="https://giphy.com/embed/SqNL0UQbUC1SYzQ5xN"
+            width="200"
+            height="200"
+            frameBorder="0"
+            className="giphy-embed"
+            allowFullScreen
+          />
+          <p> Tu es un peu Teubé </p>
+        </>
+      );
+
+    if (score < 10)
+      return (
+        <>
+          <iframe
+            title="giphy3"
+            src="https://giphy.com/embed/q1mHcB8wOCWf6"
+            width="200"
+            height="200"
+            frameBorder="0"
+            className="giphy-embed"
+            allowFullScreen
+          />
+          <p> Tu n'es pas trop Teubé </p>
+        </>
+      );
+    return (
+      <>
+        <iframe
+          title="giphy4"
+          src="https://giphy.com/embed/eMu0803X2zkWY"
+          width="200"
+          height="200"
+          frameBorder="0"
+          className="giphy-embed"
+          allowFullScreen
+        />
+        <p> Tu n'es pas Teubé </p>
+      </>
+    );
   };
   // console.log("params: ", params.categoryId);
   // console.log(typeof(infos));
@@ -102,9 +159,18 @@ export default function Game() {
                 </div>
               </>
             ) : (
-              <div>
+              <div className="resultat">
                 <h1> Ton score : {score} /10 </h1>
-                <h2> Tu es : {resultat()} </h2>
+                {/* <iframe
+                  title="giphy"
+                  src="https://giphy.com/embed/Q1aRmd8e90WIw"
+                  width="200"
+                  height="200"
+                  frameBorder="0"
+                  className="giphy-embed"
+                  allowFullScreen
+                /> */}
+                <h1> {resultat()} </h1>
               </div>
             )}
           </div>

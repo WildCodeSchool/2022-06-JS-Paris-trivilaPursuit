@@ -6,6 +6,15 @@
   text-align: center;
   border: 5px solid black;
   background-image: url("src/assets/bg-emmental.jpg");
+  height: auto;
+}
+
+@media (min-width: 769px) {
+  .home-bloc {
+    width: 700px;
+    margin: auto;
+    background-repeat: round;
+  }
 }
 
 .title-bloc {

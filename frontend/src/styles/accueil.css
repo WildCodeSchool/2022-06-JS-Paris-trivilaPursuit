@@ -2,7 +2,6 @@
   text-align: center;
   display: flex;
   flex-direction: column;
-  height: 75vh;
   background-image: url("src/assets/bg-emmental.jpg");
   border: 5px solid black;
 }
@@ -34,4 +33,22 @@
   height: 120px;
   background-color: yellow;
   color: black;
+}
+
+@media (min-width: 769px) {
+  .welcome-bloc {
+    width: 700px;
+    height: auto;
+    margin: auto;
+    background-repeat: round;
+  }
+
+  .play2-btn {
+    margin: 1vh;
+  }
+
+  .welcome-btn {
+    flex-direction: row;
+    justify-content: space-around;
+  }
 }

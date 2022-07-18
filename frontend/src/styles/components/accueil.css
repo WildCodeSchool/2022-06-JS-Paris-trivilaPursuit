@@ -157,3 +157,13 @@ button:focus {
 button svg {
   margin-right: 5px;
 }
+
+.croix {
+  font-size: 25px;
+  float: right;
+  margin-bottom: -35px;
+  cursor: pointer;
+}
+button.croix {
+  box-shadow: none;
+}

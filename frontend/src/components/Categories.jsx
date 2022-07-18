@@ -23,33 +23,39 @@ export default function Categories() {
 
   const arrColor = ["red", "blue", "green", "yellow", "pink", "grey"];
   return (
-    <div className="categorie-choice">
-      <h2>Choix des catégories : </h2>
-      <div className="container-categories">
-        {categories.length &&
-          categories.map((category, index) => (
-            <div key={category}>
-              <Link to={`/Game/${category}`}>
-                <button
-                  type="button"
-                  className="btncats"
-                  style={{
-                    backgroundColor: arrColor.filter((_, idx) => idx === index),
-                  }}
-                >
-                  {/* <button type="button" className={`btncats ${ arrColor.filter((_, idx) => idx==index )}`}> */}
-                  {category}
-                </button>
-              </Link>
-            </div>
-          ))}
-        <Link to={`/Game/${categories[random(0, categories.length - 1)]}`}>
-          <button type="button" className="btnCatsAleatoire">
-            {" "}
-            Catégorie aléatoire
-          </button>
-        </Link>
+    <>
+      <div className="categorie-choice">
+        <h2>Choix des catégories : </h2>
+        <div className="container-categories">
+          {categories.length &&
+            categories.map((category, index) => (
+              <div key={category}>
+                <Link to={`/Game/${category}`}>
+                  <button
+                    type="button"
+                    className="btncats"
+                    style={{
+                      backgroundColor: arrColor.filter(
+                        (_, idx) => idx === index
+                      ),
+                    }}
+                  >
+                    {/* <button type="button" className={`btncats ${ arrColor.filter((_, idx) => idx==index )}`}> */}
+                    {category}
+                  </button>
+                </Link>
+              </div>
+            ))}
+          <Link to={`/Game/${categories[random(0, categories.length - 1)]}`}>
+            <button type="button" className="btnCatsAleatoire">
+              Catégorie aléatoire
+            </button>
+          </Link>
+        </div>
       </div>
-    </div>
+      <button type="button" className="btn-back">
+        <Link to="/components/Accueil">Retour à l'Accueil !</Link>
+      </button>
+    </>
   );
 }

@@ -177,7 +177,7 @@ export default function Game() {
         </div>
         <div className="container-btn">
           <button type="button" className="btn-back">
-            <Link to="/Categories">Retour aux Teubégories !</Link>
+            <Link to="/components/Accueil">Retour à l'Accueil !</Link>
           </button>
         </div>
       </>

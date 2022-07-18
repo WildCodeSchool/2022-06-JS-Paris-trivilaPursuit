@@ -40,13 +40,13 @@ export default function Aleatoire() {
     const theEvent = event;
     if (nextQuestion <= 10 && score < 10) {
       if (theEvent.target.value === `${infos[currentQuestion].réponse}`) {
-        theEvent.target.style.backgroundColor = "green + 20";
+        theEvent.target.style.backgroundColor = "green";
         theEvent.target.style.borderColor = "green";
         setScore(score + 1);
       } else if (
         theEvent.target.value !== `${infos[currentQuestion].réponse}`
       ) {
-        theEvent.target.style.backgroundColor = "red + 20";
+        theEvent.target.style.backgroundColor = "red";
         theEvent.target.style.borderColor = "red";
       }
     }
@@ -60,10 +60,67 @@ export default function Aleatoire() {
   };
 
   const resultat = () => {
-    if (score < 4) return "Teubé";
-    if (score < 7) return "Un peu Teubé";
-    if (score < 10) return "Pas trop Teubé";
-    return "Pas Teubé";
+    if (score < 4)
+      return (
+        <>
+          <iframe
+            title="giphy"
+            src="https://giphy.com/embed/Q1aRmd8e90WIw"
+            width="200"
+            height="200"
+            frameBorder="0"
+            className="giphy-embed"
+            allowFullScreen
+          />
+          <p> Tu es Teubé </p>
+        </>
+      );
+
+    if (score < 7)
+      return (
+        <>
+          <iframe
+            title="giphy2"
+            src="https://giphy.com/embed/SqNL0UQbUC1SYzQ5xN"
+            width="200"
+            height="200"
+            frameBorder="0"
+            className="giphy-embed"
+            allowFullScreen
+          />
+          <p> Tu es un peu Teubé </p>
+        </>
+      );
+
+    if (score < 10)
+      return (
+        <>
+          <iframe
+            title="giphy3"
+            src="https://giphy.com/embed/q1mHcB8wOCWf6"
+            width="200"
+            height="200"
+            frameBorder="0"
+            className="giphy-embed"
+            allowFullScreen
+          />
+          <p> Tu n'es pas trop Teubé </p>
+        </>
+      );
+    return (
+      <>
+        <iframe
+          title="giphy4"
+          src="https://giphy.com/embed/eMu0803X2zkWY"
+          width="200"
+          height="200"
+          frameBorder="0"
+          className="giphy-embed"
+          allowFullScreen
+        />
+        <p> Tu n'es pas Teubé </p>
+      </>
+    );
   };
   // console.log("params: ", params.categoryId);
   // console.log(typeof(infos));
@@ -71,48 +128,55 @@ export default function Aleatoire() {
   return (
     infos &&
     infos.length && (
-      <div className="question-section">
-        <div className="Game">Questions aléatoires</div>
+      <>
+        <div className="question-section">
+          <div className="game">Questions aléatoires</div>
 
-        <div className="app">
-          {/* HINT: replace "false" with logic to display the 
+          <div className="app">
+            {/* HINT: replace "false" with logic to display the 
           score when the user has answered all the questions */}
-          {/* {false ? ( */}
-          {showScore ? (
-            <>
-              <div className="question-section">
-                Question : {currentQuestion + 1} /10
-                <div className="question-count" />
+            {/* {false ? ( */}
+            {showScore ? (
+              <>
+                <div className="question-section2">
+                  <div className="question-count" />
+                  Question : {currentQuestion + 1} /10
+                </div>
                 <div className="question-text">
                   {infos[currentQuestion].question}
                 </div>
-                <div>{infos[currentQuestion].anecdote}</div>
+
+                <div className="answer-section">
+                  {infos[currentQuestion].propositions.map((proposition) => (
+                    <button
+                      onClick={handleAnswerButtonClick}
+                      key={proposition}
+                      type="button"
+                      className="btnquestion"
+                      value={proposition}
+                    >
+                      {proposition}
+                    </button>
+                  ))}
+                  <div className="anecdote">
+                    {infos[currentQuestion].anecdote}
+                  </div>
+                </div>
+              </>
+            ) : (
+              <div className="resultat">
+                <h1> Ton score : {score} /10 </h1>
+                <h1> {resultat()} </h1>
               </div>
-              <div className="answer-section">
-                {infos[currentQuestion].propositions.map((proposition) => (
-                  <button
-                    onClick={handleAnswerButtonClick}
-                    key={proposition}
-                    type="button"
-                    className="btnquestion"
-                    value={proposition}
-                  >
-                    {proposition}
-                  </button>
-                ))}
-              </div>
-            </>
-          ) : (
-            <div>
-              <h1> Ton score : {score} /10 </h1>
-              <h2> Tu es : {resultat()} </h2>
-            </div>
-          )}
+            )}
+          </div>
         </div>
-        <button type="button" className="btn">
-          <Link to="/Categories">Retour aux Teubégories !</Link>
-        </button>
-      </div>
+        <div className="container-btn">
+          <button type="button" className="btn-back">
+            <Link to="/components/Accueil">Retour à l'Accueil !</Link>
+          </button>
+        </div>
+      </>
     )
   );
 }

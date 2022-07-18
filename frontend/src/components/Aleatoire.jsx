@@ -1,11 +1,14 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import boopSfx from "@assets/Homer_-_D_OH.mp3";
+import useSound from "use-sound";
 
 export default function Aleatoire() {
   const [infos, setInfos] = useState();
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [score, setScore] = useState(0);
   const [showScore, setShowScore] = useState(true);
+  const [play] = useSound(boopSfx);
 
   function shuffledArray(newArray) {
     const arrayToShuffle = newArray;
@@ -130,6 +133,11 @@ export default function Aleatoire() {
     infos.length && (
       <>
         <div className="question-section">
+          <div className="btn-croix">
+            <button type="button" className="croix" onClick={play}>
+              <Link to="/"> ✖️ </Link>
+            </button>
+          </div>
           <div className="game">Questions aléatoires</div>
 
           <div className="app">

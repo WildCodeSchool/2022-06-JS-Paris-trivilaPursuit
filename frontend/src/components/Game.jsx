@@ -1,5 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
+import boopSfx1 from "@assets/Homer_-_D_OH.mp3";
+import boopSfx2 from "@assets/c.mp3";
+import useSound from "use-sound";
+import boopSfx3 from "@assets/Wouhou.mp3";
 
 export default function Game() {
   const params = useParams();
@@ -7,6 +11,9 @@ export default function Game() {
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [score, setScore] = useState(0);
   const [showScore, setShowScore] = useState(true);
+  const [play] = useSound(boopSfx1);
+  const [play2] = useSound(boopSfx2);
+  const [play3] = useSound(boopSfx3);
 
   function shuffledArray(array) {
     // console.log(arrayToShuffle);
@@ -33,16 +40,19 @@ export default function Game() {
   const handleAnswerButtonClick = (event) => {
     const nextQuestion = currentQuestion + 1;
     const theEvent = event;
+
     if (nextQuestion <= 10 && score < 10) {
       if (theEvent.target.value === `${infos[currentQuestion].réponse}`) {
         theEvent.target.style.backgroundColor = "green";
         theEvent.target.style.borderColor = "green";
+        play3();
         setScore(score + 1);
       } else if (
         theEvent.target.value !== `${infos[currentQuestion].réponse}`
       ) {
         theEvent.target.style.backgroundColor = "red";
         theEvent.target.style.borderColor = "red";
+        play2();
       }
     }
     if (nextQuestion === 10) setShowScore(false);
@@ -125,6 +135,11 @@ export default function Game() {
     infos.length && (
       <>
         <div className="question-section">
+          <div className="btn-croix">
+            <button type="button" className="croix" onClick={play}>
+              <Link to="/"> ✖️ </Link>
+            </button>
+          </div>
           <div className="game">{params.categoryId}</div>
 
           <div className="app">

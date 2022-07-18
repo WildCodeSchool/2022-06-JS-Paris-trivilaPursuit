@@ -34,6 +34,24 @@
   background-color: yellow;
   color: black;
 }
+.croix {
+  font-size: 25px;
+  float: right;
+  margin-bottom: -35px;
+  cursor: pointer;
+}
+button.croix {
+  box-shadow: none;
+  position: relative;
+}
+.homer {
+  display: flex;
+  justify-content: center;
+  z-index: -10;
+  position: relative;
+  margin-top: -360px;
+  transform: scaleX(-1);
+}
 
 @media (min-width: 769px) {
   .welcome-bloc {
@@ -51,13 +69,4 @@
     flex-direction: row;
     justify-content: space-around;
   }
-}
-.croix {
-  font-size: 25px;
-  float: right;
-  margin-bottom: -35px;
-  cursor: pointer;
-}
-button.croix {
-  box-shadow: none;
 }

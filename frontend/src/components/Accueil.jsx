@@ -12,33 +12,42 @@ function Accueil() {
   const { currentAvatarId } = useContext(CurrentContext);
   const [play] = useSound(boopSfx);
   return (
-    <div className="welcome-bloc">
-      <div className="btn-croix">
-        <button type="button" className="croix" onClick={play}>
-          <Link to="/"> ✖️ </Link>
-        </button>
-      </div>
-      <div className="welcome">
-        <h1>
-          Salut
-          {name && ` ${name}`}
-        </h1>
-        <img src={avatar[currentAvatarId]} alt="" className="welcome-avatar" />
-      </div>
-      <div className="welcome-btn">
-        <Link to="/categories">
-          <button className="play2-btn" type="button">
-            {" "}
-            Catégories{" "}
+    <>
+      <div className="welcome-bloc">
+        <div className="btn-croix">
+          <button type="button" className="croix" onClick={play}>
+            <Link to="/"> ✖️ </Link>
           </button>
-        </Link>
-        <Link to="/aleatoire">
-          <button className="play2-btn" type="button">
-            Questions aléatoires
-          </button>
-        </Link>
+        </div>
+        <div className="welcome">
+          <h1>
+            Salut
+            {name && ` ${name}`}
+          </h1>
+          <img
+            src={avatar[currentAvatarId]}
+            alt=""
+            className="welcome-avatar"
+          />
+        </div>
+        <div className="welcome-btn">
+          <Link to="/categories">
+            <button className="play2-btn" type="button">
+              {" "}
+              Catégories{" "}
+            </button>
+          </Link>
+          <Link to="/aleatoire">
+            <button className="play2-btn" type="button">
+              Questions aléatoires
+            </button>
+          </Link>
+        </div>
       </div>
-    </div>
+      <div className="homer">
+        <img src="/src/assets/homer.jpg" alt="homer" />
+      </div>
+    </>
   );
 }
 

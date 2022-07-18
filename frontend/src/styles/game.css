@@ -65,3 +65,21 @@ a {
   background-image: url("src/assets/bg-emmental.jpg");
   text-align: center;
 }
+
+@media (min-width: 769px) {
+  .question-section {
+    width: 700px;
+    height: 350px;
+    margin: auto;
+    background-repeat: round;
+  }
+
+  .answer-section {
+    flex-direction: initial;
+    flex-wrap: wrap;
+  }
+
+  .btnquestion {
+    width: 50%;
+  }
+}

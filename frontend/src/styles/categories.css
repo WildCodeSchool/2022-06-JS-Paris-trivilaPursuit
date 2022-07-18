@@ -6,7 +6,7 @@
   text-align: center;
   background-image: url("src/assets/bg-emmental.jpg");
   border: 5px solid black;
-  height: 75vh;
+  height: auto;
 }
 
 h2 {
@@ -18,6 +18,7 @@ h2 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin-bottom: 5vh;
 }
 
 .btncats,
@@ -27,4 +28,12 @@ h2 {
   font-size: 21px;
   margin-bottom: 4px;
   border-radius: 17px;
+}
+
+@media (min-width: 769px) {
+  .categorie-choice {
+    width: 700px;
+    margin: auto;
+    background-repeat: round;
+  }
 }

@@ -118,7 +118,7 @@ a {
     margin-bottom: -10px;
   }
 
-  .main-homer {
+  /* .main-homer {
     display: flex;
     justify-content: center;
     z-index: -11;
@@ -129,5 +129,5 @@ a {
     transform: rotateZ(0deg);
     margin-left: 25%;
     width: 45%;
-  }
+  } */
 }

@@ -64,14 +64,14 @@ button.croix:hover {
   margin-top: -209px;
   margin-left: 8%;
 } */
-
+/* 
 .main {
-  width: 79%;
+  width: 55vh;
   transform: rotateZ(90deg);
   position: absolute;
-  margin-top: -110px;
-  margin-left: 8%;
-}
+  margin-bottom: 75vh;
+  margin-left: -58vh;
+} */
 /* .homer2 {
   display: flex;
   z-index: -20;
@@ -110,7 +110,7 @@ height: 245px;
     flex-direction: row;
     justify-content: space-around;
   }
-  .main-homer {
+  /* .main-homer {
     display: flex;
     justify-content: center;
     z-index: -11;
@@ -121,5 +121,5 @@ height: 245px;
     transform: rotateZ(0deg);
     margin-left: 25%;
     width: 45%;
-  }
+  } */
 }

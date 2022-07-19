@@ -10,11 +10,11 @@
 }
 
 .main {
-  width: 79%;
+  width: 55vh;
   transform: rotateZ(90deg);
   position: absolute;
-  margin-top: -110px;
-  margin-left: 8%;
+  margin-top: -131px;
+  margin-left: -58vh;
 }
 
 @media (min-width: 769px) {
@@ -24,7 +24,7 @@
     background-repeat: round;
   }
 
-  .main-homer {
+  /* .main-homer {
     display: flex;
     justify-content: center;
     z-index: -11;
@@ -35,7 +35,7 @@
     transform: rotateZ(0deg);
     margin-left: 25%;
     width: 45%;
-  }
+  } */
 }
 
 .title-bloc {

@@ -15,7 +15,7 @@ a {
 
 .btnquestion {
   font-size: 20px;
-  margin-bottom: 17px;
+  margin-bottom: 13px;
   border-radius: 17px;
   margin-left: 10px;
   margin-right: 10px;
@@ -29,7 +29,7 @@ a {
   text-align: center;
   background-image: url("src/assets/bg-emmental.jpg");
   border: 5px solid black;
-  height: 62vh;
+  height: 75vh;
 }
 
 .container-btn {
@@ -59,7 +59,6 @@ a {
 }
 
 .anecdote {
-  margin-top: 12px;
   font-style: italic;
   font-size: 15px;
   margin-left: 10px;
@@ -70,7 +69,10 @@ a {
   font-size: 16px;
   text-align: center;
 }
-
+.yourscore {
+  margin: 0;
+  margin-bottom: -10px;
+}
 @media (min-width: 769px) {
   .question-section {
     width: 700px;

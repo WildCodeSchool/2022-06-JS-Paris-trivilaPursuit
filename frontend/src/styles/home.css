@@ -23,19 +23,6 @@
     margin: auto;
     background-repeat: round;
   }
-
-  /* .main-homer {
-    display: flex;
-    justify-content: center;
-    z-index: -11;
-    position: absolute;
-    margin-top: -47px;
-    transform: scaleX(-1);
-    height: 468px;
-    transform: rotateZ(0deg);
-    margin-left: 25%;
-    width: 45%;
-  } */
 }
 
 .title-bloc {

@@ -45,14 +45,6 @@ button.croix {
   box-shadow: none;
 }
 
-/* .main {
-  width: 55vh;
-  transform: rotateZ(90deg);
-  position: absolute;
-  margin-top: -110px;
-  margin-left: -58vh;
-} */
-
 @media (min-width: 769px) {
   /* .main-homer {
     display: flex;

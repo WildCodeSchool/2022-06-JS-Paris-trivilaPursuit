@@ -13,6 +13,9 @@ function Accueil() {
   const [play] = useSound(boopSfx);
   return (
     <>
+      {/* <div className="main-homer">
+    <img src="/src/assets/main.png" alt="main" className="main"/>
+    </div> */}
       {/* <div className="homer2">
         <img src="/src/assets/pngegg.png" alt="homer" />
       </div>

@@ -9,11 +9,32 @@
   height: auto;
 }
 
+.main {
+  width: 79%;
+  transform: rotateZ(90deg);
+  position: absolute;
+  margin-top: -110px;
+  margin-left: 8%;
+}
+
 @media (min-width: 769px) {
   .home-bloc {
     width: 700px;
     margin: auto;
     background-repeat: round;
+  }
+
+  .main-homer {
+    display: flex;
+    justify-content: center;
+    z-index: -11;
+    position: absolute;
+    margin-top: -47px;
+    transform: scaleX(-1);
+    height: 468px;
+    transform: rotateZ(0deg);
+    margin-left: 25%;
+    width: 45%;
   }
 }
 
@@ -57,9 +78,9 @@ button[type="button"]:active {
   margin-bottom: 2vh;
 }
 
-.bloc-avatar {
+/* .bloc-avatar {
   /* flex-wrap: wrap; */
-}
+/* } */
 
 .btn-img-avatar {
   border-radius: 50px;

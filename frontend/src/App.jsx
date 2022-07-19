@@ -35,6 +35,9 @@ function App() {
   const valueAvatar = useMemo(() => ({ avatar }), [avatar]);
   return (
     <div>
+      <div className="main-homer">
+        <img src="/src/assets/main.png" alt="main" className="main" />
+      </div>
       <div className="header">
         <h1 className="header-title">Teubé or</h1>
         <img

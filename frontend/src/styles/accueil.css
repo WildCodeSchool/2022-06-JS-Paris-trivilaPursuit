@@ -56,6 +56,22 @@ button.croix:hover {
   transform: scaleX(-1);
   height: 445px;
 }
+
+/* .main-homer {
+  width: 79%;
+  transform: rotateZ(90deg);
+  position: absolute;
+  margin-top: -209px;
+  margin-left: 8%;
+} */
+
+.main {
+  width: 79%;
+  transform: rotateZ(90deg);
+  position: absolute;
+  margin-top: -110px;
+  margin-left: 8%;
+}
 /* .homer2 {
   display: flex;
   z-index: -20;
@@ -93,5 +109,17 @@ height: 245px;
   .welcome-btn {
     flex-direction: row;
     justify-content: space-around;
+  }
+  .main-homer {
+    display: flex;
+    justify-content: center;
+    z-index: -11;
+    position: absolute;
+    margin-top: -47px;
+    transform: scaleX(-1);
+    height: 468px;
+    transform: rotateZ(0deg);
+    margin-left: 25%;
+    width: 45%;
   }
 }

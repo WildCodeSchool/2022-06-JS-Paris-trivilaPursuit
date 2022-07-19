@@ -27,7 +27,7 @@ a {
 }
 .question-section {
   text-align: center;
-  background-image: url("src/assets/bg-emmental.jpg");
+  background-image: url("/src/assets/bg-emmental.jpg");
   border: 5px solid black;
   height: 75vh;
 }

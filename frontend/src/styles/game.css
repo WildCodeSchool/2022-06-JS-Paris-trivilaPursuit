@@ -27,7 +27,7 @@ a {
 }
 .question-section {
   text-align: center;
-  background-image: url("src/assets/bg-emmental.jpg");
+  background-image: url("/src/assets/bg-emmental.jpg");
   border: 5px solid black;
   height: 62vh;
 }
@@ -70,6 +70,13 @@ a {
   font-size: 16px;
   text-align: center;
 }
+.main {
+  width: 79%;
+  transform: rotateZ(90deg);
+  position: absolute;
+  margin-top: -110px;
+  margin-left: 8%;
+}
 
 @media (min-width: 769px) {
   .question-section {
@@ -107,5 +114,18 @@ a {
   .yourscore {
     margin: 0;
     margin-bottom: -10px;
+  }
+
+  .main-homer {
+    display: flex;
+    justify-content: center;
+    z-index: -11;
+    position: absolute;
+    margin-top: -47px;
+    transform: scaleX(-1);
+    height: 468px;
+    transform: rotateZ(0deg);
+    margin-left: 25%;
+    width: 45%;
   }
 }

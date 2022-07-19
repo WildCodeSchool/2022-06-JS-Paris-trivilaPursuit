@@ -20,13 +20,14 @@ h2 {
   justify-content: space-between;
   margin-bottom: 5vh;
 }
-
+.btncats {
+  margin-bottom: 10px;
+}
 .btncats,
 .btnCatsAleatoire {
   width: 68%;
   cursor: grab;
   font-size: 21px;
-  margin-bottom: 4px;
   border-radius: 17px;
 }
 

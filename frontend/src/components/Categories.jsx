@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import boopSfx from "@assets/Homer_-_D_OH.mp3";
+import useSound from "use-sound";
 
 function random(min, max) {
   return Math.round(Math.random() * (max - min) + min);
@@ -7,7 +9,7 @@ function random(min, max) {
 
 export default function Categories() {
   const [categories, setcategory] = useState([]);
-
+  const [play] = useSound(boopSfx);
   useEffect(() => {
     fetch("http://localhost:5000/questions")
       .then((response) => {
@@ -25,6 +27,11 @@ export default function Categories() {
   return (
     <>
       <div className="categorie-choice">
+        <div className="btn-croix">
+          <button type="button" className="croix" onClick={play}>
+            <Link to="/"> ✖️ </Link>
+          </button>
+        </div>
         <h2>Choix des catégories : </h2>
         <div className="container-categories">
           {categories.length &&
@@ -53,9 +60,11 @@ export default function Categories() {
           </Link>
         </div>
       </div>
-      <button type="button" className="btn-back">
-        <Link to="/components/Accueil">Retour à l'Accueil !</Link>
-      </button>
+      <div className="container-btn">
+        <button type="button" className="btn-back">
+          <Link to="/components/Accueil">Retour à l'Accueil !</Link>
+        </button>
+      </div>
     </>
   );
 }

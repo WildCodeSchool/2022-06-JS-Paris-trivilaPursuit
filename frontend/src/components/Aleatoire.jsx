@@ -1,11 +1,14 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import boopSfx from "@assets/Homer_-_D_OH.mp3";
+import useSound from "use-sound";
 
 export default function Aleatoire() {
   const [infos, setInfos] = useState();
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [score, setScore] = useState(0);
   const [showScore, setShowScore] = useState(true);
+  const [play] = useSound(boopSfx);
 
   function shuffledArray(newArray) {
     const arrayToShuffle = newArray;
@@ -72,7 +75,7 @@ export default function Aleatoire() {
             className="giphy-embed"
             allowFullScreen
           />
-          <p> Tu es Teubé </p>
+          <p className="yourscore"> Tu es Teubé </p>
         </>
       );
 
@@ -88,7 +91,7 @@ export default function Aleatoire() {
             className="giphy-embed"
             allowFullScreen
           />
-          <p> Tu es un peu Teubé </p>
+          <p className="yourscore"> Tu es un peu Teubé </p>
         </>
       );
 
@@ -104,7 +107,7 @@ export default function Aleatoire() {
             className="giphy-embed"
             allowFullScreen
           />
-          <p> Tu n'es pas trop Teubé </p>
+          <p className="yourscore"> Tu n'es pas trop Teubé </p>
         </>
       );
     return (
@@ -118,7 +121,7 @@ export default function Aleatoire() {
           className="giphy-embed"
           allowFullScreen
         />
-        <p> Tu n'es pas Teubé </p>
+        <p className="yourscore"> Tu n'es pas Teubé </p>
       </>
     );
   };
@@ -130,6 +133,11 @@ export default function Aleatoire() {
     infos.length && (
       <>
         <div className="question-section">
+          <div className="btn-croix">
+            <button type="button" className="croix" onClick={play}>
+              <Link to="/"> ✖️ </Link>
+            </button>
+          </div>
           <div className="game">Questions aléatoires</div>
 
           <div className="app">
@@ -165,7 +173,7 @@ export default function Aleatoire() {
               </>
             ) : (
               <div className="resultat">
-                <h1> Ton score : {score} /10 </h1>
+                <h1 className="score"> Ton score : {score} /10 </h1>
                 <h1> {resultat()} </h1>
               </div>
             )}

@@ -37,7 +37,6 @@
 
 button[type="button"] {
   border: none;
-  padding: 5px 10px;
   cursor: pointer;
   box-shadow: 0 4px #34373a;
 }
@@ -64,7 +63,7 @@ button[type="button"]:active {
 
 .btn-img-avatar {
   border-radius: 50px;
-  margin-bottom: 1.5vh;
+  margin-bottom: 2.5vh;
   width: 86px;
   background-color: #d39c4f;
 }

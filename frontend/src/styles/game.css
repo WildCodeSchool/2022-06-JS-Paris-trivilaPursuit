@@ -15,9 +15,8 @@ a {
 
 .btnquestion {
   font-size: 20px;
-  margin-bottom: 6px;
+  margin-bottom: 17px;
   border-radius: 17px;
-  margin: 8px;
   margin-left: 10px;
   margin-right: 10px;
 }
@@ -25,11 +24,11 @@ a {
 .answer-section {
   display: flex;
   flex-direction: column;
-  margin-top: 25px;
 }
 .question-section {
-  border: 5px solid black;
+  text-align: center;
   background-image: url("src/assets/bg-emmental.jpg");
+  border: 5px solid black;
   height: 62vh;
 }
 
@@ -40,7 +39,6 @@ a {
 .game {
   font-size: 28px;
   text-align: center;
-  margin-left: 40px;
 }
 
 .app {
@@ -54,8 +52,8 @@ a {
 }
 
 .question-text {
-  margin-bottom: 10px;
-  font-size: 16px;
+  margin-bottom: 15px;
+  font-size: 18px;
   margin-left: 10px;
   margin-right: 10px;
 }
@@ -63,21 +61,20 @@ a {
 .anecdote {
   margin-top: 12px;
   font-style: italic;
-  font-size: 14px;
+  font-size: 15px;
   margin-left: 10px;
   margin-right: 10px;
 }
 
 .resultat {
   font-size: 16px;
-  background-image: url("src/assets/bg-emmental.jpg");
   text-align: center;
 }
 
 @media (min-width: 769px) {
   .question-section {
     width: 700px;
-    height: 350px;
+    height: auto;
     margin: auto;
     background-repeat: round;
   }
@@ -87,7 +84,9 @@ a {
     flex-wrap: wrap;
     margin-top: 17px;
   }
-
+  .question-section2 {
+    margin-bottom: 10px;
+  }
   .btnquestion {
     width: 47%;
   }
@@ -99,5 +98,14 @@ a {
   .anecdote {
     margin-top: 15px;
     font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .score {
+    margin-bottom: -15px;
+    margin-top: -5px;
+  }
+  .yourscore {
+    margin: 0;
+    margin-bottom: -10px;
   }
 }

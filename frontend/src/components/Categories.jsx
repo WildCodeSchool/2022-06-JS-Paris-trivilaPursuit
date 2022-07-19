@@ -60,9 +60,11 @@ export default function Categories() {
           </Link>
         </div>
       </div>
-      <button type="button" className="btn-back">
-        <Link to="/components/Accueil">Retour à l'Accueil !</Link>
-      </button>
+      <div className="container-btn">
+        <button type="button" className="btn-back">
+          <Link to="/components/Accueil">Retour à l'Accueil !</Link>
+        </button>
+      </div>
     </>
   );
 }

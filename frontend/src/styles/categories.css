@@ -30,31 +30,10 @@ h2 {
   font-size: 21px;
   border-radius: 17px;
 }
-/* .main {
-  width: 55vh;
-  transform: rotateZ(90deg);
-  position: absolute;
-  margin-top: -110px;
-  margin-left: -58vh;
-} */
-
 @media (min-width: 769px) {
   .categorie-choice {
     width: 700px;
     margin: auto;
     background-repeat: round;
   }
-
-  /* .main-homer {
-    display: flex;
-    justify-content: center;
-    z-index: -11;
-    position: absolute;
-    margin-top: -47px;
-    transform: scaleX(-1);
-    height: 468px;
-    transform: rotateZ(0deg);
-    margin-left: 25%;
-    width: 45%;
-  } */
 }

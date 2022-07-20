@@ -10,7 +10,7 @@ function Home() {
   const { name, setName } = useContext(UserContext);
   const { avatar } = useContext(PictureContext);
   const { currentAvatarId, setCurrentAvatarId } = useContext(CurrentContext);
-  const styles = { border: "2px solid green" };
+  const styles = { border: "3px solid green" };
   const handleClick = (id) => {
     setCurrentAvatarId(id);
   };

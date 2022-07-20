@@ -14,6 +14,25 @@ export default function Game() {
   const [play] = useSound(boopSfx1);
   const [play2] = useSound(boopSfx2);
   const [play3] = useSound(boopSfx3);
+  const [timer, setTimer] = useState(15);
+  const [showTimer, setShowTimer] = useState(true);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setTimer((prev) => prev - 1);
+      if (timer === 0) {
+        if (currentQuestion !== 9) {
+          setCurrentQuestion(currentQuestion + 1);
+          setTimer(15);
+        } else {
+          setShowTimer(false);
+          setShowScore(false);
+          clearInterval(interval);
+        }
+      }
+    }, 1000);
+    return () => clearInterval(interval);
+  }, [timer]);
 
   function shuffledArray(array) {
     // console.log(arrayToShuffle);
@@ -55,10 +74,14 @@ export default function Game() {
         play2();
       }
     }
-    if (nextQuestion === 10) setShowScore(false);
+    if (nextQuestion === 10) {
+      setShowTimer(false);
+      setShowScore(false);
+    }
 
     if (nextQuestion < 10) {
       setTimeout(() => {
+        setTimer(15);
         setCurrentQuestion(nextQuestion);
       }, "350");
     }
@@ -141,7 +164,7 @@ export default function Game() {
             </button>
           </div>
           <div className="game">{params.categoryId}</div>
-
+          {showTimer ? <div> {timer} </div> : null}
           <div className="app">
             {/* HINT: replace "false" with logic to display the 
       score when the user has answered all the questions */}
@@ -176,15 +199,6 @@ export default function Game() {
             ) : (
               <div className="resultat">
                 <h1 className="score"> Ton score : {score} /10 </h1>
-                {/* <iframe
-                  title="giphy"
-                  src="https://giphy.com/embed/Q1aRmd8e90WIw"
-                  width="200"
-                  height="200"
-                  frameBorder="0"
-                  className="giphy-embed"
-                  allowFullScreen
-                /> */}
                 <h1> {resultat()} </h1>
               </div>
             )}

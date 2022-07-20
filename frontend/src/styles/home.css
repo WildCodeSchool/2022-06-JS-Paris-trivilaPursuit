@@ -13,7 +13,7 @@
   width: 55vh;
   transform: rotateZ(90deg);
   position: absolute;
-  margin-top: -131px;
+  margin-top: -121px;
   margin-left: -58vh;
 }
 
@@ -40,7 +40,6 @@
   height: 70px;
   background-color: yellow;
   color: black;
-  /* text-shadow: 1px 1px 2px yellow; */
 }
 
 button[type="button"] {
@@ -64,10 +63,6 @@ button[type="button"]:active {
   border-radius: 50px;
   margin-bottom: 2vh;
 }
-
-/* .bloc-avatar {
-  /* flex-wrap: wrap; */
-/* } */
 
 .btn-img-avatar {
   border-radius: 50px;

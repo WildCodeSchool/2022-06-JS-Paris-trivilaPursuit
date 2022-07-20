@@ -13,15 +13,6 @@ function Accueil() {
   const [play] = useSound(boopSfx);
   return (
     <>
-      {/* <div className="main-homer">
-    <img src="/src/assets/main.png" alt="main" className="main"/>
-    </div> */}
-      {/* <div className="homer2">
-        <img src="/src/assets/pngegg.png" alt="homer" />
-      </div>
-      <div className="homer3">
-        <img src="/src/assets/pngegg.png" alt="homer" />
-      </div> */}
       <div className="welcome-bloc">
         <div className="btn-croix">
           <button type="button" className="croix" onClick={play}>
@@ -42,8 +33,7 @@ function Accueil() {
         <div className="welcome-btn">
           <Link to="/categories">
             <button className="play2-btn" type="button">
-              {" "}
-              Catégories{" "}
+              Catégories
             </button>
           </Link>
           <Link to="/aleatoire">

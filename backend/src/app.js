@@ -6,9 +6,11 @@ const router = require("./router");
 const app = express();
 
 // use some application-level middlewares
-app.use(
+
+  const devEnvironement = import.meta.env.DEV;
+  app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: devEnvironement ? "http://localhost:3000" : "https://trivial-pursuit-milkode.herokuapp.com",
     optionsSuccessStatus: 200,
   })
 );

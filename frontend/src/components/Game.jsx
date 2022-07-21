@@ -51,7 +51,7 @@ export default function Game() {
     fetch(
       devEnvironement
         ? "http://localhost:5000/questions"
-        : "https://2022-06-js-paris-trivila-pursuit-ebon.vercel.app/questions"
+        : "https://trivial-pursuit-milkode.herokuapp.com/questions"
     )
       .then((res) => res.json())
       .then((data) => {

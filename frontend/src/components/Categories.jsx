@@ -10,8 +10,14 @@ function random(min, max) {
 export default function Categories() {
   const [categories, setcategory] = useState([]);
   const [play] = useSound(boopSfx);
+  const devEnvironement = import.meta.env.DEV;
+
   useEffect(() => {
-    fetch("http://localhost:5000/questions")
+    fetch(
+      devEnvironement
+        ? "http://localhost:5000/questions"
+        : "https://trivial-pursuit-milkode.herokuapp.com/questions"
+    )
       .then((response) => {
         return response.json();
       })

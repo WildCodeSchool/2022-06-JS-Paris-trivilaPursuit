@@ -46,7 +46,7 @@ export default function Game() {
     return arrayToShuffle;
   }
   const devEnvironement = import.meta.env.DEV;
-
+  console.warn("devEnvironement", devEnvironement);
   useEffect(() => {
     fetch(
       devEnvironement

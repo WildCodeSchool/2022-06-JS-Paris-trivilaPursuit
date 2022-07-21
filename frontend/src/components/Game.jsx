@@ -45,9 +45,14 @@ export default function Game() {
     }
     return arrayToShuffle;
   }
+  const devEnvironement = import.meta.env.DEV;
 
   useEffect(() => {
-    fetch("http://localhost:5000/questions")
+    fetch(
+      devEnvironement
+        ? "http://localhost:5000/questions"
+        : "https://2022-06-js-paris-trivila-pursuit-ebon.vercel.app/questions"
+    )
       .then((res) => res.json())
       .then((data) => {
         setInfos(shuffledArray(data[params.categoryId]));

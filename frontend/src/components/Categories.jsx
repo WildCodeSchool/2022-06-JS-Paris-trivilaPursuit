@@ -12,6 +12,7 @@ export default function Categories() {
   const [play] = useSound(boopSfx);
   const devEnvironement = import.meta.env.DEV;
 
+  console.warn("ddddddddddddddddddddd", devEnvironement);
   useEffect(() => {
     fetch(
       devEnvironement

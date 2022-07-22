@@ -7,13 +7,22 @@ const app = express();
 
 // use some application-level middlewares
 
-  const devEnvironement = import.meta.env.DEV;
-  app.use(
-  cors({
-    origin: devEnvironement ? "http://localhost:3000" : "https://trivial-pursuit-milkode.herokuapp.com",
-    optionsSuccessStatus: 200,
-  })
-);
+// const devEnvironement = process.env;
+// app.use(
+//   cors({
+//     origin: devEnvironement
+//       ? "http://localhost:3000"
+//       : "https://gentle-piroshki-24fb09.netlify.app",
+//     optionsSuccessStatus: 200,
+//   })
+// );
+app.use(cors());
+app.all("*", function (res, next) {
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header("Access-Control-Allow-Headers", "X-Requested-With");
+  res.header("Access-Control-Allow-Headers", "Content-Type");
+  next();
+});
 
 app.use(express.json());
 

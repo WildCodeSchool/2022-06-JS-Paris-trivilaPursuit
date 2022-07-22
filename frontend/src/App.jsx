@@ -16,14 +16,14 @@ import "./styles/game.css";
 
 function App() {
   const avatar = [
-    "/src/assets/face1-mini.jpg",
-    "/src/assets/face3-mini.jpg",
-    "/src/assets/face5-mini.jpg",
-    "/src/assets/face6-mini.jpg",
-    "/src/assets/face7-mini.jpg",
-    "/src/assets/mini-bidon.jpg",
-    "/src/assets/mini-didi.jpg",
-    "/src/assets/mini-face-8.jpg",
+    "./assets/face1-mini.jpg",
+    "./assets/face3-mini.jpg",
+    "./assets/face5-mini.jpg",
+    "./assets/face6-mini.jpg",
+    "./assets/face7-mini.jpg",
+    "./assets/mini-bidon.jpg",
+    "./assets/mini-didi.jpg",
+    "./assets/mini-face-8.jpg",
   ];
   const [name, setName] = useState("");
   const valueName = useMemo(() => ({ name, setName }), [name, setName]);
@@ -38,13 +38,13 @@ function App() {
       <div className="header">
         <h1 className="header-title">Teubé or</h1>
         <img
-          src="/src/assets/logo-simpson-gmini.jpg"
+          src="./assets/logo-simpson-gmini.jpg"
           alt="aie"
           className="header-logo"
         />
         <h1 className="header-title">not Teubé</h1>
         <div className="main-homer">
-          <img src="/src/assets/main.png" alt="main" className="main" />
+          <img src="./assets/main.png" alt="main" className="main" />
         </div>
       </div>
       <PictureContext.Provider value={valueAvatar}>

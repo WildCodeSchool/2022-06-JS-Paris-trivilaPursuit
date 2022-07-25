@@ -44,7 +44,7 @@ function Accueil() {
         </div>
       </div>
       <div className="homer">
-        <img src="./assets/homer.jpg" alt="homer" />
+        <img src="/src/assets/homer.jpg" alt="homer" />
       </div>
     </>
   );
